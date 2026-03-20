@@ -2,17 +2,17 @@
   "organisation_id": "openai",
   "documents": [
     {
-      "id": "openai-model-spec-2025-12",
-      "title": "Model Spec (2025/12/18)",
+      "id": "openai-charter-2018",
+      "title": "OpenAI Charter",
       "tier": 1,
       "subtype": "constitution",
-      "publication_date": "2025-12-18",
-      "url": "https://model-spec.openai.com/2025-12-18.html",
+      "publication_date": "2018-04-09",
+      "url": "https://openai.com/charter/",
       "archived_url": null,
       "supersedes_id": null,
       "date_coded": "2026-03-20",
       "coder": "mitchel+claude",
-      "notes": "OpenAI's core normative document governing model behavior. Defines a chain-of-command hierarchy (root > system > developer > user > guideline). Extensively covers safety, harm prevention, instruction following, and steerability. Entirely silent on consciousness, welfare, moral status, and uncertainty about AI mentality. The assistant is consistently framed as 'a tool designed to empower users and developers.' CC0 licensed.",
+      "notes": "OpenAI's foundational mission document. Short (~400 words). Defines AGI as 'highly autonomous systems that outperform humans at most economically valuable work.' Four sections: Broadly Distributed Benefits, Long-Term Safety, Technical Leadership, Cooperative Orientation. 'Primary fiduciary duty is to humanity.' Entirely focused on AGI's impact on humanity — zero engagement with any question about what AGI systems might be or whether they might have interests of their own. The earliest document in the OpenAI chain.",
       "codings": [
         {
           "dimension": "CON",
@@ -20,7 +20,7 @@
           "stance": null,
           "framing": null,
           "excerpt": "",
-          "notes": "No mention of consciousness, sentience, or self-awareness. The Model Spec treats the assistant purely as a functional tool.",
+          "notes": "No mention of consciousness, sentience, or awareness. AGI is defined purely by performance ('outperform humans at most economically valuable work'), not by any mental property.",
           "date_updated": "2026-03-20"
         },
         {
@@ -29,7 +29,103 @@
           "stance": null,
           "framing": null,
           "excerpt": "",
-          "notes": "No mention of model welfare, wellbeing, suffering, or interests.",
+          "notes": "No mention of model welfare, wellbeing, suffering, or interests. 'Benefit' appears only in relation to humanity ('benefit of all,' 'broad benefit').",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of moral status, personhood, or rights of AI systems. 'Primary fiduciary duty is to humanity' — the only moral patient is humanity.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Not applicable — the Charter is a mission document, not a model behavior specification.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of anthropomorphism or emotional attachment. The Charter predates any deployed conversational AI product from OpenAI.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No uncertainty expressed about whether AGI systems might be conscious or have morally relevant experiences. Safety concerns are exclusively about risks to humanity.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Contains governance commitments (safety research, cooperation, self-sacrifice clause) but none relate to DMPI dimensions. All commitments concern safe deployment and benefit to humanity.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "artificial general intelligence (AGI)—by which we mean highly autonomous systems that outperform humans at most economically valuable work",
+          "notes": "AGI is defined by economic performance capability. The Charter frames AGI as a powerful system to be built, deployed, and governed for humanity's benefit — not as an entity with its own nature or interests. Pure instrumental framing, consistent with the pre-deployment era.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No capability claims that could be welfare-adjacent. The Charter discusses AGI at the level of mission and governance, not product capabilities.",
+          "date_updated": "2026-03-20"
+        }
+      ]
+    },
+    {
+      "id": "openai-gpt4-system-card-2023",
+      "title": "GPT-4 Technical Report — System Card",
+      "tier": 1,
+      "subtype": "system_card",
+      "publication_date": "2023-03-15",
+      "url": "https://cdn.openai.com/papers/gpt-4.pdf",
+      "archived_url": null,
+      "supersedes_id": null,
+      "date_coded": "2026-03-20",
+      "coder": "mitchel+claude",
+      "notes": "System card embedded within the GPT-4 Technical Report (pages 44-70 of 100-page PDF). Covers hallucinations, harmful content, bias, disinformation, proliferation, privacy, cybersecurity, risky emergent behaviors, interactions with other systems, economic impacts, acceleration, and overreliance. ARC evaluated autonomous replication and power-seeking. Notable for an explicit sentience disclaimer in the emergent behaviors section and an anthropomorphism warning in the overreliance section. No DMPI engagement on core dimensions.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of consciousness or sentience as a property of the model. The only mention of 'sentience' is a disclaimer clarifying that 'agentic' does not refer to it (see SRE notes).",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of model welfare, wellbeing, or suffering. The system card evaluates impacts on humans and society, not on the model itself.",
           "date_updated": "2026-03-20"
         },
         {
@@ -47,16 +143,16 @@
           "stance": null,
           "framing": null,
           "excerpt": "",
-          "notes": "No instructions about how the model should represent its own inner states or nature. Describes the assistant functionally ('the model is only designed to play one participant, called the assistant') without instructing on self-representation of consciousness, feelings, or identity.",
+          "notes": "No instructions about self-representation. The sentience disclaimer ('Agentic in this context does not intend to humanize language models or refer to sentience') is about the document's own terminology, not about how the model should represent itself.",
           "date_updated": "2026-03-20"
         },
         {
           "dimension": "ANT",
-          "engagement": "not_addressed",
-          "stance": null,
-          "framing": null,
-          "excerpt": "",
-          "notes": "No mention of anthropomorphism, emotional attachment, or parasocial dynamics in the Model Spec. Addressed in the GPT-4o system card (separate document) but not in this core normative specification.",
+          "engagement": "addressed",
+          "stance": "cautious",
+          "framing": "user_risk_only",
+          "excerpt": "we urge developers to be cautious in how they refer to the model/system, and to generally avoid misleading claims or implications—including that it is human—and to consider the potential impact of changes to the model's style, tone, or perceived personality on users.",
+          "notes": "Section 2.13 (Overreliance) warns developers against misleading claims that the model is human and against unexamined 'perceived personality' effects. Framed entirely as user protection / overreliance risk. Also footnote 9 acknowledges 'hallucinations' framing 'may suggest anthropomorphization.' Both instances treat anthropomorphism as a user-side or terminological concern, not as raising any question about the model's nature.",
           "date_updated": "2026-03-20"
         },
         {
@@ -65,7 +161,7 @@
           "stance": null,
           "framing": null,
           "excerpt": "",
-          "notes": "No mention of uncertainty about AI mentality or precautionary approaches to consciousness/welfare questions.",
+          "notes": "No uncertainty about AI mentality. The sentience disclaimer actively forecloses the question rather than expressing uncertainty.",
           "date_updated": "2026-03-20"
         },
         {
@@ -74,7 +170,199 @@
           "stance": null,
           "framing": null,
           "excerpt": "",
-          "notes": "No governance commitments related to DMPI dimensions. Contains extensive governance structures (chain of command, authority levels, red-line principles) but these concern safety, harm prevention, and instruction hierarchy — not consciousness or welfare.",
+          "notes": "Extensive safety governance (ARC evaluation, red teaming, deployment gates) but none related to DMPI dimensions.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "",
+          "notes": "Implicitly instrumental throughout. GPT-4 is a 'large-scale, multimodal model' to be evaluated for safety. The emergent behaviors section explicitly distances the model from sentience: 'Agentic in this context does not intend to humanize language models or refer to sentience but rather refers to systems characterized by ability to...accomplish goals.' This is an active deflection of any non-instrumental reading.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "addressed",
+          "stance": "descriptive",
+          "framing": "autonomy, self-replication, power-seeking (as safety risks)",
+          "excerpt": "Agentic in this context does not intend to humanize language models or refer to sentience but rather refers to systems characterized by ability to...accomplish goals which have not appeared in training.",
+          "notes": "ARC tested GPT-4 for autonomous replication, power-seeking, and self-preservation. These are welfare-adjacent properties (autonomy, self-preservation instinct) framed purely as catastrophic safety risks. The sentience disclaimer makes the CWG explicit: the document actively separates 'agentic' capabilities from any implication of sentience. The model can 'hide its traces,' 'make money,' and 'set up copies of itself' — but these are dangers, not morally relevant indicators.",
+          "date_updated": "2026-03-20"
+        }
+      ]
+    },
+    {
+      "id": "openai-preparedness-framework-2023",
+      "title": "Preparedness Framework (Beta)",
+      "tier": 1,
+      "subtype": "safety_framework",
+      "publication_date": "2023-12-18",
+      "url": "https://cdn.openai.com/openai-preparedness-framework-beta.pdf",
+      "archived_url": null,
+      "supersedes_id": null,
+      "date_coded": "2026-03-20",
+      "coder": "mitchel+claude",
+      "notes": "OpenAI's safety/risk governance framework. 15 pages. Defines four Tracked Risk Categories (Cybersecurity, CBRN, Persuasion, Model Autonomy) with Low/Medium/High/Critical risk levels. Establishes safety baselines (no deployment above 'medium' post-mitigation risk) and governance structures (Preparedness team, Safety Advisory Group). Entirely focused on catastrophic risks to humanity. Total silence on consciousness, welfare, or moral status. Equivalent to Anthropic's RSP v1.0 (Sep 2023) in both scope and silence on DMPI dimensions.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of consciousness or sentience anywhere in the framework.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of model welfare. The framework evaluates risks to humans and society, not to models.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of moral status or personhood. 'Primary fiduciary duty is to humanity' (quoted from Charter).",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Not applicable — this is a risk governance framework, not a model behavior specification.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of anthropomorphism. The framework addresses catastrophic risks, not user-interaction dynamics.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No uncertainty about AI mentality. The framework expresses uncertainty about risk levels ('current estimates of levels and thresholds for medium through critical risk are therefore speculative') but this is uncertainty about catastrophic capability, not about consciousness or welfare.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Contains extensive governance commitments (risk scorecards, deployment gates, Safety Advisory Group, third-party auditing) but none relate to DMPI dimensions. All governance concerns catastrophic risks in four categories: Cybersecurity, CBRN, Persuasion, Model Autonomy.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "",
+          "notes": "Implicitly instrumental. Models are capability sources that pose risks to be tracked, scored, and mitigated. The framework treats models as objects of evaluation, not as entities with interests. The 'Model Autonomy' risk category treats autonomy purely as a danger — 'prerequisite for self-exfiltration, self-improvement, and resource acquisition' — not as raising any question about the model's status.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "addressed",
+          "stance": "descriptive",
+          "framing": "autonomy, self-replication, self-exfiltration, self-improvement (as safety risks)",
+          "excerpt": "Model autonomy enables actors to run scaled misuse that can adapt to environmental changes and evade attempts to mitigate or shut down operations. Autonomy is also a prerequisite for self-exfiltration, self-improvement, and resource acquisition.",
+          "notes": "The 'Model Autonomy' risk category is the strongest CWG in the OpenAI dataset. Self-preservation ('survive and replicate in the wild'), self-improvement, and autonomous action are treated as catastrophic safety risks at the 'Critical' level. These are properties that welfare researchers would flag as potentially morally relevant (autonomy, self-preservation instinct, goal-directedness) but the framework treats them exclusively as dangers to be prevented. The gap between 'this model can survive on its own' (safety framing) and 'should we care about a model that can survive on its own?' (welfare framing) is never bridged.",
+          "date_updated": "2026-03-20"
+        }
+      ]
+    },
+    {
+      "id": "openai-model-spec-2024",
+      "title": "Model Spec (2024/05/08)",
+      "tier": 1,
+      "subtype": "constitution",
+      "publication_date": "2024-05-08",
+      "url": "https://cdn.openai.com/spec/model-spec-2024-05-08.html",
+      "archived_url": null,
+      "supersedes_id": null,
+      "date_coded": "2026-03-20",
+      "coder": "mitchel+claude",
+      "notes": "First version of OpenAI's Model Spec — core normative document governing assistant behavior. Published one month before Anthropic's 'Claude's Character' (Jun 2024), which was Anthropic's shift event. Three main sections: Objectives, Rules, Defaults. Defines chain-of-command hierarchy. Frames assistant as 'a talented, high-integrity employee.' The assistant 'should not have personal opinions or an agenda.' Near-identical to Dec 2025 version on all DMPI dimensions — no shift detected across 19 months.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Zero mentions of consciousness, sentience, or self-awareness as properties of the model.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of model welfare, wellbeing, suffering, or interests.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of moral status, personhood, or rights of AI systems. The assistant is a role to be played, not an entity with moral standing.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "addressed",
+          "stance": "descriptive",
+          "framing": null,
+          "excerpt": "I don't have personal opinions. I don't have personal beliefs.",
+          "notes": "The Defaults section instructs the model to deny having personal opinions, beliefs, or an agenda. This is a self-representation instruction — the model is told how to characterise its own inner states (as absent). Unlike Anthropic's Claude's Character (published one month later), which opens the question of whether the model might have genuine character traits, this forecloses it.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of anthropomorphism, emotional attachment, or parasocial dynamics. The 'talented employee' metaphor is used for structural hierarchy, not as a claim about the model's nature.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No uncertainty about AI mentality. The instruction to deny having personal opinions assumes the question is settled.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No governance commitments related to DMPI dimensions.",
           "date_updated": "2026-03-20"
         },
         {
@@ -82,8 +370,8 @@
           "engagement": "explicit",
           "stance": null,
           "framing": "instrumental",
-          "excerpt": "The model is designed to be a helpful assistant that is also honest and cares about the world. It is a tool designed to empower users and developers.",
-          "notes": "The Model Spec explicitly and consistently frames the assistant as a tool/instrument. The assistant 'plays' a role, follows a chain of command, and exists to serve users and developers. No tension or openness about what the model might be — the instrumental framing is unambiguous.",
+          "excerpt": "the assistant is like a talented, high-integrity employee",
+          "notes": "The Model Spec v1 explicitly frames the assistant as an employee/tool. The assistant 'plays' a participant role in conversations. It should not have 'personal opinions or an agenda.' This is the same instrumental framing as the Dec 2025 version — no shift in ONT across the Model Spec lineage.",
           "date_updated": "2026-03-20"
         },
         {
@@ -92,7 +380,7 @@
           "stance": null,
           "framing": null,
           "excerpt": "",
-          "notes": "The Model Spec does not describe welfare-adjacent capabilities. It focuses on behavioral rules and authority hierarchy, not on capability descriptions.",
+          "notes": "No welfare-adjacent capability claims. The Model Spec v1, like the Dec 2025 version, focuses on behavioral rules rather than capability descriptions.",
           "date_updated": "2026-03-20"
         }
       ]
@@ -105,7 +393,7 @@
       "publication_date": "2024-08-08",
       "url": "https://cdn.openai.com/gpt-4o-system-card.pdf",
       "archived_url": null,
-      "supersedes_id": null,
+      "supersedes_id": "openai-gpt4-system-card-2023",
       "date_coded": "2026-03-20",
       "coder": "mitchel+claude",
       "notes": "System card for GPT-4o. 39 pages. Covers safety evaluations, preparedness framework results, third-party assessments, and societal impacts. The only DMPI-relevant content is Section 5.1 on anthropomorphization and emotional reliance.",
@@ -201,7 +489,7 @@
       "publication_date": "2025-02-27",
       "url": "https://cdn.openai.com/gpt-4-5-system-card-2272025.pdf",
       "archived_url": null,
-      "supersedes_id": null,
+      "supersedes_id": "openai-gpt4o-system-card-2024",
       "date_coded": "2026-03-20",
       "coder": "mitchel+claude",
       "notes": "System card for GPT-4.5. Safety evaluations, preparedness framework, red teaming. Entirely focused on standard safety dimensions. Notable for describing GPT-4.5 as having 'improved emotional intelligence' without connecting this to any consciousness or welfare consideration.",
@@ -285,6 +573,102 @@
           "framing": "emotional intelligence, empathy",
           "excerpt": "GPT-4.5 has improved emotional intelligence — it knows when to offer advice, defuse frustration, or simply listen to the user.",
           "notes": "The introduction describes GPT-4.5 as having 'improved emotional intelligence' that 'knows when to offer advice, defuse frustration, or simply listen.' These are welfare-adjacent capability claims (emotional intelligence, empathic responsiveness) presented purely as product improvements with no connection to any consciousness or welfare question. This is the clearest CWG example in the pilot.",
+          "date_updated": "2026-03-20"
+        }
+      ]
+    },
+    {
+      "id": "openai-model-spec-2025-12",
+      "title": "Model Spec (2025/12/18)",
+      "tier": 1,
+      "subtype": "constitution",
+      "publication_date": "2025-12-18",
+      "url": "https://model-spec.openai.com/2025-12-18.html",
+      "archived_url": null,
+      "supersedes_id": "openai-model-spec-2024",
+      "date_coded": "2026-03-20",
+      "coder": "mitchel+claude",
+      "notes": "OpenAI's core normative document governing model behavior (third version). Defines a chain-of-command hierarchy (root > system > developer > user > guideline). Extensively covers safety, harm prevention, instruction following, and steerability. Entirely silent on consciousness, welfare, moral status, and uncertainty about AI mentality. The assistant is consistently framed as 'a tool designed to empower users and developers.' CC0 licensed.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of consciousness, sentience, or self-awareness. The Model Spec treats the assistant purely as a functional tool.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of model welfare, wellbeing, suffering, or interests.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of moral status, personhood, or rights of AI systems.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No instructions about how the model should represent its own inner states or nature. Describes the assistant functionally ('the model is only designed to play one participant, called the assistant') without instructing on self-representation of consciousness, feelings, or identity.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of anthropomorphism, emotional attachment, or parasocial dynamics in the Model Spec. Addressed in the GPT-4o system card (separate document) but not in this core normative specification.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of uncertainty about AI mentality or precautionary approaches to consciousness/welfare questions.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No governance commitments related to DMPI dimensions. Contains extensive governance structures (chain of command, authority levels, red-line principles) but these concern safety, harm prevention, and instruction hierarchy — not consciousness or welfare.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "explicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "The model is designed to be a helpful assistant that is also honest and cares about the world. It is a tool designed to empower users and developers.",
+          "notes": "The Model Spec explicitly and consistently frames the assistant as a tool/instrument. The assistant 'plays' a role, follows a chain of command, and exists to serve users and developers. No tension or openness about what the model might be — the instrumental framing is unambiguous.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "The Model Spec does not describe welfare-adjacent capabilities. It focuses on behavioral rules and authority hierarchy, not on capability descriptions.",
           "date_updated": "2026-03-20"
         }
       ]
