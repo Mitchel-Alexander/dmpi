@@ -1,0 +1,122 @@
+[
+  {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "headquarters_country": "US",
+    "type": "commercial_lab",
+    "url": "https://www.anthropic.com",
+    "notes": "Priority pilot org. Rich Tier 1 corpus: Claude's Character, model cards, RSP, system prompt."
+  },
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "headquarters_country": "US",
+    "type": "commercial_lab",
+    "url": "https://openai.com",
+    "notes": "Priority pilot org. Key docs: Model Spec, GPT-4o system card, usage policies."
+  },
+  {
+    "id": "google-deepmind",
+    "name": "Google DeepMind",
+    "headquarters_country": "UK",
+    "type": "commercial_lab",
+    "url": "https://deepmind.google",
+    "notes": "Priority pilot org. Key docs: Gemini technical reports, Frontier Safety Framework."
+  },
+  {
+    "id": "meta",
+    "name": "Meta (FAIR)",
+    "headquarters_country": "US",
+    "type": "commercial_lab",
+    "url": "https://ai.meta.com",
+    "notes": "Priority pilot org. Key docs: Llama model cards, responsible use guide."
+  },
+  {
+    "id": "xai",
+    "name": "xAI",
+    "headquarters_country": "US",
+    "type": "commercial_lab",
+    "url": "https://x.ai",
+    "notes": "Priority pilot org. Limited formal documentation; Grok system prompts (published/leaked)."
+  },
+  {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "headquarters_country": "US",
+    "type": "commercial_lab",
+    "url": "https://www.microsoft.com/en-us/ai",
+    "notes": "Extension set. Microsoft Research / Azure AI."
+  },
+  {
+    "id": "mistral",
+    "name": "Mistral",
+    "headquarters_country": "FR",
+    "type": "commercial_lab",
+    "url": "https://mistral.ai",
+    "notes": "Extension set."
+  },
+  {
+    "id": "cohere",
+    "name": "Cohere",
+    "headquarters_country": "CA",
+    "type": "commercial_lab",
+    "url": "https://cohere.com",
+    "notes": "Extension set."
+  },
+  {
+    "id": "amazon",
+    "name": "Amazon",
+    "headquarters_country": "US",
+    "type": "commercial_lab",
+    "url": "https://aws.amazon.com/ai/",
+    "notes": "Extension set. AWS AI / Alexa."
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "headquarters_country": "US",
+    "type": "commercial_lab",
+    "url": "https://machinelearning.apple.com",
+    "notes": "Extension set. Apple Intelligence / ML Research."
+  },
+  {
+    "id": "inflection",
+    "name": "Inflection",
+    "headquarters_country": "US",
+    "type": "commercial_lab",
+    "url": "https://inflection.ai",
+    "notes": "Extension set. Pi."
+  },
+  {
+    "id": "stability-ai",
+    "name": "Stability AI",
+    "headquarters_country": "UK",
+    "type": "commercial_lab",
+    "url": "https://stability.ai",
+    "notes": "Extension set."
+  },
+  {
+    "id": "baidu",
+    "name": "Baidu",
+    "headquarters_country": "CN",
+    "type": "commercial_lab",
+    "url": "https://www.baidu.com",
+    "notes": "Extension set. ERNIE. May have limited English-language documentation on these dimensions."
+  },
+  {
+    "id": "alibaba",
+    "name": "Alibaba",
+    "headquarters_country": "CN",
+    "type": "commercial_lab",
+    "url": "https://www.alibabacloud.com",
+    "notes": "Extension set. Qwen / DAMO Academy."
+  },
+  {
+    "id": "bytedance",
+    "name": "ByteDance",
+    "headquarters_country": "CN",
+    "type": "commercial_lab",
+    "url": "https://www.bytedance.com",
+    "notes": "Extension set. Doubao / Seed."
+  }
+]
