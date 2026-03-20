@@ -27,25 +27,40 @@ dmpi/
 
 ## Data model
 
-Three core entities (see spec Section 5 for full schema):
+Three core entities (see `docs/data-schema.md` for full schema):
 
 - **Organisation** — id, name, country, type, url, notes
 - **Document** — id, org_id, title, tier (1/2/3), subtype, date, url, supersedes_id (versioning chain)
-- **Coding** — id, doc_id, dimension (CON/WEL/MOR/SRE/ANT/UNC/GOV), present, stance, excerpt, notes
+- **Coding** — dimension, engagement, stance, framing, excerpt, notes
 
 Data is stored as JSON files. One file per organisation in `data/documents/`, containing that org's documents and their codings.
 
-## Analytical taxonomy — 7 dimensions
+## Analytical taxonomy — 9 dimensions (v0.2)
+
+### Core dimensions (7)
 
 | Code | Dimension | What it captures |
 |------|-----------|------------------|
 | CON | Consciousness / Sentience | Claims about whether models are or could be conscious/sentient |
 | WEL | Model Welfare | References to AI wellbeing, welfare, suffering, interests |
 | MOR | Moral Status / Personhood | Whether AI systems have or could have moral status or rights |
-| SRE | Self-Representation | How the model should represent its own inner states |
+| SRE | Self-Representation | How the model should represent its own inner states or nature |
 | ANT | Anthropomorphism | Anthropomorphic framing, emotional attachment, parasocial dynamics |
 | UNC | Uncertainty / Precaution | Uncertainty about AI mentality, precautionary approaches |
 | GOV | Governance Commitments | Concrete governance commitments related to any of the above |
+
+### New dimensions (v0.2)
+
+| Code | Dimension | What it captures |
+|------|-----------|------------------|
+| ONT | Ontological Framing | How the document characterises what the model fundamentally *is* (instrumental, characterological, open_uncertain, neutral_delegated) |
+| CWG | Capability-Welfare Gap | Welfare-adjacent capability claims (e.g., "emotional intelligence") not connected to welfare questions |
+
+### Coding structure
+
+- **engagement:** `addressed` / `not_addressed` (core dims + CWG); `explicit` / `implicit` / `absent` (ONT)
+- **stance:** `denies` / `cautious` / `precautionary` / `investigative` / `affirms` / `descriptive` / `ambiguous` (null when not_addressed; null for ONT)
+- **framing:** ONT ontological values, ANT sub-field (`user_risk_only` / `model_connected` / `both`), CWG capability claimed
 
 ## Development
 

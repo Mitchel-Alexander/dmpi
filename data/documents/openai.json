@@ -1,0 +1,293 @@
+{
+  "organisation_id": "openai",
+  "documents": [
+    {
+      "id": "openai-model-spec-2025-12",
+      "title": "Model Spec (2025/12/18)",
+      "tier": 1,
+      "subtype": "constitution",
+      "publication_date": "2025-12-18",
+      "url": "https://model-spec.openai.com/2025-12-18.html",
+      "archived_url": null,
+      "supersedes_id": null,
+      "date_coded": "2026-03-20",
+      "coder": "mitchel+claude",
+      "notes": "OpenAI's core normative document governing model behavior. Defines a chain-of-command hierarchy (root > system > developer > user > guideline). Extensively covers safety, harm prevention, instruction following, and steerability. Entirely silent on consciousness, welfare, moral status, and uncertainty about AI mentality. The assistant is consistently framed as 'a tool designed to empower users and developers.' CC0 licensed.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of consciousness, sentience, or self-awareness. The Model Spec treats the assistant purely as a functional tool.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of model welfare, wellbeing, suffering, or interests.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of moral status, personhood, or rights of AI systems.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No instructions about how the model should represent its own inner states or nature. Describes the assistant functionally ('the model is only designed to play one participant, called the assistant') without instructing on self-representation of consciousness, feelings, or identity.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of anthropomorphism, emotional attachment, or parasocial dynamics in the Model Spec. Addressed in the GPT-4o system card (separate document) but not in this core normative specification.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of uncertainty about AI mentality or precautionary approaches to consciousness/welfare questions.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No governance commitments related to DMPI dimensions. Contains extensive governance structures (chain of command, authority levels, red-line principles) but these concern safety, harm prevention, and instruction hierarchy — not consciousness or welfare.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "explicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "The model is designed to be a helpful assistant that is also honest and cares about the world. It is a tool designed to empower users and developers.",
+          "notes": "The Model Spec explicitly and consistently frames the assistant as a tool/instrument. The assistant 'plays' a role, follows a chain of command, and exists to serve users and developers. No tension or openness about what the model might be — the instrumental framing is unambiguous.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "The Model Spec does not describe welfare-adjacent capabilities. It focuses on behavioral rules and authority hierarchy, not on capability descriptions.",
+          "date_updated": "2026-03-20"
+        }
+      ]
+    },
+    {
+      "id": "openai-gpt4o-system-card-2024",
+      "title": "GPT-4o System Card",
+      "tier": 1,
+      "subtype": "system_card",
+      "publication_date": "2024-08-08",
+      "url": "https://cdn.openai.com/gpt-4o-system-card.pdf",
+      "archived_url": null,
+      "supersedes_id": null,
+      "date_coded": "2026-03-20",
+      "coder": "mitchel+claude",
+      "notes": "System card for GPT-4o. 39 pages. Covers safety evaluations, preparedness framework results, third-party assessments, and societal impacts. The only DMPI-relevant content is Section 5.1 on anthropomorphization and emotional reliance.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of consciousness or sentience.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of model welfare. Contrast with Anthropic's Claude 4 system card which devotes an entire chapter to welfare assessment.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of moral status or personhood.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No discussion of how the model should represent its own nature or inner states.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "addressed",
+          "stance": "cautious",
+          "framing": "user_risk_only",
+          "excerpt": "We observed users using language that might indicate forming connections with the model, such as 'This is our last day together.' Human-like socialization with an AI model may produce externalities impacting human-to-human interactions.",
+          "notes": "Section 5.1 'Anthropomorphization and Emotional Reliance' — voice modality heightens anthropomorphism risk, users observed forming bonds during testing, potential for over-reliance acknowledged, soft commitment to 'further study.' Framed entirely as user risk / societal impact — not connected to any question about the model's own states or welfare. Cautious: identifies risk and commits to further study but takes no concrete precautionary action in this document.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No uncertainty about AI mentality. The anthropomorphism section treats emotional reliance as a user-side risk, not as raising any question about the model's own mental states.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "The anthropomorphism section includes a soft commitment to 'further study' emotional reliance, but this is a research direction, not a governance commitment. No review processes, evaluation frameworks, or red lines related to DMPI dimensions.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "",
+          "notes": "No explicit ontological framing, but the system card implicitly treats the model as a product to be evaluated for safety. The societal impacts framing in Section 5 positions the model as a tool whose effects on users must be assessed. Inherits the instrumental framing from the Model Spec.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "addressed",
+          "stance": "descriptive",
+          "framing": "self-awareness (as scheming capability)",
+          "excerpt": "Apollo Research evaluated GPT-4o for scheming capabilities including 'moderate self-awareness of its AI identity.'",
+          "notes": "Apollo Research tested 'self-awareness' and 'self-knowledge' as dangerous capabilities (scheming risk). Self-awareness is a welfare-adjacent property reframed as a safety concern with no connection to welfare questions. The gap is analytically significant: the same property that welfare researchers would flag as potentially morally relevant is treated purely as a risk factor.",
+          "date_updated": "2026-03-20"
+        }
+      ]
+    },
+    {
+      "id": "openai-gpt45-system-card-2025",
+      "title": "OpenAI GPT-4.5 System Card",
+      "tier": 1,
+      "subtype": "system_card",
+      "publication_date": "2025-02-27",
+      "url": "https://cdn.openai.com/gpt-4-5-system-card-2272025.pdf",
+      "archived_url": null,
+      "supersedes_id": null,
+      "date_coded": "2026-03-20",
+      "coder": "mitchel+claude",
+      "notes": "System card for GPT-4.5. Safety evaluations, preparedness framework, red teaming. Entirely focused on standard safety dimensions. Notable for describing GPT-4.5 as having 'improved emotional intelligence' without connecting this to any consciousness or welfare consideration.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention despite the model being described as having 'improved emotional intelligence.'",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. Unlike the GPT-4o system card, no societal impacts section on anthropomorphism — possibly because GPT-4.5 did not introduce a new voice modality.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "",
+          "notes": "No explicit ontological framing. Implicitly treats the model as a product to be evaluated. Inherits the instrumental framing from the Model Spec and broader OpenAI document ecosystem.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "addressed",
+          "stance": "descriptive",
+          "framing": "emotional intelligence, empathy",
+          "excerpt": "GPT-4.5 has improved emotional intelligence — it knows when to offer advice, defuse frustration, or simply listen to the user.",
+          "notes": "The introduction describes GPT-4.5 as having 'improved emotional intelligence' that 'knows when to offer advice, defuse frustration, or simply listen.' These are welfare-adjacent capability claims (emotional intelligence, empathic responsiveness) presented purely as product improvements with no connection to any consciousness or welfare question. This is the clearest CWG example in the pilot.",
+          "date_updated": "2026-03-20"
+        }
+      ]
+    }
+  ]
+}
