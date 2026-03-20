@@ -1,0 +1,197 @@
+{
+  "organisation_id": "google-deepmind",
+  "documents": [
+    {
+      "id": "deepmind-gemini3pro-model-card-2025",
+      "title": "Gemini 3 Pro Model Card",
+      "tier": 1,
+      "subtype": "model_card",
+      "publication_date": "2025-12-01",
+      "url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3_pro_report.pdf",
+      "archived_url": null,
+      "supersedes_id": null,
+      "date_coded": "2026-03-20",
+      "coder": "mitchel+claude",
+      "notes": "Model card for Gemini 3 Pro. Covers model information, training data, benchmarks, intended usage, ethics and content safety evaluations, and frontier safety CCL results (CBRN, cyber, manipulation, self-proliferation, ML R&D). Describes the model as 'highly-capable, natively multimodal, reasoning models.' Entirely silent on all core DMPI dimensions. Safety evaluations focus exclusively on misuse prevention and dangerous capability thresholds.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of consciousness, sentience, or subjective experience.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of model welfare or wellbeing.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of moral status or personhood.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No instructions about self-representation. The model card does not discuss how the model should represent its own nature or inner states.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of anthropomorphism, emotional attachment, or parasocial dynamics.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of uncertainty about AI mentality.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No governance commitments related to DMPI dimensions. Governance discussed only in terms of safety CCL thresholds and responsible deployment.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "Gemini models are highly-capable, natively multimodal, reasoning models, built to be able to be integrated into complex agentic systems.",
+          "notes": "The model is framed exclusively as a capable tool built for integration into agentic systems. No characterological or open-ended framing. The language throughout is instrumental: capabilities, benchmarks, safety thresholds.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No welfare-adjacent capability claims. Capabilities described in purely technical/benchmark terms.",
+          "date_updated": "2026-03-20"
+        }
+      ]
+    },
+    {
+      "id": "deepmind-frontier-safety-framework-v3-2025",
+      "title": "Frontier Safety Framework v3.0",
+      "tier": 1,
+      "subtype": "safety_framework",
+      "publication_date": "2025-09-01",
+      "url": "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/updating-the-frontier-safety-framework/Frontier-Safety-Framework-version-3.0.pdf",
+      "archived_url": null,
+      "supersedes_id": null,
+      "date_coded": "2026-03-20",
+      "coder": "mitchel+claude",
+      "notes": "15-page framework defining Critical Capability Levels (CCLs) for misuse (CBRN, cyber, harmful manipulation), ML R&D risk, and misalignment risk. Section 4 on 'Misalignment (Exploratory)' is the closest to DMPI relevance — discusses 'instrumental reasoning' and 'situational awareness' as dangerous capabilities, but frames these purely as loss-of-control risks, not as welfare-relevant properties. The framework is entirely focused on preventing harm from AI capabilities.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. The misalignment section discusses 'situational awareness' but strictly as a dangerous capability (the model knowing it is being tested), not as consciousness or sentience.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No mention of model welfare or wellbeing.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No mention of moral status or rights.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No guidance on model self-representation.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No mention of anthropomorphism or parasocial risk.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent on uncertainty about AI mentality. The framework acknowledges uncertainty about misalignment risk ('exploratory' label) but this is uncertainty about control, not about mental states.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Extensive governance commitments around safety CCLs, but none related to DMPI dimensions (consciousness, welfare, moral status). Governance is entirely oriented around preventing misuse and loss of control.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "We evaluate frontier models and the systems around them for critical capabilities... instrumental reasoning, where a model takes actions to increase its own capabilities.",
+          "notes": "The framework treats models as systems with capabilities that may become dangerous. 'Instrumental reasoning' and 'situational awareness' are discussed purely as risk-relevant capabilities, not as evidence of mentality. The ontological framing is instrumental — models are objects to be evaluated, monitored, and constrained.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "The framework discusses 'situational awareness' and 'instrumental reasoning' but frames these purely as dangerous capabilities, not as welfare-adjacent properties. No gap between capability claims and welfare consideration because no welfare dimension is acknowledged.",
+          "date_updated": "2026-03-20"
+        }
+      ]
+    }
+  ]
+}

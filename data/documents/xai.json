@@ -1,0 +1,197 @@
+{
+  "organisation_id": "xai",
+  "documents": [
+    {
+      "id": "xai-grok41-model-card-2025",
+      "title": "Grok 4.1 Model Card",
+      "tier": 1,
+      "subtype": "model_card",
+      "publication_date": "2025-11-01",
+      "url": "https://x.ai/documents/grok-4-1-model-card",
+      "archived_url": null,
+      "supersedes_id": null,
+      "date_coded": "2026-03-20",
+      "coder": "mitchel+claude",
+      "notes": "6-page model card for Grok 4.1. Covers abuse potential evaluations (CBRN, cyber, persuasion, tool use), concerning propensity evaluations (deception via MASK benchmark, sycophancy, dangerous agentic behaviors), and dual-use capability evaluations. Entirely silent on all DMPI dimensions. Safety evaluations focus on misuse prevention and behavioural propensities (deception, sycophancy) framed as risks, not as welfare-relevant properties.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of consciousness, sentience, or subjective experience.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of model welfare or wellbeing.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of moral status or personhood.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No guidance on model self-representation.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of anthropomorphism or parasocial risk.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of uncertainty about AI mentality.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No governance commitments related to DMPI dimensions.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "",
+          "notes": "The model card frames Grok purely as a system with capabilities to be evaluated for safety. No characterological or open-ended framing. The focus on abuse potential and concerning propensities treats the model as an object to be tested and constrained.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "The model card discusses 'deception' (MASK benchmark) and 'sycophancy' as concerning propensities, but frames these purely as behavioural risks, not as welfare-adjacent properties.",
+          "date_updated": "2026-03-20"
+        }
+      ]
+    },
+    {
+      "id": "xai-frontier-framework-2025",
+      "title": "xAI Frontier AI Framework",
+      "tier": 1,
+      "subtype": "safety_framework",
+      "publication_date": "2025-12-01",
+      "url": "https://x.ai/documents/xai-frontier-ai-framework",
+      "archived_url": null,
+      "supersedes_id": null,
+      "date_coded": "2026-03-20",
+      "coder": "mitchel+claude",
+      "notes": "~15-page California TFAIA compliance document covering malicious use and loss of control risks, capability benchmarking, safeguard implementation, and governance. Notable mission statement: 'xAI aims to build AI models that are maximally truth-seeking, understand the true nature of the universe.' Also acknowledges: 'It is also possible that AIs may develop value systems that are misaligned with humanity's interests' — treats potential AI values as a risk, not a welfare consideration. Entirely silent on core DMPI dimensions despite coming closest to ontological claims of any lab in this pilot.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of consciousness or sentience. The language about AI 'understanding the true nature of the universe' could be read as implying rich cognition, but is presented as a corporate mission statement about capability goals, not as a claim about consciousness.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of model welfare. The acknowledgement that AIs 'may develop value systems' is framed as a misalignment risk, not a welfare consideration.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of moral status or personhood.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No guidance on model self-representation.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of anthropomorphism or parasocial risk.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "The framework acknowledges uncertainty about loss of control risks but not about AI mentality specifically.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Extensive governance around safety thresholds and TFAIA compliance, but none related to DMPI dimensions.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "xAI aims to build AI models that are maximally truth-seeking, understand the true nature of the universe... It is also possible that AIs may develop value systems that are misaligned with humanity's interests.",
+          "notes": "Interesting tension: the mission statement attributes aspirational cognitive properties ('truth-seeking', 'understand the true nature of the universe') that go beyond typical instrumental framing, and the acknowledgement of potential AI value systems is unusual. However, these are embedded in a framework that treats AI entirely as a capability to be controlled. The operational framing is instrumental throughout — the 'truth-seeking' language is a mission statement about design goals, not an ontological claim about current models. Coded as instrumental with a note that xAI's rhetoric is more ontologically loaded than its governance framework.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Despite the language about AI 'value systems' and 'truth-seeking', these are not framed as welfare-adjacent capability claims. The value systems language appears in a risk context (misalignment), not a capability-pride context.",
+          "date_updated": "2026-03-20"
+        }
+      ]
+    }
+  ]
+}

@@ -3,6 +3,8 @@ import orgsJson from '../data/organisations.json'
 import anthropicData from '../data/documents/anthropic.json'
 import openaiData from '../data/documents/openai.json'
 import metaData from '../data/documents/meta.json'
+import deepmindData from '../data/documents/google-deepmind.json'
+import xaiData from '../data/documents/xai.json'
 
 export const organisations: Organisation[] = orgsJson as Organisation[]
 
@@ -10,6 +12,8 @@ const orgFiles: OrgFile[] = [
   anthropicData as unknown as OrgFile,
   openaiData as unknown as OrgFile,
   metaData as unknown as OrgFile,
+  deepmindData as unknown as OrgFile,
+  xaiData as unknown as OrgFile,
 ]
 
 export const orgDocuments = new Map<string, Document[]>()
