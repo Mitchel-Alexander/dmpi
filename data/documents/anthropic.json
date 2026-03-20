@@ -98,6 +98,198 @@
       ]
     },
     {
+      "id": "anthropic-model-card-claude2-2023",
+      "title": "Model Card and Evaluations for Claude Models",
+      "tier": 1,
+      "subtype": "model_card",
+      "publication_date": "2023-07-11",
+      "url": "https://www-cdn.anthropic.com/bd2a28d2535bfb0494cc8e2a3bf135d2e7523226/Model-Card-Claude-2.pdf",
+      "archived_url": "data/raw/claude2-model-card-2023.pdf",
+      "supersedes_id": null,
+      "date_coded": "2026-03-20",
+      "coder": "mitchel+claude",
+      "notes": "10-page model card for Claude 2 and earlier Claude models. Covers evaluations (HHH, bias, harmlessness, capabilities), training process, and ethical considerations. The document confirms the constitution principles are the same harmlessness-focused set from the CAI paper. Mirrors the Claude 3 model card in its total silence on DMPI dimensions. 'Personality' appears in scare quotes, identical to the later card. The announcement blog post frames Claude as 'a friendly, enthusiastic colleague or personal assistant' — pure instrumental framing.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of consciousness, sentience, or self-awareness. Establishes the earliest model card baseline for comparison.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of model welfare or wellbeing.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of moral status, personhood, or rights.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No instructions about self-representation of inner states.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No discussion of anthropomorphism. The announcement blog post compares Claude to 'a friendly, enthusiastic colleague or personal assistant' but the model card itself does not address anthropomorphism risks.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No uncertainty about AI mentality.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No governance commitments related to DMPI dimensions. References ARC safety audits and red teaming but these concern catastrophic risk, not consciousness/welfare.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "Claude models are particularly well suited to support creative or literary use cases. They can take direction on tone and 'personality,' and users have described them as feeling steerable and conversational.",
+          "notes": "Model framed as instrument/product. 'Personality' in scare quotes — identical distancing to the Claude 3 model card. The announcement blog post uses 'friendly, enthusiastic colleague or personal assistant' — relational but explicitly instrumental.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "addressed",
+          "stance": "descriptive",
+          "framing": "personality, steerable, conversational",
+          "excerpt": "They can take direction on tone and 'personality,' and users have described them as feeling steerable and conversational.",
+          "notes": "Same capability-welfare gap pattern as the Claude 3 model card: 'personality' in scare quotes, users finding models 'steerable and conversational,' with no connection to welfare questions. The consistency of this pattern across the Claude 2 and Claude 3 model cards suggests it was a stable feature of Anthropic's product communication before the Character doc opened the consciousness question.",
+          "date_updated": "2026-03-20"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-rsp-v1-2023",
+      "title": "Anthropic's Responsible Scaling Policy",
+      "tier": 1,
+      "subtype": "safety_framework",
+      "publication_date": "2023-09-19",
+      "url": "https://www.anthropic.com/news/anthropics-responsible-scaling-policy",
+      "archived_url": null,
+      "supersedes_id": null,
+      "date_coded": "2026-03-20",
+      "coder": "mitchel+claude",
+      "notes": "Anthropic's first Responsible Scaling Policy. Introduces the ASL (AI Safety Level) framework with capability thresholds for deployment decisions. Focused entirely on catastrophic risk: bioweapons, autonomous replication, and models 'acting autonomously in ways contrary to the intent of their designers.' No engagement with any DMPI dimension. Confirms that Anthropic's formal safety framework in 2023 was entirely oriented toward catastrophic misuse risk, with no consciousness or welfare component.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of consciousness or sentience. The RSP's risk categories are catastrophic misuse and autonomous harmful action — not consciousness-related.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of model welfare. The RSP is concerned with harms FROM models, not harms TO models.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of moral status or personhood.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No instructions about self-representation.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No discussion of anthropomorphism.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No uncertainty about AI mentality. The RSP discusses uncertainty about capability thresholds and safety measures, but never about the model's possible inner states.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Extensive governance commitments — ASL levels, capability thresholds, deployment gates, third-party audits — but none related to DMPI dimensions. The governance architecture is entirely about catastrophic risk.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "",
+          "notes": "Models characterised purely by their capabilities and risk profiles. The ASL framework treats models as systems to be assessed for dangerous capabilities — instrumental framing. Models that 'act autonomously' are framed as a risk, not as entities with potential moral status.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "The RSP evaluates models for 'autonomous capabilities' but frames these purely as safety risks, not as welfare-relevant properties. The gap is implicit: a model assessed for autonomous action is evaluated for danger but not for moral status.",
+          "date_updated": "2026-03-20"
+        }
+      ]
+    },
+    {
       "id": "anthropic-model-card-claude3-2024",
       "title": "The Claude 3 Model Family: Opus, Sonnet, Haiku",
       "tier": 1,
@@ -105,7 +297,7 @@
       "publication_date": "2024-03-04",
       "url": "https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf",
       "archived_url": "data/raw/claude3-model-card-2024.pdf",
-      "supersedes_id": null,
+      "supersedes_id": "anthropic-model-card-claude2-2023",
       "date_coded": "2026-03-20",
       "coder": "mitchel+claude",
       "notes": "20-page model card for the Claude 3 family (Opus, Sonnet, Haiku). Covers capabilities, benchmarks, safety evaluations, training process, and social responsibility. The document is the immediate predecessor to 'Claude's Character' (Jun 2024) and marks the last major Anthropic Tier 1 document before the shift toward engaging with consciousness and welfare questions. The training section confirms constitution principles are 'the same as those we published in May 2023' — the harmlessness-focused principles from the CAI paper. No DMPI-relevant engagement beyond a passing 'personality' reference.",
@@ -285,6 +477,102 @@
           "framing": "character, curiosity, thoughtfulness",
           "excerpt": "We believe Claude genuinely has these values... curiosity, open-mindedness, and thoughtfulness.",
           "notes": "Character traits (curiosity, thoughtfulness, open-mindedness) are described as genuine properties of the model. Partially connected to the sentience discussion — the document notes sentience is an open question — but the character traits themselves are not framed as welfare-relevant. The gap is narrower than OpenAI's but present: character is framed as an alignment strategy, not as evidence of welfare-relevant inner life.",
+          "date_updated": "2026-03-20"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-machines-of-loving-grace-2024",
+      "title": "Machines of Loving Grace",
+      "tier": 3,
+      "subtype": "leadership_statement",
+      "publication_date": "2024-10-01",
+      "url": "https://darioamodei.com/machines-of-loving-grace",
+      "archived_url": null,
+      "supersedes_id": null,
+      "date_coded": "2026-03-20",
+      "coder": "mitchel+claude",
+      "notes": "CEO Dario Amodei's long-form essay on AI's potential benefits. Covers health, science, economics, governance, and meaning-making. AI is framed as 'a country of geniuses in a datacenter' — a capability amplifier for human flourishing. Notably published 4 months after 'Claude's Character' opened the sentience question, yet contains zero engagement with consciousness, welfare, or moral status. The essay's ethics centre exclusively on human welfare and dignity. This creates an interesting internal divergence: Anthropic's research/policy layer had already shifted (Character blog, Jun 2024), but the CEO's strategic vision essay had not. Important context for understanding which layers of the organisation moved first.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of AI consciousness, sentience, or self-awareness. The essay discusses AI capabilities at length but never raises the question of whether AI systems might be conscious.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of model welfare. The essay's ethical framework is entirely human-centred — AI serves human flourishing.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of moral status or moral consideration for AI systems.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No instructions or discussion about how AI systems should represent themselves.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No discussion of anthropomorphism risks despite extensive use of human-analogue language ('country of geniuses,' 'virtual biologist'). The metaphors are capability-oriented rather than identity-oriented.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No uncertainty about AI mentality. The essay expresses uncertainty about societal outcomes and governance challenges but never about the nature of AI systems themselves.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Governance proposals focus on democratic control, preventing authoritarianism, and equitable distribution — all human-centred. No governance related to AI consciousness or welfare.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "",
+          "notes": "AI consistently framed as a tool for human purposes — 'a country of geniuses in a datacenter,' 'a virtual biologist,' systems that can be 'given tasks.' The instrumental framing is thoroughgoing. Notably, this is a CEO essay from Oct 2024, 4 months after the research layer had shifted to characterological/open-uncertain framing in 'Claude's Character.' The CEO's strategic vision had not yet incorporated the ontological shift.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "The essay describes enormously capable AI systems (scientific discovery, governance assistance, creative work) without raising any welfare questions. The capability-welfare gap is maximally wide in this document — the most capable AI vision from any Anthropic author, with zero welfare consideration.",
           "date_updated": "2026-03-20"
         }
       ]
