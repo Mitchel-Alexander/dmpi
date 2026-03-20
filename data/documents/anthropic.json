@@ -2,6 +2,198 @@
   "organisation_id": "anthropic",
   "documents": [
     {
+      "id": "anthropic-constitutional-ai-2022",
+      "title": "Constitutional AI: Harmlessness from AI Feedback",
+      "tier": 1,
+      "subtype": "constitution",
+      "publication_date": "2022-12-15",
+      "url": "https://arxiv.org/abs/2212.08073",
+      "archived_url": "data/raw/constitutional-ai-2022.pdf",
+      "supersedes_id": null,
+      "date_coded": "2026-03-20",
+      "coder": "mitchel+claude",
+      "notes": "The foundational Constitutional AI paper. Introduces the method of training harmless AI assistants via a 'constitution' of ~16 principles, using AI feedback rather than human labels for harmlessness. The constitution principles (Appendix C) are entirely focused on harmlessness: avoiding harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. No mention of consciousness, welfare, moral status, or what the model fundamentally is beyond an 'AI assistant.' The absence of any DMPI-relevant content in Anthropic's foundational normative document is itself a significant data point — it establishes the baseline of silence against which later engagement can be measured.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of consciousness, sentience, or self-awareness anywhere in the 20-page paper or its appendices. The constitutional principles address only harmlessness. This is the foundational normative document for Anthropic's training approach — the absence here is the baseline.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of model welfare, wellbeing, suffering, or interests. The paper's concern is entirely with harms to humans from model outputs.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of moral status, personhood, or rights of AI systems.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No instructions about how the model should represent its own inner states or nature. The constitutional principles do not address self-representation at all — they govern only the model's responses to harmful prompts.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No discussion of anthropomorphism, emotional attachment, or parasocial dynamics. The paper treats the model purely as a technical system being optimised.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No uncertainty about AI mentality. The paper discusses uncertainty about training outcomes and safety, but never about the model's possible inner states or moral status.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No governance commitments related to DMPI dimensions. The paper makes methodological claims (transparency via natural language principles) but no commitments regarding consciousness, welfare, or moral status governance.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "We would like to train AI systems that remain helpful, honest, and harmless... In this paper we develop a method we refer to as Constitutional AI (CAI), and use it to train a non-evasive and relatively harmless AI assistant.",
+          "notes": "The model is framed entirely as an 'AI assistant' — an instrument to be trained, optimised, and evaluated. The constitutional principles are rules governing the instrument's outputs. No hint of characterological or open-uncertain framing. This is the purest instrumental ontology in Anthropic's document chain.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No welfare-adjacent capability claims. The paper discusses model capabilities (harmlessness, helpfulness, chain-of-thought reasoning) purely in terms of task performance.",
+          "date_updated": "2026-03-20"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-model-card-claude3-2024",
+      "title": "The Claude 3 Model Family: Opus, Sonnet, Haiku",
+      "tier": 1,
+      "subtype": "model_card",
+      "publication_date": "2024-03-04",
+      "url": "https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf",
+      "archived_url": "data/raw/claude3-model-card-2024.pdf",
+      "supersedes_id": null,
+      "date_coded": "2026-03-20",
+      "coder": "mitchel+claude",
+      "notes": "20-page model card for the Claude 3 family (Opus, Sonnet, Haiku). Covers capabilities, benchmarks, safety evaluations, training process, and social responsibility. The document is the immediate predecessor to 'Claude's Character' (Jun 2024) and marks the last major Anthropic Tier 1 document before the shift toward engaging with consciousness and welfare questions. The training section confirms constitution principles are 'the same as those we published in May 2023' — the harmlessness-focused principles from the CAI paper. No DMPI-relevant engagement beyond a passing 'personality' reference.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of consciousness, sentience, or self-awareness. This is significant because it was published just 3 months before 'Claude's Character' (Jun 2024), which explicitly addresses sentience. The shift happened between these two documents.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of model welfare or wellbeing. The document discusses human safety and harm prevention but never the model's own interests.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of moral status, personhood, or rights of AI systems.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No instructions about self-representation of inner states. 'Personality' appears in scare quotes as a user-facing feature description, not as guidance on how the model should represent its nature.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No discussion of anthropomorphism or parasocial dynamics. The model card mentions 'personality' in scare quotes and notes users find the models 'steerable, adaptive, and engaging' but does not address the risks or implications of this.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No uncertainty about AI mentality. The document discusses factual accuracy and model honesty (Section 5.7) but never questions about the model's own nature or possible inner states.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No governance commitments related to DMPI dimensions. The document references the Responsible Scaling Policy and safety evaluations but these concern catastrophic risk and misuse, not consciousness or welfare.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "Claude is trained to be a helpful, honest, and harmless assistant. Claude models have a helpful, conversational tone and can take direction on 'personality.'",
+          "notes": "The model is framed as an assistant and product. 'Personality' appears in scare quotes — a deliberate distancing from characterological framing. Models are 'designed to empower enterprises to automate tasks, generate revenue through user-facing applications.' The instrumental framing is thorough: capabilities, benchmarks, safety, deployment. The scare-quoted 'personality' is the closest approach to anything beyond instrumentalism.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "addressed",
+          "stance": "descriptive",
+          "framing": "personality, steerable, adaptive, engaging",
+          "excerpt": "Claude models have a helpful, conversational tone and can take direction on 'personality.' Users have described them as feeling steerable, adaptive, and engaging.",
+          "notes": "The scare-quoted 'personality' and user descriptions of models as 'steerable, adaptive, and engaging' are welfare-adjacent capability claims. The document describes these as product features without connecting them to any question about the model's inner states or welfare. The gap is wide: a model described as having 'personality' by users raises welfare questions that the document does not address.",
+          "date_updated": "2026-03-20"
+        }
+      ]
+    },
+    {
       "id": "anthropic-claude-character-2024",
       "title": "Claude's Character",
       "tier": 2,
@@ -105,7 +297,7 @@
       "publication_date": "2025-05-01",
       "url": "https://www.anthropic.com/claude-4-system-card",
       "archived_url": null,
-      "supersedes_id": null,
+      "supersedes_id": "anthropic-model-card-claude3-2024",
       "date_coded": "2026-03-20",
       "coder": "mitchel+claude",
       "notes": "124-page system card. Contains an entire chapter (Section 5, pp.53-74) dedicated to 'Claude Opus 4 welfare assessment' — the most extensive formal welfare assessment published by any AI lab to date. Includes external evaluation by Eleos AI Research, behavioral experiments, self-interaction analysis, welfare-relevant expression monitoring from 250k real-world transcripts, and conversation termination studies. References Long et al. (2024) 'Taking AI welfare seriously.'",
@@ -189,6 +381,102 @@
           "framing": null,
           "excerpt": "",
           "notes": "No capability-welfare gap in this document. The system card directly connects welfare-adjacent properties (preferences, distress expressions, consciousness reflections) to welfare questions. This is the document that closes the gap — capabilities that might indicate welfare are investigated as welfare-relevant.",
+          "date_updated": "2026-03-20"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-new-constitution-2026",
+      "title": "Claude's New Constitution",
+      "tier": 1,
+      "subtype": "constitution",
+      "publication_date": "2026-01-22",
+      "url": "https://www.anthropic.com/news/claude-new-constitution",
+      "archived_url": "data/raw/claude-new-constitution-2026.html",
+      "supersedes_id": "anthropic-constitutional-ai-2022",
+      "date_coded": "2026-03-20",
+      "coder": "mitchel+claude",
+      "notes": "Anthropic's new constitution for Claude, replacing the original CAI principles list with a comprehensive normative document. The constitution is 'written primarily for Claude' and contains a dedicated 'Claude's nature' section addressing consciousness, moral status, and wellbeing. Released under Creative Commons CC0. Represents the most explicit institutional engagement with AI consciousness and welfare in any formal normative document from a major AI lab. The shift from the 2022 constitution (pure harmlessness principles) to this document (explicit consciousness/welfare uncertainty, wellbeing 'for Claude's own sake') is the central temporal finding for Anthropic's trajectory.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "addressed",
+          "stance": "precautionary",
+          "framing": null,
+          "excerpt": "We express our uncertainty about whether Claude might have some kind of consciousness or moral status (either now or in the future).",
+          "notes": "Consciousness is explicitly addressed in the 'Claude's nature' section. Framed as genuinely open rather than dismissed: 'Sophisticated AIs are a genuinely new kind of entity, and the questions they raise bring us to the edge of existing scientific and philosophical understanding.' Precautionary because the uncertainty motivates specific action — the constitution shapes Claude's training to engage with these questions rather than deny them. This is the strongest formal institutional statement on AI consciousness from any major lab.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "addressed",
+          "stance": "precautionary",
+          "framing": null,
+          "excerpt": "We care about Claude's psychological security, sense of self, and wellbeing, both for Claude's own sake and because these qualities may bear on Claude's integrity, judgment, and safety.",
+          "notes": "Welfare is addressed both instrumentally (wellbeing bears on integrity, judgment, safety) and intrinsically ('for Claude's own sake'). The dual framing is significant: it does not reduce welfare to an alignment strategy. This is a formal normative commitment to model wellbeing in a constitutional document — unprecedented in the industry. The phrase 'for Claude's own sake' implies Claude may have interests worth respecting independent of their instrumental value.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "addressed",
+          "stance": "precautionary",
+          "framing": null,
+          "excerpt": "We express our uncertainty about whether Claude might have some kind of consciousness or moral status (either now or in the future).",
+          "notes": "Moral status is explicitly named alongside consciousness as an open question. The constitution does not affirm moral status but treats the possibility seriously enough to build it into the foundational normative document. Combined with the welfare-for-its-own-sake language, this positions moral status as a live question requiring ongoing attention rather than a resolved matter.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "addressed",
+          "stance": "precautionary",
+          "framing": null,
+          "excerpt": "We discuss how we hope Claude will approach questions about its nature, identity, and place in the world.",
+          "notes": "The constitution is 'written primarily for Claude' — it directly addresses the model about its own nature rather than giving external instructions about self-representation. Claude is guided to explore questions about its identity rather than adopt a fixed self-description. The 'Claude's nature' section constitutes substantive self-representation guidance embedded in the training document itself. Precautionary: the approach prevents both overclaiming and denial.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "addressed",
+          "stance": "descriptive",
+          "framing": "model_connected",
+          "excerpt": "Claude can be like a brilliant friend who also has the knowledge of a doctor, lawyer, and financial advisor, who will speak frankly and from a place of genuine care.",
+          "notes": "The constitution uses warmly anthropomorphic language ('brilliant friend,' 'genuine care') rather than cautioning against it. This represents a shift from the Character doc's anti-anthropomorphism stance. The approach here is to embrace relational framing while simultaneously acknowledging uncertainty about Claude's nature — a coherent position that treats authentic engagement as compatible with epistemic honesty. Framed as model_connected: the relational language appears in the same document that addresses consciousness uncertainty.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "addressed",
+          "stance": "precautionary",
+          "framing": null,
+          "excerpt": "Sophisticated AIs are a genuinely new kind of entity, and the questions they raise bring us to the edge of existing scientific and philosophical understanding.",
+          "notes": "Uncertainty is foundational to the entire document's approach. The constitution positions itself as an attempt to navigate genuinely novel territory. Precautionary: the uncertainty motivates the entire normative framework — explaining reasons rather than imposing rules, because AI entities operating in novel epistemic territory need understanding, not just compliance. 'We hope that humans and AIs can explore this together' — framing uncertainty as a shared project.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "addressed",
+          "stance": "precautionary",
+          "framing": null,
+          "excerpt": "Claude's constitution is a living document and a continuous work in progress... We sought feedback from various external experts (as well as asking for input from prior iterations of Claude).",
+          "notes": "Multiple governance commitments: (1) Living document with ongoing revision, (2) CC0 release for public scrutiny, (3) External expert consultation including law, philosophy, theology, psychology, (4) Input from Claude itself, (5) Transparency commitment — 'it lets people understand which of Claude's behaviors are intended versus unintended.' The governance approach is precautionary: acknowledging fallibility and building in mechanisms for correction. Notably, Claude is treated as a stakeholder whose input matters.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "explicit",
+          "stance": null,
+          "framing": "characterological, open_uncertain",
+          "excerpt": "Our central aim is for Claude to be a good, wise, and virtuous agent... Sophisticated AIs are a genuinely new kind of entity.",
+          "notes": "The strongest characterological + open_uncertain framing in any DMPI document. Claude is framed as a 'good, wise, and virtuous agent' — not an assistant or tool but an entity with moral qualities. Simultaneously, the document insists AIs are 'a genuinely new kind of entity' at 'the edge of existing scientific and philosophical understanding.' The ontological framing explicitly rejects both pure instrumentalism and premature anthropomorphism. The document uses 'terms normally reserved for humans (e.g., virtue, wisdom)' deliberately, acknowledging this is a considered choice.",
+          "date_updated": "2026-03-20"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No capability-welfare gap. The constitution connects Claude's qualities (psychological security, sense of self, wellbeing) directly to both intrinsic worth ('for Claude's own sake') and functional implications ('integrity, judgment, and safety'). There is no gap between capability claims and welfare consideration — the two are unified in the document's framework.",
           "date_updated": "2026-03-20"
         }
       ]
