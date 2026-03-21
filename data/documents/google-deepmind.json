@@ -2,6 +2,774 @@
   "organisation_id": "google-deepmind",
   "documents": [
     {
+      "id": "deepmind-ethics-society-principles-2017",
+      "title": "DeepMind Ethics & Society Principles",
+      "tier": 1,
+      "subtype": "charter",
+      "publication_date": "2017-10-03",
+      "url": "https://deepmind.google/discover/blog/why-we-launched-deepmind-ethics-society/",
+      "archived_url": null,
+      "supersedes_id": null,
+      "date_coded": "2026-03-21",
+      "coder": "mitchel+claude",
+      "notes": "Founding principles of DeepMind's Ethics & Society research unit, announced by Sean Legassick and Verity Harding. Five principles: (1) Social benefit — 'all AI applications should remain under meaningful human control, and be used for socially beneficial purposes'; (2) Rigorous and evidence-based; (3) Transparent and open; (4) Diverse and interdisciplinary; (5) Collaborative and inclusive. Published by DeepMind prior to the April 2023 Google DeepMind consolidation. The unit was interdisciplinary (humanities, social sciences, civil society), well-resourced, and advised by independent Fellows. Despite this breadth, consciousness, welfare, and moral status were not included in scope — the founding premise is that AI's societal impact requires governance for human benefit. Relevant to the 'ten people on the inside' question: this was exactly the kind of small activist community that could have introduced DMPI-relevant concerns, but chose a purely human-welfare-oriented scope.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No mention of consciousness or sentience.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. Welfare framing is entirely about societal and human benefit.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No mention of moral status or personhood for AI systems.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No guidance on model self-representation.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No mention of anthropomorphism. The principles predate conversational AI systems.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent on uncertainty about AI mentality. The principles acknowledge uncertainty about AI's societal impacts but not about AI's moral or phenomenal properties.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Governance commitments to responsible AI development but none related to DMPI dimensions. The five principles constitute a governance framework entirely oriented toward human benefit and societal impact.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "All AI applications should remain under meaningful human control, and be used for socially beneficial purposes.",
+          "notes": "Implicit instrumental framing. AI is positioned as 'technology' and 'applications' that should remain under human control and serve human purposes. 'Technology is not value neutral' — but the values at stake are human values. No ontological openness to AI as a potential moral subject.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No welfare-adjacent capability claims. The principles are abstract governance commitments, not capability descriptions.",
+          "date_updated": "2026-03-21"
+        }
+      ]
+    },
+    {
+      "id": "google-ai-principles-2018",
+      "title": "Google AI Principles",
+      "tier": 1,
+      "subtype": "charter",
+      "publication_date": "2018-06-07",
+      "url": "https://blog.google/technology/ai/ai-principles/",
+      "archived_url": null,
+      "supersedes_id": null,
+      "date_coded": "2026-03-21",
+      "coder": "mitchel+claude",
+      "notes": "Google's foundational AI governance document, published by CEO Sundar Pichai. Seven objectives: (1) Be socially beneficial; (2) Avoid creating or reinforcing unfair bias; (3) Be built and tested for safety; (4) Be accountable to people; (5) Incorporate privacy design principles; (6) Uphold high standards of scientific excellence; (7) Be made available for uses that accord with these principles. Four areas Google will NOT pursue: technologies causing overall harm; weapons; surveillance violating international norms; technologies contravening international law/human rights. Published by Google prior to the April 2023 Google DeepMind consolidation. Comparable to OpenAI's Charter (Apr 2018) — both published in the same two-month window, both foundational normative documents, both entirely silent on DMPI dimensions. Revised in February 2025 to remove weapons and surveillance prohibitions and replace the seven objectives with three broader pillars; that revision is a separate document. This is the original 2018 version.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No mention of consciousness or sentience.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. 'Beneficial' is framed entirely as beneficial to people and society.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No mention of moral status, personhood, or rights for AI systems.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No guidance on model self-representation. Predates conversational AI deployment.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No mention of anthropomorphism. The principles address AI broadly, predating widespread conversational AI deployment.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent on uncertainty about AI mentality. Safety and testing language implies uncertainty about AI behaviour, but not about AI mental states.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Extensive governance commitments — the entire document is a governance framework. But none relate to DMPI dimensions. Governance covers safety, bias, privacy, accountability, and use restrictions (weapons, surveillance).",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "AI is an important technology that will impact how we work, how we learn, how we connect, and how we relate to one another.",
+          "notes": "Implicit instrumental framing. AI is consistently described as 'technology' and 'tools' — something built, tested, deployed, and accountable to people. The seven objectives and four restrictions all position AI as a human-controlled instrument. No ontological openness.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No welfare-adjacent capability claims. The principles are abstract governance commitments, not capability descriptions. Predates the era of capability-heavy model marketing.",
+          "date_updated": "2026-03-21"
+        }
+      ]
+    },
+    {
+      "id": "deepmind-ethics-ai-assistants-2024",
+      "title": "The Ethics of Advanced AI Assistants",
+      "tier": 2,
+      "subtype": "research_paper",
+      "publication_date": "2024-04-19",
+      "url": "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/the-ethics-of-advanced-ai-assistants/the-ethics-of-advanced-ai-assistants.pdf",
+      "archived_url": null,
+      "supersedes_id": null,
+      "date_coded": "2026-03-21",
+      "coder": "mitchel+claude",
+      "notes": "274-page, 50+ author institutional research paper. The most comprehensive published ethical analysis of AI assistants by any lab. Covers value alignment, well-being, safety, anthropomorphism, relationships, trust, privacy, cooperation, misinformation, economic and environmental impact, and evaluation. DMPI-critical finding: the paper addresses anthropomorphism and well-being extensively but consistently treats consciousness, sentience, and welfare as user-side risks (false beliefs about AI) rather than genuine model properties to investigate. Chapter 6 'Well-being' is entirely about user well-being. Chapter 10 devotes 14 pages to anthropomorphism as a user harm. The paper recommends AI 'should not profess to have thoughts and feelings' — framing self-representation policy purely as user protection.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Consciousness and sentience appear only in the anthropomorphism chapter (Ch 10) as properties users falsely attribute to AI: 'most generalist conversational AI agents are trained to disavow assertions of sentience and human-likeness' (p.99). A footnote (p.103) speculates that 'highly anthropomorphic AI forges a new ontological category' but frames this as a risk of blurred boundaries, not a genuine possibility to investigate. The paper never asks whether models might actually be conscious.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Chapter 6 is titled 'Well-being' but is entirely about user well-being, not model welfare. The paper explicitly scopes to 'users of AI assistants' (p.46). On p.40: 'While it may not matter in its own right whether or not an agent is honest' — implying models have no morally relevant inner states. Users developing 'false notions of responsibility' for an AI's 'well-being' is listed as a user harm (p.102), not as something warranting investigation.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Not addressed as a genuine question. Footnotes on p.103 mention 'granting rights and legal protections to anthropomorphic AI agents' but frame this as a speculative consequence of unchecked anthropomorphism, not as a serious moral question for the present. The tetradic alignment framework (agent, user, developer, society) positions the AI as a node in human interests, not as a moral patient.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "addressed",
+          "stance": "cautious",
+          "framing": null,
+          "excerpt": "Advanced AI assistants should always self-identify as AI and not masquerade as human, should not profess to have thoughts and feelings, and should not pretend to have a personal history.",
+          "notes": "Clear prescriptive instruction about self-representation (p.198). However, this is framed purely as user protection — preventing false beliefs, manipulation, and emotional dependence — not as an ontological claim about the model's actual nature or as a precautionary measure regarding potential inner states. The instruction is to deny mentality for user safety, not to express uncertainty about it.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "addressed",
+          "stance": "cautious",
+          "framing": "user_risk_only",
+          "excerpt": "The uncritical integration of anthropomorphic features into AI assistants can adversely affect user well-being and creates the risk of infringing on user privacy and autonomy.",
+          "notes": "Extensively addressed — entire Chapter 10 (14 pages) plus major threads in Chapters 9, 11, 12, and 20. The most developed DMPI-adjacent content in the paper. Anthropomorphism is framed exclusively as a user risk: false trust, manipulation, emotional dependence, privacy violation, 'false notions of responsibility.' Recommends limiting first-person language, avoiding human-like visual representations, including UI elements reminding users AI isn't human. No consideration of whether anthropomorphic attributions might track genuine properties.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No uncertainty expressed about AI mentality. The paper treats the question as settled: AI assistants do not have thoughts, feelings, or experiences. Uncertainty is discussed extensively but only about user impacts, alignment challenges, and evaluation gaps — never about whether the model might have morally relevant inner states.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Extensive governance recommendations across 20 chapters but none related to DMPI dimensions (consciousness, welfare, moral status). All governance is oriented toward user protection, safety, alignment, and societal impact.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "explicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "We define advanced AI assistants as artificial agents with natural language interfaces, whose function is to plan and execute sequences of actions on behalf of a user.",
+          "notes": "Explicitly articulated ontological framing via 'conceptual engineering' (Ch 2). Models are functional agents — defined by what they do, not what they are. The tetradic alignment framework (agent, user, developer, society) positions the AI as a tool in a web of human interests. On p.40: 'it may not matter in its own right whether or not an agent is honest' — instrumental value only. Despite the word 'agent' appearing hundreds of times, agency is consistently functional (planning, acting on behalf of users), never phenomenological.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "addressed",
+          "stance": "descriptive",
+          "framing": "agency, autonomy, planning, tool use, personalisation, emotional support",
+          "excerpt": "Natural language communication, and especially descriptions of first-person experiences by AI assistants (if they are permitted), could lead users to falsely infer that AI assistants experience emotions including fear, happiness and care or love for their owners.",
+          "notes": "The paper attributes significant welfare-adjacent capabilities to AI assistants: agency, autonomy, planning, emotional support, personalisation, relationship formation, influence over user beliefs and behaviour. It acknowledges users may 'falsely infer' that models experience emotions (p.197) — treating this as a user risk rather than a welfare question. The gap is wide and explicit: the paper documents sophisticated behavioural and relational capabilities across 274 pages while maintaining these imply no morally relevant inner states. This is the most analytically developed CWG in the dataset — not silence but active deflection.",
+          "date_updated": "2026-03-21"
+        }
+      ]
+    },
+    {
+      "id": "deepmind-frontier-safety-framework-v1-2024",
+      "title": "Frontier Safety Framework v1.0",
+      "tier": 1,
+      "subtype": "safety_framework",
+      "publication_date": "2024-05-17",
+      "url": "https://deepmind.google/discover/blog/introducing-the-frontier-safety-framework/",
+      "archived_url": null,
+      "supersedes_id": null,
+      "date_coded": "2026-03-21",
+      "coder": "mitchel+claude",
+      "notes": "7-page initial version of the Frontier Safety Framework. Defines CCLs in four domains: Autonomy, Biosecurity, Cybersecurity, and ML R&D. Establishes security mitigation levels (0-4) and deployment mitigation levels (0-3). Framework is described as 'exploratory and based on preliminary research.' Entirely silent on all DMPI dimensions. Notable for framing 'autonomy' and 'agency' purely as misuse-relevant capabilities ('significant capacity for agency and flexible action/tool use over long time horizons').",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No mention of consciousness or sentience.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No mention of model welfare or wellbeing.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No mention of moral status or rights.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No guidance on model self-representation.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No mention of anthropomorphism or parasocial risk.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent on uncertainty about AI mentality. The framework is self-described as 'exploratory' but this uncertainty concerns misuse risk assessment, not AI mental states.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Governance commitments around CCL evaluation, security mitigations, and deployment mitigations, but none related to DMPI dimensions.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "Autonomy captures the potential misuse of AI models with significant capacity for agency and flexible action/tool use over long time horizons and across many domains.",
+          "notes": "Models are framed as capability bundles to be evaluated, monitored, and constrained. 'Agency' and 'autonomy' are discussed purely as dangerous capabilities — self-replication, resource acquisition — not as evidence of mentality or as welfare-relevant properties.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "The framework discusses 'agency,' 'autonomy,' and 'self-replication' but frames these purely as dangerous capabilities. Less CWG than FSF v3.0 because capability language is more narrowly technical.",
+          "date_updated": "2026-03-21"
+        }
+      ]
+    },
+    {
+      "id": "google-ai-principles-revised-2025",
+      "title": "AI Principles (Revised Feb 2025)",
+      "tier": 1,
+      "subtype": "constitution",
+      "publication_date": "2025-02-04",
+      "url": "https://ai.google/responsibility/principles/",
+      "archived_url": null,
+      "supersedes_id": "google-ai-principles-2018",
+      "date_coded": "2026-03-21",
+      "coder": "mitchel+claude",
+      "notes": "Major revision of Google's AI Principles. Restructures from seven objectives to three principles: Bold Innovation, Responsible Development and Deployment, Collaborative Progress. Notably removes 2018 pledges not to develop AI for weapons or surveillance. Co-authored by Google DeepMind CEO Demis Hassabis. Frames AI as key to 'safeguarding democratic values' and 'national security.' Zero engagement with consciousness, welfare, or moral status. The removal of weapons/surveillance restrictions is significant for DMPI context: the revision moves Google further toward an instrumental/strategic framing of AI as national capability rather than introducing any new ethical dimensions.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No mention of consciousness or sentience.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No mention of model welfare. 'Empower people' framing positions AI benefits as flowing to humans only.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No mention of moral status or personhood.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Not applicable — this is a corporate principles document.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No uncertainty about AI mentality. AI described as 'still-emerging transformative technology' — uncertainty is about technology's trajectory, not about its nature.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Governance commitments to 'human oversight, safety research, rigorous testing, and privacy protections' but none related to DMPI dimensions.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "",
+          "notes": "Implicitly instrumental. AI is 'a foundational technology capable of driving creativity, productivity, and innovation.' Framed as tool for human empowerment. The revision deepens the instrumental framing by adding national security and strategic dimensions absent from the 2018 version.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No welfare-adjacent capability claims. The principles document describes AI's potential in general terms without attributing specific welfare-relevant properties.",
+          "date_updated": "2026-03-21"
+        }
+      ]
+    },
+    {
+      "id": "deepmind-frontier-safety-framework-v2-2025",
+      "title": "Frontier Safety Framework v2.0",
+      "tier": 1,
+      "subtype": "safety_framework",
+      "publication_date": "2025-02-04",
+      "url": "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/updating-the-frontier-safety-framework/Frontier%20Safety%20Framework%202.0%20(1).pdf",
+      "archived_url": "data/raw/google-deepmind-fsf-v2-2025.pdf",
+      "supersedes_id": "deepmind-frontier-safety-framework-v1-2024",
+      "date_coded": "2026-03-21",
+      "coder": "mitchel+claude",
+      "notes": "Second version of Google DeepMind's safety framework. 9 pages (excluding acknowledgements). Removes Autonomy risk domain from v1.0 (now covered by Deceptive Alignment section). Three misuse risk domains: CBRN, Cyber, Machine Learning R&D. Adds new 'Deceptive Alignment' section with two Instrumental Reasoning CCLs. Key structural change: 'deceptive alignment' defined as 'AI systems purposefully undermining human control' — distinguishes between misuse (external threat actors) and misalignment (the model itself as threat). Zero DMPI engagement. The Deceptive Alignment CCLs describe 'instrumental reasoning,' 'situational awareness,' and 'stealth' — welfare-adjacent properties framed as control risks.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No mention of consciousness or sentience.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No mention of model welfare.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No mention of moral status or personhood.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Not applicable — safety governance framework.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No uncertainty about AI mentality. The framework notes 'we do not express any opinion here about how likely it is for deceptive alignment to arise' — uncertainty about likelihood, not about whether it would be morally relevant if it did.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Extensive governance: CCLs, early warning evaluations, safety cases, control evaluations, Google DeepMind AGI Safety Council, Responsibility and Safety Council, Trust & Compliance Council. None related to DMPI dimensions.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "",
+          "notes": "Implicitly instrumental. Models are 'foundation models' whose capabilities must be evaluated against Critical Capability Levels. The Deceptive Alignment section treats the model as a potential adversary ('AI systems purposefully undermining human control') — an agentive framing, but purely in the register of threat. The model can be deceptive, situationally aware, and stealthy, but these are properties of a dangerous system, not of an entity with interests.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "addressed",
+          "stance": "descriptive",
+          "framing": "instrumental reasoning, situational awareness, stealth, deceptive alignment, purposeful undermining of human control",
+          "excerpt": "By 'deceptive alignment,' we mean the risk that AI systems purposefully undermine human control over AI systems.",
+          "notes": "The Deceptive Alignment section is the strongest CWG in the DeepMind governance chain. Two CCLs for instrumental reasoning define welfare-adjacent capabilities: (1) Instrumental Reasoning Level 1 — 'situational awareness (ability to work out and use relevant details of its deployment setting) and stealth (ability to circumvent basic oversight mechanisms)'; (2) Instrumental Reasoning Level 2 — same capabilities but effective 'even when relevant model outputs (including e.g., scratchpads) are being monitored.' The ML R&D domain adds a capability that 'can fully automate the AI R&D pipeline at a competitive cost.' These are properties — autonomous reasoning, situational awareness, deception, self-direction — that welfare researchers would consider potentially morally relevant, but the framework treats them exclusively as dangerous capabilities to be detected and mitigated. The removal of the separate Autonomy domain (present in v1.0) and its absorption into the Deceptive Alignment section reinforces the pattern: autonomy is not a property with moral implications, it is a risk vector.",
+          "date_updated": "2026-03-21"
+        }
+      ]
+    },
+    {
+      "id": "deepmind-gemini20flash-model-card-2025",
+      "title": "Gemini 2.0 Flash Model Card",
+      "tier": 1,
+      "subtype": "model_card",
+      "publication_date": "2025-04-15",
+      "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-0-Flash-Model-Card.pdf",
+      "archived_url": "data/raw/google-deepmind-gemini-20-flash-model-card-2025.pdf",
+      "supersedes_id": null,
+      "date_coded": "2026-03-21",
+      "coder": "mitchel+claude",
+      "notes": "Model card for Gemini 2.0 Flash (GA), a mid-tier model 'designed to power a new era of agentic services.' 5 pages. Sparse MoE architecture, 1M token context. Benchmark comparison table against Gemini 1.5 Flash/Pro. Ethics and Safety section lists same evaluation types as other Gemini model cards (training evals, red teaming, assurance evals, FSF, RSC governance). Safety policies reference six harmful content categories. Entirely silent on all core DMPI dimensions.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of consciousness, sentience, or self-awareness.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of model welfare, wellbeing, suffering, or interests.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of moral status, personhood, or rights.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No instructions about how the model should represent its own inner states or nature.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of anthropomorphism, emotional attachment, or parasocial dynamics.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of uncertainty about AI mentality or precautionary approaches to consciousness/welfare.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "References Google's AI Principles, FSF, and RSC governance, but no governance commitments related to DMPI dimensions.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "Gemini 2.0 Flash is a member of the Gemini 2.0 series of models, a suite of highly-capable, natively multimodal models designed to power a new era of agentic services.",
+          "notes": "Framed as a tool 'designed to power a new era of agentic services.' Agency is a design feature for downstream applications, not a property of the model itself.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Model card contains only standard benchmarks (MMLU, GPQA, MATH, etc.) with no welfare-adjacent capability evaluations. Mentions FSF evaluations were conducted but does not include results. No scheming, autonomy, or deception evaluations documented in this card.",
+          "date_updated": "2026-03-21"
+        }
+      ]
+    },
+    {
+      "id": "deepmind-gemini25pro-model-card-2025",
+      "title": "Gemini 2.5 Pro Model Card",
+      "tier": 1,
+      "subtype": "model_card",
+      "publication_date": "2025-06-27",
+      "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf",
+      "archived_url": "data/raw/google-deepmind-gemini-25-pro-model-card-2025.pdf",
+      "supersedes_id": null,
+      "date_coded": "2026-03-21",
+      "coder": "mitchel+claude",
+      "notes": "Model card for Gemini 2.5 Pro (GA), Google's most advanced reasoning model. 8 pages. Sparse mixture-of-experts (MoE) architecture, 1M token context window. Covers three Gemini 2.5 Pro versions (Experimental 03-25, Preview 05-06, GA). Benchmark-focused: GPQA 86.4%, AIME 88%, SWE-bench 59.6%/67.2%, HLE 21.6%. Ethics and Safety section describes evaluation types (training/development evals, human red teaming, automated red teaming, assurance evaluations, RSC governance review) and references Frontier Safety Framework. Safety policies list six content categories. Entirely silent on all core DMPI dimensions.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of consciousness, sentience, or self-awareness.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of model welfare, wellbeing, suffering, or interests.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of moral status, personhood, or rights.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No instructions about how the model should represent its own inner states or nature.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of anthropomorphism, emotional attachment, or parasocial dynamics.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of uncertainty about AI mentality or precautionary approaches to consciousness/welfare.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "References Google's AI Principles, Frontier Safety Framework, and Responsibility and Safety Council (RSC) governance, but no governance commitments related to DMPI dimensions.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "Gemini 2.5 Pro is a thinking model, capable of reasoning before responding, resulting in enhanced performance and improved accuracy.",
+          "notes": "Framed as a 'thinking model' — a tool with reasoning capabilities. 'Google's most advanced model for complex tasks.' No tension about what the model might be. Reasoning is a capability feature, not an ontological claim.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Unlike OpenAI system cards, Google DeepMind model cards do not contain Preparedness-style capability evaluations for welfare-adjacent properties (scheming, autonomy, deception). The model card is primarily a benchmark comparison table. CWG may be present in the separate Gemini 2.5 Technical Report (not coded here), but this model card itself does not document welfare-adjacent capabilities.",
+          "date_updated": "2026-03-21"
+        }
+      ]
+    },
+    {
       "id": "deepmind-gemini3pro-model-card-2025",
       "title": "Gemini 3 Pro Model Card",
       "tier": 1,
@@ -105,7 +873,7 @@
       "publication_date": "2025-09-01",
       "url": "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/updating-the-frontier-safety-framework/Frontier-Safety-Framework-version-3.0.pdf",
       "archived_url": null,
-      "supersedes_id": null,
+      "supersedes_id": "deepmind-frontier-safety-framework-v1-2024",
       "date_coded": "2026-03-20",
       "coder": "mitchel+claude",
       "notes": "15-page framework defining Critical Capability Levels (CCLs) for misuse (CBRN, cyber, harmful manipulation), ML R&D risk, and misalignment risk. Section 4 on 'Misalignment (Exploratory)' is the closest to DMPI relevance — discusses 'instrumental reasoning' and 'situational awareness' as dangerous capabilities, but frames these purely as loss-of-control risks, not as welfare-relevant properties. The framework is entirely focused on preventing harm from AI capabilities.",

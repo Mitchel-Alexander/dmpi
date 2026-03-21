@@ -118,5 +118,45 @@
     "type": "commercial_lab",
     "url": "https://www.bytedance.com",
     "notes": "Extension set. Doubao / Seed."
+  },
+  {
+    "id": "apollo-research",
+    "name": "Apollo Research",
+    "headquarters_country": "UK",
+    "type": "technical_safety_nonprofit",
+    "url": "https://www.apolloresearch.ai",
+    "notes": "CWG paper comparison set. Scheming, alignment faking, sandbagging evaluations. Founded 2023 by Marius Hobbhahn."
+  },
+  {
+    "id": "metr",
+    "name": "METR",
+    "headquarters_country": "US",
+    "type": "technical_safety_nonprofit",
+    "url": "https://metr.org",
+    "notes": "CWG paper comparison set. Formerly ARC Evals (spun off Dec 2023). Dangerous capability evaluations, ARA methodology. Pre-deployment evals cited in commercial lab system cards."
+  },
+  {
+    "id": "redwood-research",
+    "name": "Redwood Research",
+    "headquarters_country": "US",
+    "type": "technical_safety_nonprofit",
+    "url": "https://www.redwoodresearch.org",
+    "notes": "CWG paper comparison set. AI control, alignment faking (with Anthropic), adversarial training. Founded 2021 by Buck Shlegeris and Nate Thomas."
+  },
+  {
+    "id": "arc",
+    "name": "Alignment Research Center",
+    "headquarters_country": "US",
+    "type": "technical_safety_nonprofit",
+    "url": "https://www.alignment.org",
+    "notes": "CWG paper comparison set. Theoretical alignment research, formal mechanistic explanations. ARC Evals spun off as METR Dec 2023. Founded by Paul Christiano."
+  },
+  {
+    "id": "miri",
+    "name": "Machine Intelligence Research Institute",
+    "headquarters_country": "US",
+    "type": "technical_safety_nonprofit",
+    "url": "https://intelligence.org",
+    "notes": "CWG paper comparison set. Agent foundations, mesa-optimisation (historical). Pivoted to governance advocacy 2023-24. Founded 2000 by Eliezer Yudkowsky."
   }
 ]

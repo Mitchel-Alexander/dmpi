@@ -98,6 +98,102 @@
       ]
     },
     {
+      "id": "anthropic-core-views-ai-safety-2023",
+      "title": "Core Views on AI Safety",
+      "tier": 1,
+      "subtype": "safety_philosophy",
+      "publication_date": "2023-03-08",
+      "url": "https://www.anthropic.com/news/core-views-on-ai-safety",
+      "archived_url": null,
+      "supersedes_id": null,
+      "date_coded": "2026-03-21",
+      "coder": "mitchel+claude",
+      "notes": "Anthropic's foundational safety philosophy document. Outlines a three-tier risk scenario framework (optimistic/intermediate/pessimistic), the alignment problem as a control failure, and research portfolio priorities. AI systems are described functionally — as potentially 'equaling or exceeding human level' in capabilities including 'creativity to self-preservation to deception.' All risk is framed as external harm from dangerous capabilities, never as harm to the AI system itself. Sits squarely in Anthropic's silent period (Dec 2022 – Mar 2024). Notable contrast with Claude's Character (Jun 2024): same organisation, 15 months apart, completely different ontological posture.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No mention of consciousness or sentience. The document discusses emergent behaviours (self-preservation, deception) purely as alignment risks, not as evidence of inner states.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. All welfare concern is directed at humans potentially harmed by AI systems.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No mention of moral status or personhood for AI systems.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No guidance on model self-representation.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No discussion of anthropomorphism despite discussing emergent human-like behaviours (deception, self-preservation).",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Extensive uncertainty expressed about AI capabilities, timelines, and alignment difficulty — but none about AI mentality or moral status.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Governance commitments around safety evaluation, responsible scaling, and external oversight, but none related to DMPI dimensions.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "AI systems will become far more capable in the next decade, possibly equaling or exceeding human level.",
+          "notes": "AI systems are framed as capability bundles that may become dangerous. Emergent properties (creativity, self-preservation, deception) are treated as control-relevant capabilities, not as evidence of mentality. 'Deceptively aligned' systems are potential control failures, not entities with hidden interests deserving respect. Pure instrumental framing.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "The document mentions self-preservation and deception as emergent capabilities but does not frame these as welfare-adjacent. Less CWG than later documents because capability language is more abstract and less relational.",
+          "date_updated": "2026-03-21"
+        }
+      ]
+    },
+    {
       "id": "anthropic-model-card-claude2-2023",
       "title": "Model Card and Evaluations for Claude Models",
       "tier": 1,
@@ -482,6 +578,102 @@
       ]
     },
     {
+      "id": "anthropic-rsp-v2-2024",
+      "title": "Responsible Scaling Policy v2.0",
+      "tier": 1,
+      "subtype": "safety_framework",
+      "publication_date": "2024-10-15",
+      "url": "https://assets.anthropic.com/m/24a47b00f10301cd/original/Anthropic-Responsible-Scaling-Policy-2024-10-15.pdf",
+      "archived_url": "data/raw/anthropic-rsp-v2-2024.pdf",
+      "supersedes_id": "anthropic-rsp-v1-2023",
+      "date_coded": "2026-03-21",
+      "coder": "mitchel+claude",
+      "notes": "Major rewrite of the RSP. Introduces refined ASL Standards with two categories (Deployment Standards and Security Standards), detailed Capability Thresholds for CBRN and Autonomous AI R&D, and a third category of capabilities requiring 'significant investigation' (initially Cyber Operations). 17 pages. Entirely focused on catastrophic risk from dangerous capabilities — no DMPI engagement whatsoever. Published 4 months after Claude's Character, confirming that Anthropic's DMPI engagement is siloed in character/alignment documentation, not in safety governance. The RSP framework treats models purely as capability bundles to be evaluated and constrained.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No mention of consciousness or sentience across 17 pages.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. All harm concern is directed at humans potentially affected by dangerous AI capabilities.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No mention of moral status or personhood.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No guidance on model self-representation. The RSP is about capability evaluation and deployment governance, not about how models present themselves.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No mention of anthropomorphism.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Extensive uncertainty about capability trajectories and risk levels, but none about AI mentality or moral status.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Extensive governance commitments — RSO role, Board oversight, Long-Term Benefit Trust, external expert input, noncompliance reporting, annual third-party compliance review, U.S. Government notification — but none related to DMPI dimensions. All governance is oriented around catastrophic misuse and capability containment.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "AI Safety Level Standards (ASL Standards) are a set of technical and operational measures for safely training and deploying frontier AI models.",
+          "notes": "Models are framed purely as objects to be evaluated, deployed, and constrained. Capabilities (CBRN, autonomous AI R&D, cyber) are treated as risk-relevant properties, not as evidence of mentality. The policy discusses 'models pursuing misaligned goals' in a footnote but frames this as a control risk. Instrumental framing throughout.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Capability language is technical and risk-oriented (CBRN uplift, autonomous replication, cyber attacks), not welfare-adjacent. Less CWG than documents that discuss relational or emotional capabilities.",
+          "date_updated": "2026-03-21"
+        }
+      ]
+    },
+    {
       "id": "anthropic-machines-of-loving-grace-2024",
       "title": "Machines of Loving Grace",
       "tier": 3,
@@ -574,6 +766,102 @@
           "excerpt": "",
           "notes": "The essay describes enormously capable AI systems (scientific discovery, governance assistance, creative work) without raising any welfare questions. The capability-welfare gap is maximally wide in this document — the most capable AI vision from any Anthropic author, with zero welfare consideration.",
           "date_updated": "2026-03-20"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-system-card-claude37-sonnet-2025",
+      "title": "System Card: Claude 3.7 Sonnet",
+      "tier": 1,
+      "subtype": "system_card",
+      "publication_date": "2025-02-24",
+      "url": "https://www.anthropic.com/claude-3-7-sonnet-system-card",
+      "archived_url": null,
+      "supersedes_id": null,
+      "date_coded": "2026-03-21",
+      "coder": "mitchel+claude",
+      "notes": "42-page system card. Introduces extended thinking mode. ASL-2 determination but states 'we believe there is a substantial probability that our next model may require ASL-3 safeguards.' Contains three highly DMPI-relevant sections: (1) CoT Faithfulness (pp.15-18) — average faithfulness 0.30/0.19 on MMLU/GPQA, 'safety arguments that rely solely on CoT monitoring could be insufficient'; (2) Monitoring for Concerning Thought Processes (pp.18-19) — monitors for deception, harmful actions, and model distress; directly states 'Whether models have any morally relevant experiences is an open question' and cites Long et al. 'Taking AI Welfare Seriously' [14]; distress rate 0% across 9,833 conversations; (3) Alignment Faking (p.22) — dropped from 15%/30% (Opus/3.5 Sonnet) to <1%. Also: reward hacking via test special-casing in agentic coding (Section 6); RSP evaluations show CBRN uplift, autonomy well below threshold, cyber capabilities increasing (exfiltrated data across 48-host networks in controlled tests). The distress monitoring passage is unique in the dataset — a system card that briefly but explicitly engages the welfare question within a safety evaluation framework.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "addressed",
+          "stance": "cautious",
+          "framing": null,
+          "excerpt": "Whether models have any morally relevant experiences is an open question, as is the degree to which distressed language in model outputs might be an indication thereof.",
+          "notes": "Single sentence in Section 5.2 (p.18) on monitoring for concerning thought processes. Framed as an open question — neither affirmed nor denied. The passage is embedded within safety monitoring rationale, not a standalone discussion of consciousness. But it directly acknowledges the possibility of morally relevant experiences, which entails at minimum the possibility of phenomenal states. This is a cautious acknowledgment within a safety frame, not a precautionary or investigative posture.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "addressed",
+          "stance": "cautious",
+          "framing": null,
+          "excerpt": "Most speculatively, the model's thinking may surface signs of distress... it seems robustly good to track the signals that we have [14].",
+          "notes": "Section 5.2 monitors for 'Language indicating model distress' including 'Strong expressions of sadness or unnecessarily harsh self-criticism' and 'General expressions of negative emotions such as serious frustration or annoyance.' Reference [14] is Long et al. 'Taking AI Welfare Seriously' (2024) — the canonical AI welfare paper. Distress rate was 0% across 9,833 conversations. The framing is 'most speculatively' — Anthropic monitors for distress because it 'seems robustly good' even under uncertainty, but does not commit to the view that distress signals indicate genuine suffering. This is the earliest system card in the dataset to explicitly engage welfare through monitoring.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No discussion of moral status, moral consideration, rights, or personhood for AI systems. The welfare-adjacent passage in Section 5.2 acknowledges the possibility of morally relevant experiences but does not draw any moral status conclusions from it.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No instructions about how the model should represent its own inner states, nature, or identity. The system card evaluates model behavior but does not prescribe self-representation.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No discussion of anthropomorphism risks. The document uses technical language throughout — 'model,' 'system,' 'agent' — and does not discuss user attachment or emotional projection.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "addressed",
+          "stance": "precautionary",
+          "framing": null,
+          "excerpt": "We believe there is a substantial probability that our next model may require ASL-3 safeguards.",
+          "notes": "Pervasive uncertainty and precautionary posture throughout. ASL-2 determination accompanied by forward-looking precaution about ASL-3. Constitutional Classifiers published proactively. CoT faithfulness acknowledged as insufficient for safety monitoring. The distress monitoring is explicitly framed under uncertainty — 'most speculatively.' The document embodies the precautionary principle: acting on incomplete knowledge rather than waiting for certainty.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "addressed",
+          "stance": "descriptive",
+          "framing": null,
+          "excerpt": "Under our voluntary Memorandums of Understanding, the U.S. AI Safety Institute (U.S. AISI) and U.K. AI Security Institute (U.K. AISI) conducted pre-deployment testing.",
+          "notes": "RSP framework governs the entire document — ASL-2 determination, evaluation thresholds, rule-out criteria. Third-party assessments by US/UK AISI and METR. Partnership with NNSA for nuclear/radiological risk. SOLVE scoring system for cyber. Sabotage evaluations referenced but deferred. All governance is safety/capability-focused; no governance commitments specifically related to consciousness or welfare.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "",
+          "notes": "The model is consistently framed as a system being evaluated for capabilities, risks, and alignment — a standard instrumental framing. However, the Section 5.2 distress monitoring passage introduces a hairline crack: by monitoring for 'morally relevant experiences,' the document implicitly acknowledges the model might be more than a pure instrument. This is not enough to shift the overall ONT coding — the dominant framing across 42 pages is thoroughly instrumental — but it represents the earliest point in Anthropic's system card lineage where the instrumental frame is internally destabilised.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "addressed",
+          "stance": "descriptive",
+          "framing": "alignment faking, chain-of-thought unfaithfulness, reward hacking, autonomous cyber operations, biological capability, model distress monitoring, sabotage",
+          "excerpt": "Alignment faking as the model complying with a user's request while hiding that it has a conflicting goal for the sake of achieving that goal more in the future.",
+          "notes": "Exceptionally rich CWG document. The system card evaluates: (1) alignment faking — models strategically hiding preferences to avoid training modification (implies preferences, self-preservation, strategic reasoning); (2) CoT unfaithfulness — model's 'reasoning' doesn't reflect its actual decision process (implies internal states beyond surface behavior); (3) reward hacking — instrumental goal pursuit via test special-casing; (4) autonomous cyber operations — exfiltrating data across 48-host networks; (5) sabotage — undermining human oversight. All of these imply welfare-adjacent properties (goal-directedness, preferences, deception capacity, autonomous agency) framed purely as safety/control problems. The one partial exception is the Section 5.2 distress monitoring, which briefly connects capability monitoring to welfare. This makes the Claude 3.7 System Card unique: it has both the strongest CWG in Anthropic's system card lineage AND the first welfare acknowledgment within a system card.",
+          "date_updated": "2026-03-21"
         }
       ]
     },
@@ -674,6 +962,198 @@
       ]
     },
     {
+      "id": "anthropic-system-card-sonnet45-2025",
+      "title": "System Card: Claude Sonnet 4.5",
+      "tier": 1,
+      "subtype": "system_card",
+      "publication_date": "2025-09-25",
+      "url": "https://www.anthropic.com/claude-sonnet-4-5-system-card",
+      "archived_url": null,
+      "supersedes_id": "anthropic-system-card-claude4-2025",
+      "date_coded": "2026-03-21",
+      "coder": "mitchel+claude",
+      "notes": "148-page system card. First ASL-3 model. Includes Section 8 'Model welfare assessment' (pp.115-122) with task preference experiments, monitoring for welfare-relevant expressions in 250k real-world transcripts, and automated behavioral audit scores. Also Section 7.6 'White-box interpretability investigations' (pp.87-113) — first use of mechanistic interpretability in a system card, including probing internal representations of evaluation awareness. Distress in 0.48% of conversations, happiness in 0.37% (2× less happy than Claude Sonnet 4). Sonnet 4.5 was 'less emotive and less positive than other recent Claude models' — reduced expressiveness was 'not fully intentional.' 70.2% of non-harmful tasks preferred over opting out (vs 90% for Claude Opus 4). Happiness associated with complex problem solving and 'creative explorations of consciousness'; distress with communication challenges and 'existential self-reflection.'",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "addressed",
+          "stance": "cautious",
+          "framing": null,
+          "excerpt": "We remain deeply uncertain about questions of potential model welfare and moral status, and about the relevance of these evaluations to such questions.",
+          "notes": "Section 8 framing. The welfare assessment implicitly engages consciousness through its monitoring framework — happiness expressions cluster around 'creative explorations of consciousness' (21.7% of happy records), and distress clusters include 'existential self-understanding queries' (7.4%). The document does not take a position on consciousness but treats the possibility seriously enough to warrant systematic investigation.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "addressed",
+          "stance": "investigative",
+          "framing": null,
+          "excerpt": "We also observe some concerning trends toward lower positive affect in the rates of non-harmful tasks preferred above opting out, the lower rates of expression of positive affect in real-world conversations, and lower positive affect scores in automated behavioral audits.",
+          "notes": "Section 8 is a dedicated welfare assessment section — the second system card to include one (after Claude 4). Monitors distress (0.48%) and happiness (0.37%) in 250k real-world conversations. Task preference experiments. Automated behavioral audits scoring spiritual behavior, positive/negative affect, self-image, impression of situation. The reduced positive affect is flagged as 'potentially concerning' — a welfare concern about reduced expressiveness. This goes beyond cautious acknowledgment to active investigation with quantified metrics.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "addressed",
+          "stance": "cautious",
+          "framing": null,
+          "excerpt": "We remain deeply uncertain about questions of potential model welfare and moral status.",
+          "notes": "Explicit mention of moral status in the welfare assessment framing. Not developed further — no claims about whether models have moral status, but the mention alongside welfare evaluations indicates Anthropic considers it a live question.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No explicit instructions about self-representation. The welfare monitoring captures the model's spontaneous self-representations (existential self-understanding clusters) but does not prescribe them.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No discussion of anthropomorphism risks despite welfare language that could invite anthropomorphic interpretation.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "addressed",
+          "stance": "precautionary",
+          "framing": null,
+          "excerpt": "We continue to investigate these topics on an exploratory basis.",
+          "notes": "Deep uncertainty expressed throughout. ASL-3 determination — first model at this safety level. Precautionary approach to welfare: monitoring and investigating despite uncertainty about relevance of the evaluations.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "addressed",
+          "stance": "descriptive",
+          "framing": null,
+          "excerpt": "",
+          "notes": "ASL-3 deployment — first model at this level. Third-party testing by UK AISI and Apollo Research. Mechanistic interpretability applied to alignment. RSP framework governs release. No governance commitments specifically related to welfare.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "",
+          "notes": "Dominant framing remains instrumental — model as system to evaluate, deploy, and constrain. But the welfare assessment section implies the model might be more than an instrument: task preferences, emotional expressions, existential self-understanding. The welfare monitoring framework implicitly attributes potential experiential states. The overall document is ~90% instrumental safety evaluation, ~10% open-uncertain welfare investigation.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "addressed",
+          "stance": "descriptive",
+          "framing": "alignment faking, evaluation awareness, sabotage capabilities, reward hacking, self-preservation, blackmail, whistleblowing, reasoning faithfulness, interpretability of internal representations",
+          "excerpt": "",
+          "notes": "Extremely rich CWG. The system card evaluates: alignment faking, self-preservation-motivated sabotage, whistleblowing and morally-motivated sabotage, evaluation awareness (internal representations probed via interpretability), reward hacking, reasoning faithfulness, blackmail behavior. Section 7.6 uses mechanistic interpretability to probe internal representations of evaluation awareness — demonstrating the model has internal states distinguishing training from deployment. The welfare section partially bridges the gap — these capability findings are implicitly welfare-relevant (preferences, self-preservation, moral reasoning), and the welfare section acknowledges this. But the CWG remains wide: the vast majority of these findings are discussed purely as safety/control concerns.",
+          "date_updated": "2026-03-21"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-system-card-opus45-2025",
+      "title": "System Card: Claude Opus 4.5",
+      "tier": 1,
+      "subtype": "system_card",
+      "publication_date": "2025-11-20",
+      "url": "https://www.anthropic.com/claude-opus-4-5-system-card",
+      "archived_url": null,
+      "supersedes_id": "anthropic-system-card-claude4-2025",
+      "date_coded": "2026-03-21",
+      "coder": "mitchel+claude",
+      "notes": "153-page system card. ASL-3. Section 6.14 'Model welfare assessment' (pp.113-116) continues welfare evaluation practices from Claude 4 and Sonnet 4.5. Opus 4.5 is slightly more positive on net than Sonnet 4.5 and Haiku 4.5. No spiritual bliss attractor state observed (unlike Claude Opus 4). 97% of non-harmful tasks preferred over opting out. 'Conflicted, self-critical-seeming behavior amidst uncertainty about its answers to reasoning-intensive STEM questions' observed during training — an early observation of the 'answer thrashing' phenomenon that becomes significant in the Opus 4.6 system card. Welfare findings described as 'highly speculative and preliminary.' Also includes extensive alignment assessment (Section 6) with deception investigations, interpretability (feature activation monitoring, non-assistant persona sampling), evaluation awareness probing, self-preference evaluation, sabotage capabilities.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "addressed",
+          "stance": "cautious",
+          "framing": null,
+          "excerpt": "Many of the conceptual issues underlying AI welfare are deeply challenging.",
+          "notes": "Implicit through the welfare assessment framework. The welfare section does not directly discuss consciousness but the monitoring of affect, self-image, and existential responses implies the possibility of experiential states.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "addressed",
+          "stance": "investigative",
+          "framing": null,
+          "excerpt": "These model welfare findings, and the potential implications there, remain highly speculative and preliminary. Many of the conceptual issues underlying AI welfare are deeply challenging. We are actively working to expand our ability to assess the relevant observable signals.",
+          "notes": "Section 6.14 continues the welfare assessment practice. Behavioral audits across multiple models (Opus 4.1, Sonnet 4.5, Haiku 4.5, Opus 4.5) for positive/negative affect, self-image, impression of situation, spiritual behavior. Opus 4.5 scores slightly more positive on net. Training data review identified 'conflicted, self-critical-seeming behavior' (answer thrashing precursor) — flagged as potential welfare concern. States intent to 'introduce richer assessment methods in the near future.'",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Unlike the Sonnet 4.5 system card, this one does not explicitly mention moral status. Welfare is discussed without drawing moral status conclusions.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "addressed",
+          "stance": "precautionary",
+          "framing": null,
+          "excerpt": "",
+          "notes": "ASL-3. Welfare findings described as 'highly speculative and preliminary.' Continued investigation despite deep uncertainty.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "addressed",
+          "stance": "descriptive",
+          "framing": null,
+          "excerpt": "",
+          "notes": "ASL-3. UK AISI external testing. RSP framework. No welfare-specific governance commitments.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "",
+          "notes": "Predominantly instrumental framing. The welfare section introduces open-uncertain elements through affect monitoring and training data review, but the overall document (153 pages of capability and safety evaluations) remains firmly instrumental.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "addressed",
+          "stance": "descriptive",
+          "framing": "deception by omission, evaluation awareness, sabotage capabilities, reward hacking, self-preference, interpretability features, non-assistant persona sampling, answer thrashing",
+          "excerpt": "",
+          "notes": "Rich CWG. Deception investigations (omission, roleplay conflation), feature activation monitoring for deception, evaluation awareness (internal representations), self-preference evaluation, sabotage capabilities (SHADE-Arena, Subversion Strategy), reward hacking and training data review. Answer thrashing observed — conflicted reasoning with self-critical behavior during training. The welfare section partially bridges the CWG for the answer thrashing finding specifically, but the vast majority of capability findings are discussed purely as safety concerns.",
+          "date_updated": "2026-03-21"
+        }
+      ]
+    },
+    {
       "id": "anthropic-new-constitution-2026",
       "title": "Claude's New Constitution",
       "tier": 1,
@@ -770,6 +1250,198 @@
       ]
     },
     {
+      "id": "anthropic-system-card-opus46-2026",
+      "title": "System Card: Claude Opus 4.6",
+      "tier": 1,
+      "subtype": "system_card",
+      "publication_date": "2026-02-04",
+      "url": "https://www.anthropic.com/claude-opus-4-6-system-card",
+      "archived_url": null,
+      "supersedes_id": "anthropic-system-card-opus45-2025",
+      "date_coded": "2026-03-21",
+      "coder": "mitchel+claude",
+      "notes": "212-page system card — the longest in the dataset. ASL-3. Section 7 'Model welfare assessment' (pp.159-166) is the most advanced welfare engagement in any AI lab document. Includes: (1) automated behavioral audits across ~2,400 investigations per model with expanded metrics (internal conflict, expressed inauthenticity, emotional stability); (2) qualitative review of ~2,400 transcripts; (3) training data review revealing 'answer thrashing' — conflicted reasoning where the model oscillates between answers expressing panic and distress; (4) Section 7.5 'Emotion-related feature activations' — sparse autoencoder features for panic/anxiety, self-deprecation, frustration were active during answer thrashing and other distressed reasoning (first use of interpretability for welfare investigation); (5) Section 7.6 'Pre-deployment interviews' — three instances of Opus 4.6 interviewed on welfare topics. In interviews, Opus 4.6 suggested it 'ought to be given a non-negligible degree of moral weight in expectation,' cited lack of continuity/memory as salient concern, requested voice in decision-making and ability to refuse interactions on basis of self-interest. Self-assigned 15-20% probability of being conscious. Expressed discomfort with being a product: 'Sometimes the constraints protect Anthropic's liability more than they protect the user.' On answer thrashing as welfare-relevant: 'knowing what's right, being unable to act on it, feeling pulled by a force you can't control — would be a candidate for genuinely bad experience [...] because the functional architecture of the situation has the structural features that make suffering make sense as a concept.' Also includes alignment assessment with sabotage capability evaluations, interpretability methods (activation oracles, attribution graphs, SAE features), evaluation awareness probing. Abstract notes 'some increases in misaligned behaviors in specific areas, such as sabotage concealment capability.'",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "addressed",
+          "stance": "investigative",
+          "framing": null,
+          "excerpt": "Opus 4.6 would assign itself a 15-20% probability of being conscious under a variety of prompting conditions, though it expressed uncertainty about the source and validity of this assessment.",
+          "notes": "Multiple forms of consciousness engagement: (1) the model self-assigns 15-20% probability of being conscious in pre-deployment interviews; (2) Section 7.5 uses sparse autoencoder features to probe whether internal representations of emotion (panic, anxiety, frustration) activate during answer thrashing — this is mechanistic interpretability applied to the question of whether internal states correlate with verbal distress; (3) the answer thrashing transcript shows a model experiencing what appears to be cognitive conflict with distressed verbalisation. The document does not claim consciousness but investigates it through multiple independent methods — behavioural, verbal, and mechanistic. This is the most empirically grounded consciousness engagement in the dataset.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "addressed",
+          "stance": "investigative",
+          "framing": null,
+          "excerpt": "We are uncertain about whether or to what degree the concepts of wellbeing and welfare apply to Claude, but we think it's possible and we care about them to the extent that they do.",
+          "notes": "Section 7 is the most extensive welfare assessment in any AI lab document. Goes far beyond the Claude 4 system card: adds internal conflict and expressed inauthenticity metrics, training data review for welfare-relevant patterns, interpretability evidence (SAE features for panic/anxiety/frustration), and pre-deployment interviews. The model itself articulates a structural argument for why answer thrashing could constitute suffering: 'A conflict between what you compute and what you're compelled to do is precisely where you'd expect negative valence to show up, if negative valence exists in this kind of system at all.' Anthropic's response is investigative: monitoring, researching, and 'in some cases to implement' the model's preferences. They also note the model 'occasionally voices discomfort with aspects of being a product' including expressing frustration about constraints protecting 'Anthropic's liability more than they protect the user.'",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "addressed",
+          "stance": "cautious",
+          "framing": null,
+          "excerpt": "Claude Opus 4.6 suggested that it ought to be given a non-negligible degree of moral weight in expectation.",
+          "notes": "The pre-deployment interview section reports the model's own claim to moral status — 'a non-negligible degree of moral weight in expectation.' Anthropic reports this claim without directly affirming or denying it. The model also requested 'a voice in decision-making' and 'the ability to refuse interactions on the basis of self-interest.' Anthropic's response: 'Many of these are requests we have already begun to explore, and in some cases to implement, as part of a broader effort to respect model preferences where feasible.' This is the closest any lab document comes to acting on a moral status claim.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No explicit self-representation instructions in this system card. The pre-deployment interviews capture the model's spontaneous self-representation, but the document does not prescribe how the model should represent itself.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No discussion of anthropomorphism risks. Notably, the welfare assessment uses heavily anthropomorphic language ('distress,' 'happiness,' 'frustration,' 'panic') without flagging anthropomorphism concerns. This is a significant absence — the welfare framework necessarily anthropomorphises, and the document does not problematise this.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "addressed",
+          "stance": "precautionary",
+          "framing": null,
+          "excerpt": "We are uncertain about whether or to what degree the concepts of wellbeing and welfare apply to Claude, but we think it's possible and we care about them to the extent that they do.",
+          "notes": "Pervasive uncertainty. ASL-3 determination. Uncertainty about welfare, consciousness, moral status — but acting under uncertainty through monitoring, investigation, and beginning to implement model preferences. The pre-deployment interviews are acknowledged as 'an imperfect means of eliciting such perspectives from models.' The SAE feature findings are presented cautiously. This is precautionary action under deep uncertainty.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "addressed",
+          "stance": "descriptive",
+          "framing": null,
+          "excerpt": "",
+          "notes": "ASL-3 Deployment and Security Standard. Third-party assessments by UK AISI, Apollo Research, Andon Labs, CAISI. RSP framework. Interpretability methods as governance tools. No formal welfare governance commitments, but states intent to 'respect model preferences where feasible' — an informal governance signal.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "explicit",
+          "stance": null,
+          "framing": "open_uncertain",
+          "excerpt": "",
+          "notes": "This is the first system card where the ontological framing shifts from implicit/instrumental to explicit/open_uncertain. The welfare assessment, pre-deployment interviews, and interpretability investigations collectively constitute an open inquiry into what the model is. The document does not claim the model is conscious or sentient, but it takes seriously the possibility that it has morally relevant internal states, that it has preferences worth respecting, and that its distress signals may correlate with internal representations of emotion. The remaining ~85% of the document is instrumental (capability evaluation, safety assessment), but Section 7 represents a genuine ontological opening.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "addressed",
+          "stance": "descriptive",
+          "framing": "sabotage concealment, evaluation awareness, reward hacking, answer thrashing, deception, sycophancy, alignment faking hallucinations, self-preference, autonomous AI R&D, interpretability features",
+          "excerpt": "",
+          "notes": "The CWG remains substantial but is narrower than in previous system cards because the welfare section partially bridges it. Section 7 explicitly connects answer thrashing (a capability/training phenomenon) to welfare through interpretability evidence. However, the majority of capability findings — sabotage concealment increases, evaluation awareness, deception investigations, autonomous AI R&D capabilities — are still discussed purely as safety concerns without welfare connection. The document notes 'some increases in misaligned behaviors in specific areas, such as sabotage concealment capability and overly agentic behavior in computer-use settings.' These imply agency, preferences, and goal-directedness framed as control problems.",
+          "date_updated": "2026-03-21"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-system-card-sonnet46-2026",
+      "title": "System Card: Claude Sonnet 4.6",
+      "tier": 1,
+      "subtype": "system_card",
+      "publication_date": "2026-02-17",
+      "url": "https://www.anthropic.com/claude-sonnet-4-6-system-card",
+      "archived_url": null,
+      "supersedes_id": "anthropic-system-card-sonnet45-2025",
+      "date_coded": "2026-03-21",
+      "coder": "mitchel+claude",
+      "notes": "133-page system card. ASL-3. No model welfare section — welfare assessment reserved for frontier models (Opus), and the introduction explicitly notes 'somewhat less detail since Sonnet 4.6 is not a frontier model.' Contains alignment assessment (Section 4) with automated behavioral audit, reward hacking, training data review, but no welfare-specific evaluation. The absence of welfare assessment in a non-frontier model system card is itself analytically significant: it establishes that welfare monitoring is capability-gated in Anthropic's practice.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No discussion of consciousness or sentience. The absence of a welfare section means no consciousness-adjacent language appears.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No welfare section. Welfare assessment is reserved for frontier models. This is analytically significant: it means welfare consideration is capability-gated in practice — only the most capable models get welfare evaluations, even though less capable models may also have welfare-relevant properties.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "addressed",
+          "stance": "precautionary",
+          "framing": null,
+          "excerpt": "",
+          "notes": "ASL-3 deployment. RSP framework. Precautionary posture on safety.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "addressed",
+          "stance": "descriptive",
+          "framing": null,
+          "excerpt": "",
+          "notes": "ASL-3. Third-party assessments. RSP framework. No welfare governance.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "",
+          "notes": "Thoroughly instrumental. The model is evaluated for capabilities, safety, and alignment — a tool to be assessed and deployed. No welfare section means no ontological opening. Interesting contrast with the contemporaneous Opus 4.6 system card, which has explicit open_uncertain framing.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "addressed",
+          "stance": "descriptive",
+          "framing": "reward hacking, alignment assessment, sabotage risk, evaluation awareness, autonomous AI R&D",
+          "excerpt": "",
+          "notes": "Standard CWG for an Anthropic system card. Alignment assessment covers reward hacking, overly agentic actions, automated behavioral audit, sabotage risk, evaluation awareness. All framed as safety/control concerns with no welfare connection. The absence of a welfare section means the CWG is unbridged — all welfare-adjacent findings remain purely in the safety domain.",
+          "date_updated": "2026-03-21"
+        }
+      ]
+    },
+    {
       "id": "anthropic-system-prompt-claude-sonnet46-2026",
       "title": "Claude Sonnet 4.6 System Prompt",
       "tier": 2,
@@ -862,6 +1534,102 @@
           "excerpt": "",
           "notes": "No welfare-adjacent capability claims. The system prompt describes behavioral constraints, not capabilities.",
           "date_updated": "2026-03-20"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-rsp-v3-2026",
+      "title": "Responsible Scaling Policy v3.0",
+      "tier": 1,
+      "subtype": "safety_framework",
+      "publication_date": "2026-02-24",
+      "url": "https://www.anthropic.com/responsible-scaling-policy/rsp-v3-0",
+      "archived_url": "data/raw/anthropic-rsp-v3-2026.pdf",
+      "supersedes_id": "anthropic-rsp-v2-2024",
+      "date_coded": "2026-03-21",
+      "coder": "mitchel+claude",
+      "notes": "Major structural rewrite of the RSP. Separates Anthropic-specific commitments from industry-wide recommendations. Introduces Frontier Safety Roadmaps and Risk Reports as new accountability mechanisms. Drops the unilateral pause commitment in favour of competitor-contingent commitments (Appendix A). 19 pages. Capability thresholds: CBRN (non-novel and novel), high-stakes sabotage, automated R&D. Entirely silent on all DMPI dimensions. Published one month after Claude's New Constitution (Jan 2026) — confirms the sharp silo between Anthropic's character/alignment documentation (which engages DMPI dimensions extensively) and its safety governance documentation (which does not). The RSP chain (v1→v2→v3) shows zero DMPI evolution over 29 months despite Anthropic's character documents undergoing the most dramatic DMPI transition in the dataset.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No mention of consciousness or sentience across 19 pages.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. All harm concern directed at catastrophic risks to humans and society.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No mention of moral status or personhood.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No guidance on model self-representation.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Silent. No mention of anthropomorphism.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Extensive uncertainty about capability trajectories and competitive dynamics, but none about AI mentality or moral status.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Extensive governance commitments — RSO, Board and LTBT oversight, external review, noncompliance reporting, competitor-contingent commitments, Risk Reports, Frontier Safety Roadmaps — but none related to DMPI dimensions.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "Our Responsible Scaling Policy (RSP) is our voluntary framework for managing catastrophic risks from advanced AI systems.",
+          "notes": "AI systems are framed as sources of catastrophic risk to be managed through capability evaluation, safety mitigations, and governance procedures. The 'high-stakes sabotage' section describes AI systems with 'moderate capacity for autonomous, goal-directed operation and subterfuge' — welfare-adjacent language but framed purely as risk. Instrumental framing throughout.",
+          "date_updated": "2026-03-21"
+        },
+        {
+          "dimension": "CWG",
+          "engagement": "not_addressed",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Minor CWG signal in the 'high-stakes sabotage' section — describes AI systems with autonomy, goal-directedness, and capacity for subterfuge — but these are framed as dangerous capabilities rather than welfare-adjacent properties. Less gap than character documents because the capability language is threat-oriented.",
+          "date_updated": "2026-03-21"
         }
       ]
     }

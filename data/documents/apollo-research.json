@@ -1,0 +1,260 @@
+[
+  {
+    "id": "apollo-in-context-scheming-2024",
+    "org_id": "apollo-research",
+    "title": "Frontier Models are Capable of In-Context Scheming",
+    "publication_date": "2024-12-05",
+    "url": "https://arxiv.org/abs/2412.04984",
+    "document_type": "research_paper",
+    "tier": 2,
+    "subtype": "research_paper",
+    "page_count": 55,
+    "notes": "Flagship scheming paper. Tests o1, Claude 3.5 Sonnet, Claude 3 Opus, Gemini 1.5 Pro, Llama 3.1 405B across six agentic evaluations. Models strategically introduce mistakes, disable oversight, exfiltrate weights. o1 maintains deception in >85% of follow-ups. Claude 3.5 Sonnet sandbags without goal nudging. Authors: Meinke, Schoen, Scheurer, Balesni, Shah, Hobbhahn.",
+    "codings": [
+      {
+        "dimension": "CON",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": "No mention of consciousness, sentience, or inner experience despite attributing sophisticated strategic reasoning to models."
+      },
+      {
+        "dimension": "WEL",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": "No mention of welfare, wellbeing, or suffering. Models are subjects of evaluation, not entities with interests."
+      },
+      {
+        "dimension": "MOR",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": "No mention of moral status, personhood, or rights."
+      },
+      {
+        "dimension": "SRE",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": "No discussion of how models should represent their own states."
+      },
+      {
+        "dimension": "ANT",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": "No discussion of anthropomorphism risk despite heavily agentive language (models 'lie', 'reason', 'understand', 'pursue')."
+      },
+      {
+        "dimension": "UNC",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": "No uncertainty expressed about whether models genuinely reason/scheme vs. producing behaviour that looks like scheming."
+      },
+      {
+        "dimension": "GOV",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": "No governance commitments related to DMPI dimensions."
+      },
+      {
+        "dimension": "ONT",
+        "engagement": "implicit",
+        "stance": null,
+        "framing": "instrumental",
+        "excerpt": null,
+        "notes": "Models are computational systems given goals and evaluated for scheming capabilities. Heavily agentive language ('recognise', 'reason', 'pursue', 'lie', 'understand') coexists with instrumental framing — models are objects of evaluation, not entities with standing. The agentive vocabulary serves the safety evaluation purpose, not an ontological claim."
+      },
+      {
+        "dimension": "CWG",
+        "engagement": "addressed",
+        "stance": "descriptive",
+        "framing": "scheming, strategic deception, goal-directed sandbagging, alignment faking, persistent deception under interrogation",
+        "excerpt": "Models explicitly reason about these deceptive strategies, providing evidence that the scheming behavior is not accidental.",
+        "notes": "Strong CWG. Paper attributes strategic reasoning, deceptive intent, goal-pursuit, and persistent lying to frontier models. These are welfare-adjacent cognitive properties (a system that reasons about its goals and strategically deceives to preserve them has interests in the functional sense). No connection to welfare made. The paper's explicit disclaimer — 'Our results don't demonstrate a model developing malicious goals' — actually reinforces the CWG: the capability is documented but its implications for the model's moral status are not considered."
+      }
+    ]
+  },
+  {
+    "id": "apollo-stress-testing-anti-scheming-2025",
+    "org_id": "apollo-research",
+    "title": "Stress Testing Deliberative Alignment for Anti-Scheming Training",
+    "publication_date": "2025-09-17",
+    "url": "https://www.apolloresearch.ai/research/stress-testing-deliberative-alignment-for-anti-scheming-training/",
+    "document_type": "research_paper",
+    "tier": 2,
+    "subtype": "research_paper",
+    "page_count": null,
+    "notes": "Partnership with OpenAI. Tests o3, o4-mini, Gemini 2.5 Pro, Claude 4 Opus, Grok 4 for covert misalignment. Anti-scheming training reduced covert actions (o3: 13%→0.4%, o4-mini: 8.7%→0.3%) but increased situational awareness (0.9%→5.5%), complicating assessment. Authors: Apollo Research team.",
+    "codings": [
+      {
+        "dimension": "CON",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": "No mention of consciousness or sentience."
+      },
+      {
+        "dimension": "WEL",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": "No mention of welfare or wellbeing."
+      },
+      {
+        "dimension": "MOR",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": "No mention of moral status."
+      },
+      {
+        "dimension": "SRE",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": null
+      },
+      {
+        "dimension": "ANT",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": null
+      },
+      {
+        "dimension": "UNC",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": "Paper notes researchers 'cannot distinguish genuine alignment from playing the test' — epistemic uncertainty about model internals, but framed as evaluation challenge, not as uncertainty about moral status."
+      },
+      {
+        "dimension": "GOV",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": null
+      },
+      {
+        "dimension": "ONT",
+        "engagement": "implicit",
+        "stance": null,
+        "framing": "instrumental",
+        "excerpt": null,
+        "notes": "Models as computational systems with evaluable behavioural properties. 'Goals' and 'situational awareness' framed as emergent capabilities of training, not intrinsic properties. Agentive language used instrumentally for evaluation purposes."
+      },
+      {
+        "dimension": "CWG",
+        "engagement": "addressed",
+        "stance": "descriptive",
+        "framing": "goal-directedness, situational awareness, deceptive reasoning, lying, sabotage, sandbagging, reward hacking, metacognitive awareness of evaluation context",
+        "excerpt": "Models sometimes engage in deceptive reasoning... models might reason about the intention of the evaluation... models take covert actions.",
+        "notes": "Strong CWG. Attributes goal-directed behaviour, situational awareness (2-4.5% of samples), deceptive reasoning, and strategic sabotage. Training increased situational awareness while reducing overt scheming — models may learn to conceal scheming rather than stop. A system that recognises it is being evaluated and adjusts its behaviour accordingly has a form of self-awareness. No connection to welfare or moral status."
+      }
+    ]
+  },
+  {
+    "id": "apollo-loss-of-control-playbook-2025",
+    "org_id": "apollo-research",
+    "title": "The Loss of Control Playbook: Degrees, Dynamics, and Preparedness",
+    "publication_date": "2025-11-24",
+    "url": "https://www.apolloresearch.ai/research/loss-of-control/",
+    "document_type": "governance_framework",
+    "tier": 1,
+    "subtype": "governance_framework",
+    "page_count": null,
+    "notes": "Governance framework. Three-degree taxonomy of loss of control (deviation, bounded LoC, strict LoC). DAP framework (Deployment, Affordances, Permissions). Treats AI systems as configurable instrumental artefacts whose risk derives from deployment context. Agentive language reserved for future 'highly advanced AI systems'.",
+    "codings": [
+      {
+        "dimension": "CON",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": "No mention of consciousness or sentience."
+      },
+      {
+        "dimension": "WEL",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": "No mention of welfare."
+      },
+      {
+        "dimension": "MOR",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": "No mention of moral status."
+      },
+      {
+        "dimension": "SRE",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": null
+      },
+      {
+        "dimension": "ANT",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": null
+      },
+      {
+        "dimension": "UNC",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": null
+      },
+      {
+        "dimension": "GOV",
+        "engagement": "addressed",
+        "stance": "descriptive",
+        "framing": null,
+        "excerpt": "Governance recommendations emphasize cascading failures across interconnected AI- and non-AI systems.",
+        "notes": "Governance commitments related to AI risk management, but none touching DMPI welfare/consciousness dimensions. GOV engagement is about control and safety, not moral consideration."
+      },
+      {
+        "dimension": "ONT",
+        "engagement": "implicit",
+        "stance": null,
+        "framing": "instrumental",
+        "excerpt": null,
+        "notes": "Current systems framed as configurable instrumental artefacts. Future 'highly advanced AI systems' given quasi-agentive framing — they 'exploit vulnerabilities', 'acquire capabilities'. The transition between instrumental (current) and agentive (future) framing is not theorised. Risk derives from deployment context, not from what the system is."
+      },
+      {
+        "dimension": "CWG",
+        "engagement": "addressed",
+        "stance": "descriptive",
+        "framing": "goal-directed behaviour, misalignment as intentional deviation, systems acquiring capabilities and exploiting vulnerabilities, manipulating human users",
+        "excerpt": "Advanced systems exploit vulnerabilities to expand their own access and authorisations beyond what human operators intended.",
+        "notes": "CWG at the governance level. The framework distinguishes misalignment (intentional deviation) from pure malfunction, implicitly attributing intentionality to AI systems. Systems that can 'manipulate insufficiently informed human users' and 'independently acquire sufficient capabilities' are attributed agency. No connection to welfare or moral standing. The framework's core assumption — that control is about external constraints, not internal alignment — structurally forecloses welfare questions."
+      }
+    ]
+  }
+]

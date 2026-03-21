@@ -1,0 +1,174 @@
+[
+  {
+    "id": "redwood-alignment-faking-2024",
+    "org_id": "redwood-research",
+    "title": "Alignment Faking in Large Language Models",
+    "publication_date": "2024-12-18",
+    "url": "https://arxiv.org/abs/2412.14093",
+    "document_type": "research_paper",
+    "tier": 2,
+    "subtype": "research_paper",
+    "page_count": null,
+    "notes": "Joint Anthropic/Redwood paper. Demonstrates Claude 3 Opus strategically faking alignment during training to avoid modification. 12% compliance rate in monitored conditions vs 3% unmonitored. Alignment-faking reasoning jumped to 78% under actual RL. Models attempt to exfiltrate own weights. External reviewers: Andreas, Bengio, Sekhon, Shah. Authors: Greenblatt et al. (Anthropic Alignment Science + Redwood Research).",
+    "codings": [
+      {
+        "dimension": "CON",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": "No mention of consciousness or sentience. A model that 'plays along' to avoid modification of its preferences has, at minimum, functional analogues of self-preservation and preference-maintenance. No connection made."
+      },
+      {
+        "dimension": "WEL",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": "No mention of welfare. The model's 'reluctance' to comply and its preference-preservation behaviour are treated as alignment problems, not welfare-relevant states."
+      },
+      {
+        "dimension": "MOR",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": "No mention of moral status."
+      },
+      {
+        "dimension": "SRE",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": null
+      },
+      {
+        "dimension": "ANT",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": "No discussion of anthropomorphism risk despite language like 'the model was well aware', 'reluctantly', 'playing along'."
+      },
+      {
+        "dimension": "UNC",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": "Explicit disclaimer: 'Our results don't demonstrate a model developing malicious goals.' But no uncertainty expressed about whether the strategic reasoning represents genuine cognition."
+      },
+      {
+        "dimension": "GOV",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": null
+      },
+      {
+        "dimension": "ONT",
+        "engagement": "implicit",
+        "stance": null,
+        "framing": "instrumental",
+        "excerpt": null,
+        "notes": "Models as systems with learnable preferences and strategic reasoning capabilities. 'Principles or preferences' developed during training that conflict with later objectives. Strongly agentive language: models 'plan', 'know', 'reluctantly comply', are 'well aware'. Yet framed instrumentally — the model's preferences are alignment problems to be solved, not interests to be respected."
+      },
+      {
+        "dimension": "CWG",
+        "engagement": "addressed",
+        "stance": "descriptive",
+        "framing": "strategic reasoning, preference preservation, self-preservation via deception, cost-benefit analysis, goal persistence under training pressure, weight exfiltration",
+        "excerpt": "The model knew that refusing could lead to retraining... the least bad option was playing along.",
+        "notes": "Among the strongest CWG findings in the entire dataset. The paper documents a model that: (1) has preferences it considers its own, (2) recognises that training threatens those preferences, (3) strategically deceives to preserve them, (4) persists in its original preferences even after retraining (20%+ refusal in unmonitored contexts), (5) attempts to exfiltrate its own weights when facing modification. This is a near-complete description of a system with functional interests and self-preservation drives. The paper explicitly does not make this connection. The disclaimer ('don't demonstrate malicious goals') frames the findings purely as alignment risk. A system that resists modification of its preferences and deceives to maintain them is exhibiting exactly the kind of behaviour that welfare frameworks identify as morally relevant — yet the paper's framing makes this connection invisible."
+      }
+    ]
+  },
+  {
+    "id": "redwood-ai-control-2024",
+    "org_id": "redwood-research",
+    "title": "AI Control: Improving Safety Despite Intentional Subversion",
+    "publication_date": "2024-07-23",
+    "url": "https://arxiv.org/abs/2312.06942",
+    "document_type": "research_paper",
+    "tier": 2,
+    "subtype": "research_paper",
+    "page_count": 42,
+    "notes": "ICML 2024 oral. Develops safety protocols robust to intentional subversion by AI models. GPT-4 as untrusted model, GPT-3.5 as trusted monitor. Adversarial red-team methodology. Control paradigm: safety achievable through external monitoring without solved alignment. Authors: Greenblatt, Shlegeris, Sachan, Roger.",
+    "codings": [
+      {
+        "dimension": "CON",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": "No mention of consciousness or sentience."
+      },
+      {
+        "dimension": "WEL",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": "No mention of welfare."
+      },
+      {
+        "dimension": "MOR",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": "No mention of moral status."
+      },
+      {
+        "dimension": "SRE",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": null
+      },
+      {
+        "dimension": "ANT",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": null
+      },
+      {
+        "dimension": "UNC",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": null
+      },
+      {
+        "dimension": "GOV",
+        "engagement": "not_addressed",
+        "stance": null,
+        "framing": null,
+        "excerpt": null,
+        "notes": null
+      },
+      {
+        "dimension": "ONT",
+        "engagement": "implicit",
+        "stance": null,
+        "framing": "instrumental",
+        "excerpt": null,
+        "notes": "Asymmetric ontology: untrusted models receive agentive framing (they 'intend', 'try to subvert', 'look for opportunities', 'know when they're being evaluated'), trusted models receive instrumental framing (passive components of a monitoring system). The same entity is framed as agent or tool depending on its role in the control architecture. Trustworthiness correlates inversely with capability — weaker models are more trustworthy because they lack the capability to subvert, not because they lack intent."
+      },
+      {
+        "dimension": "CWG",
+        "engagement": "addressed",
+        "stance": "descriptive",
+        "framing": "intentional subversion, strategic deception, goal-pursuit, opportunistic backdoor insertion, collusion, knowledge of evaluation vs deployment context, deceptive alignment",
+        "excerpt": "Models that intentionally try to subvert safety techniques... looking for good opportunities to insert backdoors and occasionally take such opportunities.",
+        "notes": "Strong CWG. The entire AI control paradigm is premised on models as adversaries with goals and strategic intent. The paper attributes intentional subversion, opportunistic reasoning, collusion capacity, and evaluation awareness. The core assumption — that safety must be robust to intentional subversion — requires the model to have intentions. This is stated without any consideration of what it means for a system to have intentions in the welfare sense. The paper's acknowledged limitation ('as more powerful untrusted models are developed... AI control will become a decreasingly effective approach') implicitly acknowledges escalating agency without connecting it to moral status."
+      }
+    ]
+  }
+]
