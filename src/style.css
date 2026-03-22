@@ -339,6 +339,80 @@ header h1 {
   padding-left: 2.2rem;
 }
 
+/* Sub-indicator rows */
+
+.grid-sub-row {
+  display: none;
+}
+
+.grid-sub-row.expanded {
+  display: table-row;
+}
+
+.grid-dim-header--sub {
+  padding-left: 1.8rem;
+  background: hsl(210, 10%, 97%);
+  border-left: 3px solid hsl(210, 30%, 75%);
+}
+
+.grid-dim-header--sub .dim-code {
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+}
+
+.grid-dim-header--sub .dim-label {
+  font-size: 0.8rem;
+}
+
+.grid-dim-header--sub .dim-desc {
+  padding-left: 3.5rem;
+}
+
+/* Expand/collapse toggle */
+
+.dim-expand-toggle {
+  display: inline-block;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  padding: 0 0.25rem;
+  margin-right: 0.1rem;
+  transition: transform 0.15s ease;
+  vertical-align: middle;
+}
+
+.dim-expand-toggle:hover {
+  color: var(--accent);
+}
+
+.dim-expand-toggle.expanded {
+  transform: rotate(90deg);
+}
+
+/* Detail panel sub-indicator sections */
+
+.detail-sub-section {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid hsl(0, 0%, 90%);
+}
+
+.detail-sub-header {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin: 0 0 0.25rem;
+}
+
+.detail-coding--sub {
+  padding-left: 1rem;
+  border-left: 3px solid hsl(210, 30%, 85%);
+  margin-top: 0.75rem;
+}
+
 /* Grid cells */
 
 .grid-cell {

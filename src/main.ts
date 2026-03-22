@@ -44,6 +44,17 @@ function closePanel() {
 
 // Grid cell clicks
 gridEl.addEventListener('click', (e) => {
+  // Expand/collapse sub-indicator toggle
+  const toggle = (e.target as HTMLElement).closest<HTMLElement>('.dim-expand-toggle')
+  if (toggle) {
+    const dim = toggle.dataset.dim!
+    toggle.classList.toggle('expanded')
+    gridEl.querySelectorAll<HTMLElement>(`.grid-sub-row[data-parent-dim="${dim}"]`).forEach(row => {
+      row.classList.toggle('expanded')
+    })
+    return
+  }
+
   // Org header click → document list
   const orgHeader = (e.target as HTMLElement).closest<HTMLElement>('.grid-org-header[data-org]')
   if (orgHeader) {
@@ -59,10 +70,11 @@ gridEl.addEventListener('click', (e) => {
 
   const orgId = cell.dataset.org!
   const dim = cell.dataset.dim! as DimensionCode
+  const subDim = cell.dataset.subDim || null
   const org = orgs.find(o => o.id === orgId)
   if (!org) return
 
-  openPanel(renderCellDetail(orgId, org.name, dim))
+  openPanel(renderCellDetail(orgId, org.name, dim, subDim))
 })
 
 // Panel clicks — close button and document cards

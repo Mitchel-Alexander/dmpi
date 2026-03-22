@@ -1,4 +1,4 @@
-import type { OrgFile, Organisation, Document, Coding, DimensionCode } from './types'
+import type { OrgFile, Organisation, Document, Coding, DimensionCode, SubDimensionCode } from './types'
 import orgsJson from '../data/organisations.json'
 import anthropicData from '../data/documents/anthropic.json'
 import openaiData from '../data/documents/openai.json'
@@ -88,17 +88,46 @@ export function getCodedOrgsByType(): { type: string; label: string; orgs: Organ
   return groups
 }
 
-/** Get all codings for an org+dimension across all documents */
+/** Get all codings for an org+dimension across all documents (parent-level only) */
 export function getCodingsForCell(orgId: string, dimension: DimensionCode, activeSubtypes?: Set<string>): { doc: Document; coding: Coding }[] {
   const docs = getFilteredDocs(orgId, activeSubtypes)
   const results: { doc: Document; coding: Coding }[] = []
   for (const doc of docs) {
-    const coding = doc.codings.find(c => c.dimension === dimension)
+    const coding = doc.codings.find(c => c.dimension === dimension && !c.sub_dimension)
     if (coding) {
       results.push({ doc, coding })
     }
   }
   return results
+}
+
+/** Get all codings for an org+sub-dimension across all documents */
+export function getSubCodingsForCell(orgId: string, subDimension: SubDimensionCode, activeSubtypes?: Set<string>): { doc: Document; coding: Coding }[] {
+  const docs = getFilteredDocs(orgId, activeSubtypes)
+  const results: { doc: Document; coding: Coding }[] = []
+  for (const doc of docs) {
+    const coding = doc.codings.find(c => c.sub_dimension === subDimension)
+    if (coding) {
+      results.push({ doc, coding })
+    }
+  }
+  return results
+}
+
+/** Pick the most significant sub-dimension coding for grid cell display */
+export function getRepresentativeSubCoding(orgId: string, subDimension: SubDimensionCode, activeSubtypes?: Set<string>): { doc: Document; coding: Coding } | null {
+  const all = getSubCodingsForCell(orgId, subDimension, activeSubtypes)
+  if (all.length === 0) return null
+
+  all.sort((a, b) => {
+    const levelA = a.coding.engagement_level ?? -1
+    const levelB = b.coding.engagement_level ?? -1
+    if (levelA !== levelB) return levelB - levelA
+    if (a.doc.tier !== b.doc.tier) return a.doc.tier - b.doc.tier
+    return b.doc.publication_date.localeCompare(a.doc.publication_date)
+  })
+
+  return all[0]
 }
 
 /** Pick the most significant coding for the grid cell display.

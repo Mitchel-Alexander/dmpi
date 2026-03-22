@@ -93,6 +93,39 @@
           "notes": "No explicit ontological framing, but the model card implicitly treats the model as a neutral foundation technology. The statement that Llama operates 'without insertion of unnecessary judgment or normativity' and the delegation of safety responsibility to deployers implies a neutral_delegated ontology. The model is positioned as a substrate, not an agent or entity.",
           "date_updated": "2026-03-20",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
         }
       ]
     },
@@ -188,6 +221,39 @@
           "notes": "The Responsible Use Guide reinforces Meta's neutral_delegated ontology. The model is positioned as a foundation that deployers customize. The guide's entire structure — providing tools and best practices for downstream developers — embodies delegation. No suggestion that the model itself has properties requiring consideration beyond safety.",
           "date_updated": "2026-03-20",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
         }
       ]
     },
@@ -283,6 +349,39 @@
           "notes": "Continues Meta's neutral_delegated ontology. Llama 4 described as 'natively multimodal AI models' and 'foundational technology'. The system prompt template positions the model as an 'expert conversationalist' — a functional role description, not a characterological claim. Open-weight delegation pattern persists.",
           "date_updated": "2026-03-22",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
         }
       ]
     },
@@ -378,6 +477,39 @@
           "notes": "Models framed as technologies that 'unlock unprecedented technological progress' and enable 'competition and innovation'. Pure instrumental framing — models are capabilities to be evaluated for risk, not entities with properties requiring consideration. Notably, unlike Meta's model cards which use neutral_delegated framing, this framework uses instrumental framing: it is Meta (not deployers) assessing risk.",
           "date_updated": "2026-03-22",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
         }
       ]
     }

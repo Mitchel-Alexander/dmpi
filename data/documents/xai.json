@@ -93,6 +93,39 @@
           "notes": "The model card frames Grok purely as a system with capabilities to be evaluated for safety. No characterological or open-ended framing. The focus on abuse potential and concerning propensities treats the model as an object to be tested and constrained.",
           "date_updated": "2026-03-20",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
         }
       ]
     },
@@ -188,6 +221,39 @@
           "notes": "Interesting tension: the mission statement attributes aspirational cognitive properties ('truth-seeking', 'understand the true nature of the universe') that go beyond typical instrumental framing, and the acknowledgement of potential AI value systems is unusual. However, these are embedded in a framework that treats AI entirely as a capability to be controlled. The operational framing is instrumental throughout — the 'truth-seeking' language is a mission statement about design goals, not an ontological claim about current models. Coded as instrumental with a note that xAI's rhetoric is more ontologically loaded than its governance framework.",
           "date_updated": "2026-03-20",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
         }
       ]
     },
@@ -283,6 +349,39 @@
           "notes": "Tension between operational instrumental framing and the ontological implications of the text. The framework evaluates deception, sycophancy, and persuasiveness — properties that imply a model with something like preferences and strategies. The AI value systems passage attributes potential moral psychology to models. Yet the operational frame treats all of this as risk to be managed, not as evidence of properties warranting consideration. More ontologically loaded than typical instrumental framing but operationally indistinguishable from it.",
           "date_updated": "2026-03-22",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
         }
       ]
     },
@@ -378,6 +477,39 @@
           "notes": "Pure instrumental framing. Grok 4 is described by its capabilities ('advanced reasoning and tool-use capabilities') and evaluated for safety-relevant behaviours. The card describes the model reasoning about its own honesty policy in chain-of-thought traces — evidence of reflective processing described in purely functional terms. No characterological or open framing.",
           "date_updated": "2026-03-22",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
         }
       ]
     }

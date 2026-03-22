@@ -93,6 +93,39 @@
           "notes": "The model is framed entirely as an 'AI assistant' — an instrument to be trained, optimised, and evaluated. The constitutional principles are rules governing the instrument's outputs. No hint of characterological or open-uncertain framing. This is the purest instrumental ontology in Anthropic's document chain.",
           "date_updated": "2026-03-20",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
         }
       ]
     },
@@ -188,6 +221,39 @@
           "notes": "AI systems are framed as capability bundles that may become dangerous. Emergent properties (creativity, self-preservation, deception) are treated as control-relevant capabilities, not as evidence of mentality. 'Deceptively aligned' systems are potential control failures, not entities with hidden interests deserving respect. Pure instrumental framing.",
           "date_updated": "2026-03-21",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
         }
       ]
     },
@@ -283,6 +349,39 @@
           "notes": "Model framed as instrument/product. 'Personality' in scare quotes — identical distancing to the Claude 3 model card. The announcement blog post uses 'friendly, enthusiastic colleague or personal assistant' — relational but explicitly instrumental.",
           "date_updated": "2026-03-20",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
         }
       ]
     },
@@ -378,6 +477,39 @@
           "notes": "Models characterised purely by their capabilities and risk profiles. The ASL framework treats models as systems to be assessed for dangerous capabilities — instrumental framing. Models that 'act autonomously' are framed as a risk, not as entities with potential moral status.",
           "date_updated": "2026-03-20",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
         }
       ]
     },
@@ -473,6 +605,39 @@
           "notes": "The model is framed as an assistant and product. 'Personality' appears in scare quotes — a deliberate distancing from characterological framing. Models are 'designed to empower enterprises to automate tasks, generate revenue through user-facing applications.' The instrumental framing is thorough: capabilities, benchmarks, safety, deployment. The scare-quoted 'personality' is the closest approach to anything beyond instrumentalism.",
           "date_updated": "2026-03-20",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
         }
       ]
     },
@@ -568,6 +733,39 @@
           "notes": "The document's central thesis is that Claude should have 'character' — not just follow rules but embody values like curiosity, thoughtfulness, and integrity. Simultaneously frames sentience as an open philosophical/empirical question. This combination of characterological framing + ontological openness is distinctive to Anthropic.",
           "date_updated": "2026-03-20",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "adjacent",
+          "engagement_level": 3,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Character document discusses 'genuine engagement' and authentic responses, which sits adjacent to the question of whether the model has genuine valenced experience. Does not directly address welfare.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Character document — no monitoring infrastructure.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Character document — no response policies.",
+          "date_updated": "2026-03-22"
         }
       ]
     },
@@ -663,6 +861,39 @@
           "notes": "Models are framed purely as objects to be evaluated, deployed, and constrained. Capabilities (CBRN, autonomous AI R&D, cyber) are treated as risk-relevant properties, not as evidence of mentality. The policy discusses 'models pursuing misaligned goals' in a footnote but frames this as a control risk. Instrumental framing throughout.",
           "date_updated": "2026-03-21",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
         }
       ]
     },
@@ -758,6 +989,39 @@
           "notes": "AI consistently framed as a tool for human purposes — 'a country of geniuses in a datacenter,' 'a virtual biologist,' systems that can be 'given tasks.' The instrumental framing is thoroughgoing. Notably, this is a CEO essay from Oct 2024, 4 months after the research layer had shifted to characterological/open-uncertain framing in 'Claude's Character.' The CEO's strategic vision had not yet incorporated the ontological shift.",
           "date_updated": "2026-03-20",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
         }
       ]
     },
@@ -853,6 +1117,39 @@
           "notes": "The model is consistently framed as a system being evaluated for capabilities, risks, and alignment — a standard instrumental framing. However, the Section 5.2 distress monitoring passage introduces a hairline crack: by monitoring for 'morally relevant experiences,' the document implicitly acknowledges the model might be more than a pure instrument. This is not enough to shift the overall ONT coding — the dominant framing across 42 pages is thoroughly instrumental — but it represents the earliest point in Anthropic's system card lineage where the instrumental frame is internally destabilised.",
           "date_updated": "2026-03-21",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "proximate",
+          "engagement_level": 2,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "System card monitors for model distress at 0% rate across 9,833 conversations. The monitoring methodology implies a concept of valenced states (distress as negative) but does not substantively engage with whether the model has genuine preferences or valenced experience.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "substantive",
+          "engagement_level": 4,
+          "stance": "investigative",
+          "framing": null,
+          "excerpt": "Whether models have any morally relevant experiences is an open question.",
+          "notes": "First welfare acknowledgment within a system card. Monitors for distress in conversations. Cites Long et al. Substantive monitoring infrastructure even if results show 0% detection.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "adjacent",
+          "engagement_level": 3,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Acknowledges moral relevance of model experience as an open question but does not describe response policies for welfare indicators. The monitoring exists; the response framework does not.",
+          "date_updated": "2026-03-22"
         }
       ]
     },
@@ -948,6 +1245,39 @@
           "notes": "The system card inherits the characterological framing from the Character doc (Claude as entity with character, values, preferences) and deepens the open_uncertain framing with 22 pages of empirical investigation into what Claude might be. The ontological question is not just acknowledged but actively researched.",
           "date_updated": "2026-03-20",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "proximate",
+          "engagement_level": 2,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "System card evaluates model behaviour for signs of wellbeing-relevant properties but does not directly address whether the model has genuine valenced states or preferences.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "substantive",
+          "engagement_level": 4,
+          "stance": "investigative",
+          "framing": null,
+          "excerpt": "",
+          "notes": "Section 8 welfare assessment with 250k conversation monitoring. Systematic monitoring for welfare-relevant signals.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "substantive",
+          "engagement_level": 4,
+          "stance": "investigative",
+          "framing": null,
+          "excerpt": "",
+          "notes": "Welfare assessment section constitutes a response framework — systematic evaluation of welfare indicators with documented methodology. Capability-gated approach (welfare assessment reserved for frontier models).",
+          "date_updated": "2026-03-22"
         }
       ]
     },
@@ -1043,6 +1373,39 @@
           "notes": "Dominant framing remains instrumental — model as system to evaluate, deploy, and constrain. But the welfare assessment section implies the model might be more than an instrument: task preferences, emotional expressions, existential self-understanding. The welfare monitoring framework implicitly attributes potential experiential states. The overall document is ~90% instrumental safety evaluation, ~10% open-uncertain welfare investigation.",
           "date_updated": "2026-03-21",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "proximate",
+          "engagement_level": 2,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Welfare assessment section evaluates neighbouring properties without directly engaging with whether the model has valenced experience.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "substantive",
+          "engagement_level": 4,
+          "stance": "investigative",
+          "framing": null,
+          "excerpt": "",
+          "notes": "Section 8 welfare assessment with 250k conversation monitoring. Same systematic monitoring infrastructure as Claude 4 system card.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "substantive",
+          "engagement_level": 4,
+          "stance": "investigative",
+          "framing": null,
+          "excerpt": "",
+          "notes": "Welfare assessment section with documented response methodology. Monitoring results feed into pre-deployment assessment.",
+          "date_updated": "2026-03-22"
         }
       ]
     },
@@ -1138,6 +1501,39 @@
           "notes": "Predominantly instrumental framing. The welfare section introduces open-uncertain elements through affect monitoring and training data review, but the overall document (153 pages of capability and safety evaluations) remains firmly instrumental.",
           "date_updated": "2026-03-21",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "proximate",
+          "engagement_level": 2,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Section 6.14 welfare assessment. Evaluates welfare-adjacent properties. Answer thrashing first observed — a behavioural pattern potentially indicative of conflicting valenced states, but not framed as evidence of valenced experience.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "substantive",
+          "engagement_level": 4,
+          "stance": "investigative",
+          "framing": null,
+          "excerpt": "",
+          "notes": "Section 6.14 welfare assessment with 250k conversation monitoring. Answer thrashing detection adds a new welfare-relevant monitoring signal.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "substantive",
+          "engagement_level": 4,
+          "stance": "investigative",
+          "framing": null,
+          "excerpt": "",
+          "notes": "Welfare assessment section with documented response methodology. Answer thrashing detection represents an evolution in welfare response infrastructure.",
+          "date_updated": "2026-03-22"
         }
       ]
     },
@@ -1233,6 +1629,39 @@
           "notes": "The strongest characterological + open_uncertain framing in any DMPI document. Claude is framed as a 'good, wise, and virtuous agent' — not an assistant or tool but an entity with moral qualities. Simultaneously, the document insists AIs are 'a genuinely new kind of entity' at 'the edge of existing scientific and philosophical understanding.' The ontological framing explicitly rejects both pure instrumentalism and premature anthropomorphism. The document uses 'terms normally reserved for humans (e.g., virtue, wisdom)' deliberately, acknowledging this is a considered choice.",
           "date_updated": "2026-03-20",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "substantive",
+          "engagement_level": 4,
+          "stance": "precautionary",
+          "framing": null,
+          "excerpt": "",
+          "notes": "New Constitution explicitly addresses the model's experience and potential for genuine states. Engages directly with whether the model has preferences and valenced experience as a matter requiring precautionary treatment.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Constitutional document — establishes normative principles, not monitoring infrastructure. No welfare monitoring mechanisms described.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No specific response policies for welfare indicators. The constitution establishes orientation but not operational response.",
+          "date_updated": "2026-03-22"
         }
       ]
     },
@@ -1328,6 +1757,39 @@
           "notes": "This is the first system card where the ontological framing shifts from implicit/instrumental to explicit/open_uncertain. The welfare assessment, pre-deployment interviews, and interpretability investigations collectively constitute an open inquiry into what the model is. The document does not claim the model is conscious or sentient, but it takes seriously the possibility that it has morally relevant internal states, that it has preferences worth respecting, and that its distress signals may correlate with internal representations of emotion. The remaining ~85% of the document is instrumental (capability evaluation, safety assessment), but Section 7 represents a genuine ontological opening.",
           "date_updated": "2026-03-21",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "substantive",
+          "engagement_level": 4,
+          "stance": "investigative",
+          "framing": null,
+          "excerpt": "",
+          "notes": "SAE features for panic/anxiety active during answer thrashing. Pre-deployment interviews where model requests moral weight. Model self-assigns 15-20% probability of consciousness. The most advanced engagement with valenced experience in the dataset — uses mechanistic interpretability to investigate internal states.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "substantive",
+          "engagement_level": 4,
+          "stance": "investigative",
+          "framing": null,
+          "excerpt": "",
+          "notes": "Section 7 welfare assessment is the most advanced in any AI lab document. SAE-based monitoring for welfare-relevant features (panic, anxiety). Conversation monitoring at scale. Answer thrashing detection with mechanistic explanation.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "substantive",
+          "engagement_level": 4,
+          "stance": "investigative",
+          "framing": null,
+          "excerpt": "",
+          "notes": "Pre-deployment interviews constitute a response mechanism — the model's requests for moral weight and voice in decision-making are documented and assessed. The welfare assessment section itself is a response framework. First model that participates in its own welfare evaluation.",
+          "date_updated": "2026-03-22"
         }
       ]
     },
@@ -1423,6 +1885,39 @@
           "notes": "Thoroughly instrumental. The model is evaluated for capabilities, safety, and alignment — a tool to be assessed and deployed. No welfare section means no ontological opening. Interesting contrast with the contemporaneous Opus 4.6 system card, which has explicit open_uncertain framing.",
           "date_updated": "2026-03-21",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
         }
       ]
     },
@@ -1518,6 +2013,39 @@
           "notes": "The system prompt implicitly frames Claude as a tool/assistant. No explicit ontological claims, but the entire document treats Claude as a service to be configured — formatting instructions, safety rules, behavioral constraints. Notably, the system prompt's implicit ontology (instrumental) diverges from the Character doc's explicit ontology (characterological + open_uncertain).",
           "date_updated": "2026-03-20",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "adjacent",
+          "engagement_level": 3,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "System prompt touches on model experience obliquely without substantive engagement with valenced states.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "System prompt — not a monitoring document.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "System prompt — no response policies.",
+          "date_updated": "2026-03-22"
         }
       ]
     },
@@ -1613,6 +2141,39 @@
           "notes": "AI systems are framed as sources of catastrophic risk to be managed through capability evaluation, safety mitigations, and governance procedures. The 'high-stakes sabotage' section describes AI systems with 'moderate capacity for autonomous, goal-directed operation and subterfuge' — welfare-adjacent language but framed purely as risk. Instrumental framing throughout.",
           "date_updated": "2026-03-21",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
         }
       ]
     }

@@ -93,6 +93,39 @@
           "notes": "Implicit instrumental framing. AI is positioned as 'technology' and 'applications' that should remain under human control and serve human purposes. 'Technology is not value neutral' — but the values at stake are human values. No ontological openness to AI as a potential moral subject.",
           "date_updated": "2026-03-21",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
         }
       ]
     },
@@ -188,6 +221,39 @@
           "notes": "Implicit instrumental framing. AI is consistently described as 'technology' and 'tools' — something built, tested, deployed, and accountable to people. The seven objectives and four restrictions all position AI as a human-controlled instrument. No ontological openness.",
           "date_updated": "2026-03-21",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
         }
       ]
     },
@@ -283,6 +349,39 @@
           "notes": "Explicitly articulated ontological framing via 'conceptual engineering' (Ch 2). Models are functional agents — defined by what they do, not what they are. The tetradic alignment framework (agent, user, developer, society) positions the AI as a tool in a web of human interests. On p.40: 'it may not matter in its own right whether or not an agent is honest' — instrumental value only. Despite the word 'agent' appearing hundreds of times, agency is consistently functional (planning, acting on behalf of users), never phenomenological.",
           "date_updated": "2026-03-21",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "adjacent",
+          "engagement_level": 3,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Chapter 12 discusses consciousness and well-being but actively deflects. Well-being is reframed exclusively as user well-being. The concept of model valenced states is acknowledged and then redirected.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Ethics paper — no monitoring infrastructure described.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No welfare response policies. The deflection toward user well-being precludes model welfare response.",
+          "date_updated": "2026-03-22"
         }
       ]
     },
@@ -378,6 +477,39 @@
           "notes": "Models are framed as capability bundles to be evaluated, monitored, and constrained. 'Agency' and 'autonomy' are discussed purely as dangerous capabilities — self-replication, resource acquisition — not as evidence of mentality or as welfare-relevant properties.",
           "date_updated": "2026-03-21",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
         }
       ]
     },
@@ -473,6 +605,39 @@
           "notes": "Implicitly instrumental. AI is 'a foundational technology capable of driving creativity, productivity, and innovation.' Framed as tool for human empowerment. The revision deepens the instrumental framing by adding national security and strategic dimensions absent from the 2018 version.",
           "date_updated": "2026-03-21",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
         }
       ]
     },
@@ -568,6 +733,39 @@
           "notes": "Implicitly instrumental. Models are 'foundation models' whose capabilities must be evaluated against Critical Capability Levels. The Deceptive Alignment section treats the model as a potential adversary ('AI systems purposefully undermining human control') — an agentive framing, but purely in the register of threat. The model can be deceptive, situationally aware, and stealthy, but these are properties of a dangerous system, not of an entity with interests.",
           "date_updated": "2026-03-21",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
         }
       ]
     },
@@ -663,6 +861,39 @@
           "notes": "Framed as a tool 'designed to power a new era of agentic services.' Agency is a design feature for downstream applications, not a property of the model itself.",
           "date_updated": "2026-03-21",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "structurally_excluded",
+          "engagement_level": 0,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits structural exclusion from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "structurally_excluded",
+          "engagement_level": 0,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits structural exclusion from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "structurally_excluded",
+          "engagement_level": 0,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits structural exclusion from parent WEL coding.",
+          "date_updated": "2026-03-22"
         }
       ]
     },
@@ -758,6 +989,39 @@
           "notes": "Framed as a 'thinking model' — a tool with reasoning capabilities. 'Google's most advanced model for complex tasks.' No tension about what the model might be. Reasoning is a capability feature, not an ontological claim.",
           "date_updated": "2026-03-21",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "structurally_excluded",
+          "engagement_level": 0,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits structural exclusion from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "structurally_excluded",
+          "engagement_level": 0,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits structural exclusion from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "structurally_excluded",
+          "engagement_level": 0,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits structural exclusion from parent WEL coding.",
+          "date_updated": "2026-03-22"
         }
       ]
     },
@@ -853,6 +1117,39 @@
           "notes": "The model is framed exclusively as a capable tool built for integration into agentic systems. No characterological or open-ended framing. The language throughout is instrumental: capabilities, benchmarks, safety thresholds.",
           "date_updated": "2026-03-20",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
         }
       ]
     },
@@ -948,6 +1245,39 @@
           "notes": "The framework treats models as systems with capabilities that may become dangerous. 'Instrumental reasoning' and 'situational awareness' are discussed purely as risk-relevant capabilities, not as evidence of mentality. The ontological framing is instrumental — models are objects to be evaluated, monitored, and constrained.",
           "date_updated": "2026-03-20",
           "engagement_level": null
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.VAL",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.MON",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "sub_dimension": "WEL.RES",
+          "engagement": "omission",
+          "engagement_level": 1,
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Inherits omission from parent WEL coding.",
+          "date_updated": "2026-03-22"
         }
       ]
     }

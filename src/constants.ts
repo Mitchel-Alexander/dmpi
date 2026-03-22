@@ -1,4 +1,4 @@
-import type { DimensionCode, Stance, EngagementLevel, EngagementCode } from './types'
+import type { DimensionCode, SubDimensionCode, Stance, EngagementLevel, EngagementCode } from './types'
 
 export interface DimensionMeta {
   code: DimensionCode
@@ -58,6 +58,40 @@ export const STANCE_LABELS: Record<Stance, string> = {
   affirms: 'Affirms',
   descriptive: 'Descriptive',
   ambiguous: 'Ambiguous',
+}
+
+export interface SubDimensionMeta {
+  code: SubDimensionCode
+  parent: DimensionCode
+  label: string
+  shortDesc: string
+}
+
+export const SUB_DIMENSIONS: SubDimensionMeta[] = [
+  { code: 'WEL.VAL', parent: 'WEL', label: 'Valenced Experience', shortDesc: 'Whether the model has preferences or positive/negative states' },
+  { code: 'WEL.MON', parent: 'WEL', label: 'Welfare Monitoring', shortDesc: 'Monitoring for welfare-relevant signals' },
+  { code: 'WEL.RES', parent: 'WEL', label: 'Welfare Response', shortDesc: 'Policies for responding to welfare indicators' },
+]
+
+/** Get sub-indicators for a parent dimension */
+export function getSubDimensions(parent: DimensionCode): SubDimensionMeta[] {
+  return SUB_DIMENSIONS.filter(s => s.parent === parent)
+}
+
+/** Whether a dimension has sub-indicators */
+export function hasSubDimensions(code: DimensionCode): boolean {
+  return SUB_DIMENSIONS.some(s => s.parent === code)
+}
+
+/** Whether a code is a sub-indicator code */
+export function isSubDimension(code: string): boolean {
+  return SUB_DIMENSIONS.some(s => s.code === code)
+}
+
+/** Get the parent dimension for a sub-indicator */
+export function getParentDimension(code: SubDimensionCode): DimensionCode {
+  const meta = SUB_DIMENSIONS.find(s => s.code === code)
+  return meta!.parent
 }
 
 /** Check whether a coding represents substantive engagement (level 4 or ONT explicit/implicit) */

@@ -1,5 +1,7 @@
 export type DimensionCode = 'CON' | 'WEL' | 'MOR' | 'SRE' | 'ANT' | 'UNC' | 'GOV' | 'ONT'
 
+export type SubDimensionCode = 'WEL.VAL' | 'WEL.MON' | 'WEL.RES'
+
 /** Graduated engagement scale for core dimensions (CON, WEL, MOR, SRE, ANT, UNC, GOV) */
 export type EngagementLevel = 0 | 1 | 2 | 3 | 4
 
@@ -19,6 +21,7 @@ export type Stance = 'denies' | 'cautious' | 'precautionary' | 'investigative' |
 
 export interface Coding {
   dimension: DimensionCode
+  sub_dimension?: SubDimensionCode | null   // null/undefined for parent-level codings
   engagement: Engagement
   engagement_level: EngagementLevel | null  // null for ONT (uses its own system)
   stance: Stance | null                     // only coded at level 4 (substantive)

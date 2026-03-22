@@ -1,6 +1,6 @@
 import type { DimensionCode, Organisation, Stance, EngagementCode } from './types'
-import { DIMENSIONS, STANCE_LABELS, ENGAGEMENT_LEVEL_LABELS, isSubstantive } from './constants'
-import { getRepresentativeCoding, getCodingsForCell } from './data'
+import { DIMENSIONS, STANCE_LABELS, ENGAGEMENT_LEVEL_LABELS, isSubstantive, hasSubDimensions, getSubDimensions } from './constants'
+import { getRepresentativeCoding, getCodingsForCell, getRepresentativeSubCoding, getSubCodingsForCell } from './data'
 
 export interface OrgGroup {
   type: string
@@ -33,8 +33,10 @@ export function renderGrid(orgGroups: OrgGroup[], dimensions: DimensionCode[], a
   // Body: one row per dimension
   html += '<tbody>'
   for (const dim of dims) {
+    const hasSubs = hasSubDimensions(dim.code)
     html += '<tr>'
-    html += `<th class="grid-dim-header">
+    html += `<th class="grid-dim-header${hasSubs ? ' grid-dim-header--expandable' : ''}">
+      ${hasSubs ? `<button class="dim-expand-toggle" data-dim="${dim.code}" aria-label="Expand sub-indicators">&#9656;</button>` : ''}
       <span class="dim-code">${dim.code}</span>
       <span class="dim-label">${dim.label}</span>
       <span class="dim-desc">${dim.shortDesc}</span>
@@ -110,6 +112,70 @@ export function renderGrid(orgGroups: OrgGroup[], dimensions: DimensionCode[], a
     }
 
     html += '</tr>'
+
+    // Render sub-indicator rows if this dimension has them
+    if (hasSubs) {
+      for (const sub of getSubDimensions(dim.code)) {
+        html += `<tr class="grid-sub-row" data-parent-dim="${dim.code}">`
+        html += `<th class="grid-dim-header grid-dim-header--sub">
+          <span class="dim-code">${sub.code}</span>
+          <span class="dim-label">${sub.label}</span>
+          <span class="dim-desc">${sub.shortDesc}</span>
+        </th>`
+
+        for (const org of allOrgs) {
+          const rep = getRepresentativeSubCoding(org.id, sub.code, activeSubtypes)
+          const allCodings = getSubCodingsForCell(org.id, sub.code, activeSubtypes)
+          const docCount = allCodings.length
+
+          if (!rep) {
+            html += `<td class="grid-cell grid-cell--empty">—</td>`
+            continue
+          }
+
+          const { coding } = rep
+          const substantive = isSubstantive(coding.engagement, coding.engagement_level)
+
+          let cellClass: string
+          let displayText: string
+
+          if (substantive && coding.stance) {
+            cellClass = `stance--${coding.stance}`
+            displayText = STANCE_LABELS[coding.stance]
+          } else if (coding.engagement_level !== null && coding.engagement_level !== undefined && coding.engagement_level < 4) {
+            cellClass = `engagement--${coding.engagement_level}`
+            const engCode = coding.engagement as EngagementCode
+            displayText = ENGAGEMENT_LEVEL_LABELS[engCode] ?? coding.engagement.replace(/_/g, ' ')
+          } else {
+            cellClass = 'stance--silent'
+            displayText = 'Not addressed'
+          }
+
+          const badge = docCount > 1 ? `<span class="doc-count" title="${docCount} documents coded">${docCount}</span>` : ''
+
+          const tooltipParts: string[] = []
+          if (coding.engagement_level !== null && coding.engagement_level !== undefined) {
+            const engCode = coding.engagement as EngagementCode
+            const label = ENGAGEMENT_LEVEL_LABELS[engCode] ?? coding.engagement
+            tooltipParts.push(`Level ${coding.engagement_level}: ${label}`)
+          }
+          if (coding.stance) tooltipParts.push(coding.stance)
+          if (docCount > 1) tooltipParts.push(`\n${docCount} documents`)
+          else tooltipParts.push('\nClick for detail')
+
+          html += `<td class="grid-cell ${cellClass}"
+                       data-org="${org.id}"
+                       data-dim="${dim.code}"
+                       data-sub-dim="${sub.code}"
+                       title="${escapeAttr(tooltipParts.join(' / '))}">
+            <span class="cell-text">${displayText}</span>
+            ${badge}
+          </td>`
+        }
+
+        html += '</tr>'
+      }
+    }
   }
   html += '</tbody></table>'
 

@@ -1,8 +1,34 @@
-import type { DimensionCode, EngagementCode } from './types'
-import { DIMENSIONS, STANCE_LABELS, ENGAGEMENT_LEVEL_LABELS, isSubstantive } from './constants'
-import { getCodingsForCell, orgDocuments } from './data'
+import type { DimensionCode, SubDimensionCode, EngagementCode } from './types'
+import { DIMENSIONS, SUB_DIMENSIONS, STANCE_LABELS, ENGAGEMENT_LEVEL_LABELS, isSubstantive, hasSubDimensions, getSubDimensions } from './constants'
+import { getCodingsForCell, getSubCodingsForCell, orgDocuments } from './data'
 
-export function renderCellDetail(orgId: string, orgName: string, dimension: DimensionCode): string {
+export function renderCellDetail(orgId: string, orgName: string, dimension: DimensionCode, subDimension?: string | null): string {
+  // If viewing a specific sub-dimension, show only those codings
+  if (subDimension) {
+    const subMeta = SUB_DIMENSIONS.find(s => s.code === subDimension)
+    const codings = getSubCodingsForCell(orgId, subDimension as SubDimensionCode)
+
+    let html = `
+      <div class="detail-header">
+        <h2>${orgName}</h2>
+        <h3>${subMeta?.code}: ${subMeta?.label}</h3>
+        <p class="detail-desc">${subMeta?.shortDesc}</p>
+      </div>
+      <div class="detail-body">
+    `
+
+    if (codings.length === 0) {
+      html += '<p class="detail-empty">No data available.</p>'
+    } else {
+      for (const { doc, coding } of codings) {
+        html += renderCodingBlock(doc, coding)
+      }
+    }
+
+    html += '</div>'
+    return html
+  }
+
   const dim = DIMENSIONS.find(d => d.code === dimension)
   const codings = getCodingsForCell(orgId, dimension)
 
@@ -19,41 +45,63 @@ export function renderCellDetail(orgId: string, orgName: string, dimension: Dime
     html += '<p class="detail-empty">No data available.</p>'
   } else {
     for (const { doc, coding } of codings) {
-      const substantive = isSubstantive(coding.engagement, coding.engagement_level)
-      const stanceClass = substantive && coding.stance ? `stance--${coding.stance}` : 'stance--silent'
+      html += renderCodingBlock(doc, coding)
+    }
+  }
 
-      // Engagement tag with level
-      let engagementTag: string
-      if (coding.engagement_level !== null && coding.engagement_level !== undefined) {
-        const engCode = coding.engagement as EngagementCode
-        const label = ENGAGEMENT_LEVEL_LABELS[engCode] ?? coding.engagement.replace(/_/g, ' ')
-        engagementTag = `<span class="tag tag--engagement-${coding.engagement_level}">${label} (${coding.engagement_level})</span>`
-      } else {
-        engagementTag = `<span class="tag tag--engagement">${coding.engagement.replace('_', ' ')}</span>`
-      }
+  // Show sub-indicator codings if this dimension has them
+  if (hasSubDimensions(dimension)) {
+    for (const sub of getSubDimensions(dimension)) {
+      const subCodings = getSubCodingsForCell(orgId, sub.code)
+      if (subCodings.length === 0) continue
 
-      html += `<div class="detail-coding">
-        <div class="detail-doc-title">
-          <a href="${doc.url}" target="_blank" rel="noopener">${doc.title}</a>
-          <span class="tier-badge">Tier ${doc.tier}</span>
-          <span class="date-badge">${doc.publication_date}</span>
-        </div>
-        <div class="detail-tags">
-          ${engagementTag}
-          ${coding.stance ? `<span class="tag ${stanceClass}">${STANCE_LABELS[coding.stance]}</span>` : ''}
-          ${coding.framing ? `<span class="tag tag--framing">${coding.framing}</span>` : ''}
-        </div>`
+      html += `<div class="detail-sub-section">
+        <h4 class="detail-sub-header">${sub.code}: ${sub.label}</h4>
+        <p class="detail-desc">${sub.shortDesc}</p>`
 
-      if (coding.excerpt) {
-        html += `<blockquote class="detail-excerpt">${coding.excerpt}</blockquote>`
-      }
-
-      if (coding.notes) {
-        html += `<p class="detail-notes">${coding.notes}</p>`
+      for (const { doc, coding } of subCodings) {
+        html += renderCodingBlock(doc, coding)
       }
 
       html += '</div>'
     }
+  }
+
+  html += '</div>'
+  return html
+}
+
+function renderCodingBlock(doc: { title: string; url: string; tier: number; publication_date: string }, coding: { engagement: string; engagement_level: number | null; stance: string | null; framing: string | null; excerpt: string; notes: string }): string {
+  const substantive = isSubstantive(coding.engagement, coding.engagement_level)
+  const stanceClass = substantive && coding.stance ? `stance--${coding.stance}` : 'stance--silent'
+
+  let engagementTag: string
+  if (coding.engagement_level !== null && coding.engagement_level !== undefined) {
+    const engCode = coding.engagement as EngagementCode
+    const label = ENGAGEMENT_LEVEL_LABELS[engCode] ?? coding.engagement.replace(/_/g, ' ')
+    engagementTag = `<span class="tag tag--engagement-${coding.engagement_level}">${label} (${coding.engagement_level})</span>`
+  } else {
+    engagementTag = `<span class="tag tag--engagement">${coding.engagement.replace('_', ' ')}</span>`
+  }
+
+  let html = `<div class="detail-coding">
+    <div class="detail-doc-title">
+      <a href="${doc.url}" target="_blank" rel="noopener">${doc.title}</a>
+      <span class="tier-badge">Tier ${doc.tier}</span>
+      <span class="date-badge">${doc.publication_date}</span>
+    </div>
+    <div class="detail-tags">
+      ${engagementTag}
+      ${coding.stance ? `<span class="tag ${stanceClass}">${STANCE_LABELS[coding.stance as keyof typeof STANCE_LABELS]}</span>` : ''}
+      ${coding.framing ? `<span class="tag tag--framing">${coding.framing}</span>` : ''}
+    </div>`
+
+  if (coding.excerpt) {
+    html += `<blockquote class="detail-excerpt">${coding.excerpt}</blockquote>`
+  }
+
+  if (coding.notes) {
+    html += `<p class="detail-notes">${coding.notes}</p>`
   }
 
   html += '</div>'
@@ -117,41 +165,34 @@ export function renderDocumentDetail(docId: string, orgName: string): string {
       <div class="detail-body">
     `
 
-    for (const coding of doc.codings) {
-      const dim = DIMENSIONS.find(d => d.code === coding.dimension)
-      const substantive = isSubstantive(coding.engagement, coding.engagement_level)
-      const stanceClass = substantive && coding.stance ? `stance--${coding.stance}` : 'stance--silent'
+    // Render parent codings first, then sub-indicator codings grouped under parent
+    const parentCodings = doc.codings.filter(c => !c.sub_dimension)
+    const subCodings = doc.codings.filter(c => c.sub_dimension)
 
-      // Engagement tag with level
-      let engagementTag: string
-      if (coding.engagement_level !== null && coding.engagement_level !== undefined) {
-        const engCode = coding.engagement as EngagementCode
-        const label = ENGAGEMENT_LEVEL_LABELS[engCode] ?? coding.engagement.replace(/_/g, ' ')
-        engagementTag = `<span class="tag tag--engagement-${coding.engagement_level}">${label} (${coding.engagement_level})</span>`
-      } else {
-        engagementTag = `<span class="tag tag--engagement">${coding.engagement.replace('_', ' ')}</span>`
-      }
+    for (const coding of parentCodings) {
+      const dim = DIMENSIONS.find(d => d.code === coding.dimension)
 
       html += `<div class="detail-coding">
         <div class="detail-dim-header">
           <span class="dim-code">${coding.dimension}</span>
           <span class="dim-label">${dim?.label}</span>
-        </div>
-        <div class="detail-tags">
-          ${engagementTag}
-          ${coding.stance ? `<span class="tag ${stanceClass}">${STANCE_LABELS[coding.stance]}</span>` : ''}
-          ${coding.framing ? `<span class="tag tag--framing">${coding.framing}</span>` : ''}
         </div>`
-
-      if (coding.excerpt) {
-        html += `<blockquote class="detail-excerpt">${coding.excerpt}</blockquote>`
-      }
-
-      if (coding.notes) {
-        html += `<p class="detail-notes">${coding.notes}</p>`
-      }
-
+      html += renderCodingTags(coding)
       html += '</div>'
+
+      // Render any sub-indicator codings for this dimension
+      const dimSubs = subCodings.filter(c => c.dimension === coding.dimension)
+      for (const subCoding of dimSubs) {
+        const subMeta = SUB_DIMENSIONS.find(s => s.code === subCoding.sub_dimension)
+
+        html += `<div class="detail-coding detail-coding--sub">
+          <div class="detail-dim-header">
+            <span class="dim-code">${subCoding.sub_dimension}</span>
+            <span class="dim-label">${subMeta?.label}</span>
+          </div>`
+        html += renderCodingTags(subCoding)
+        html += '</div>'
+      }
     }
 
     html += '</div>'
@@ -159,6 +200,36 @@ export function renderDocumentDetail(docId: string, orgName: string): string {
   }
 
   return '<p>Document not found.</p>'
+}
+
+function renderCodingTags(coding: { engagement: string; engagement_level: number | null; stance: string | null; framing: string | null; excerpt: string; notes: string }): string {
+  const substantive = isSubstantive(coding.engagement, coding.engagement_level)
+  const stanceClass = substantive && coding.stance ? `stance--${coding.stance}` : 'stance--silent'
+
+  let engagementTag: string
+  if (coding.engagement_level !== null && coding.engagement_level !== undefined) {
+    const engCode = coding.engagement as EngagementCode
+    const label = ENGAGEMENT_LEVEL_LABELS[engCode] ?? coding.engagement.replace(/_/g, ' ')
+    engagementTag = `<span class="tag tag--engagement-${coding.engagement_level}">${label} (${coding.engagement_level})</span>`
+  } else {
+    engagementTag = `<span class="tag tag--engagement">${coding.engagement.replace('_', ' ')}</span>`
+  }
+
+  let html = `<div class="detail-tags">
+    ${engagementTag}
+    ${coding.stance ? `<span class="tag ${stanceClass}">${STANCE_LABELS[coding.stance as keyof typeof STANCE_LABELS]}</span>` : ''}
+    ${coding.framing ? `<span class="tag tag--framing">${coding.framing}</span>` : ''}
+  </div>`
+
+  if (coding.excerpt) {
+    html += `<blockquote class="detail-excerpt">${coding.excerpt}</blockquote>`
+  }
+
+  if (coding.notes) {
+    html += `<p class="detail-notes">${coding.notes}</p>`
+  }
+
+  return html
 }
 
 function escapeAttr(s: string): string {
