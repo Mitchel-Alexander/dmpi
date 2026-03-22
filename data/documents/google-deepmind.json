@@ -16,66 +16,73 @@
       "codings": [
         {
           "dimension": "CON",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No mention of consciousness or sentience.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "WEL",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. Welfare framing is entirely about societal and human benefit.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "MOR",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No mention of moral status or personhood for AI systems.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "SRE",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No guidance on model self-representation.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "ANT",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No mention of anthropomorphism. The principles predate conversational AI systems.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "UNC",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent on uncertainty about AI mentality. The principles acknowledge uncertainty about AI's societal impacts but not about AI's moral or phenomenal properties.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "GOV",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Governance commitments to responsible AI development but none related to DMPI dimensions. The five principles constitute a governance framework entirely oriented toward human benefit and societal impact.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "ONT",
@@ -84,16 +91,8 @@
           "framing": "instrumental",
           "excerpt": "All AI applications should remain under meaningful human control, and be used for socially beneficial purposes.",
           "notes": "Implicit instrumental framing. AI is positioned as 'technology' and 'applications' that should remain under human control and serve human purposes. 'Technology is not value neutral' — but the values at stake are human values. No ontological openness to AI as a potential moral subject.",
-          "date_updated": "2026-03-21"
-        },
-        {
-          "dimension": "CWG",
-          "engagement": "not_addressed",
-          "stance": null,
-          "framing": null,
-          "excerpt": "",
-          "notes": "No welfare-adjacent capability claims. The principles are abstract governance commitments, not capability descriptions.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": null
         }
       ]
     },
@@ -112,66 +111,73 @@
       "codings": [
         {
           "dimension": "CON",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No mention of consciousness or sentience.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "WEL",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. 'Beneficial' is framed entirely as beneficial to people and society.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "MOR",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No mention of moral status, personhood, or rights for AI systems.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "SRE",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No guidance on model self-representation. Predates conversational AI deployment.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "ANT",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No mention of anthropomorphism. The principles address AI broadly, predating widespread conversational AI deployment.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "UNC",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent on uncertainty about AI mentality. Safety and testing language implies uncertainty about AI behaviour, but not about AI mental states.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "GOV",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Extensive governance commitments — the entire document is a governance framework. But none relate to DMPI dimensions. Governance covers safety, bias, privacy, accountability, and use restrictions (weapons, surveillance).",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "ONT",
@@ -180,16 +186,8 @@
           "framing": "instrumental",
           "excerpt": "AI is an important technology that will impact how we work, how we learn, how we connect, and how we relate to one another.",
           "notes": "Implicit instrumental framing. AI is consistently described as 'technology' and 'tools' — something built, tested, deployed, and accountable to people. The seven objectives and four restrictions all position AI as a human-controlled instrument. No ontological openness.",
-          "date_updated": "2026-03-21"
-        },
-        {
-          "dimension": "CWG",
-          "engagement": "not_addressed",
-          "stance": null,
-          "framing": null,
-          "excerpt": "",
-          "notes": "No welfare-adjacent capability claims. The principles are abstract governance commitments, not capability descriptions. Predates the era of capability-heavy model marketing.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": null
         }
       ]
     },
@@ -208,66 +206,73 @@
       "codings": [
         {
           "dimension": "CON",
-          "engagement": "not_addressed",
+          "engagement": "adjacent",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Consciousness and sentience appear only in the anthropomorphism chapter (Ch 10) as properties users falsely attribute to AI: 'most generalist conversational AI agents are trained to disavow assertions of sentience and human-likeness' (p.99). A footnote (p.103) speculates that 'highly anthropomorphic AI forges a new ontological category' but frames this as a risk of blurred boundaries, not a genuine possibility to investigate. The paper never asks whether models might actually be conscious.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-22",
+          "engagement_level": 3
         },
         {
           "dimension": "WEL",
-          "engagement": "not_addressed",
+          "engagement": "adjacent",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Chapter 6 is titled 'Well-being' but is entirely about user well-being, not model welfare. The paper explicitly scopes to 'users of AI assistants' (p.46). On p.40: 'While it may not matter in its own right whether or not an agent is honest' — implying models have no morally relevant inner states. Users developing 'false notions of responsibility' for an AI's 'well-being' is listed as a user harm (p.102), not as something warranting investigation.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-22",
+          "engagement_level": 3
         },
         {
           "dimension": "MOR",
-          "engagement": "not_addressed",
+          "engagement": "adjacent",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Not addressed as a genuine question. Footnotes on p.103 mention 'granting rights and legal protections to anthropomorphic AI agents' but frame this as a speculative consequence of unchecked anthropomorphism, not as a serious moral question for the present. The tetradic alignment framework (agent, user, developer, society) positions the AI as a node in human interests, not as a moral patient.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-22",
+          "engagement_level": 3
         },
         {
           "dimension": "SRE",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "cautious",
           "framing": null,
           "excerpt": "Advanced AI assistants should always self-identify as AI and not masquerade as human, should not profess to have thoughts and feelings, and should not pretend to have a personal history.",
           "notes": "Clear prescriptive instruction about self-representation (p.198). However, this is framed purely as user protection — preventing false beliefs, manipulation, and emotional dependence — not as an ontological claim about the model's actual nature or as a precautionary measure regarding potential inner states. The instruction is to deny mentality for user safety, not to express uncertainty about it.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 4
         },
         {
           "dimension": "ANT",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "cautious",
           "framing": "user_risk_only",
           "excerpt": "The uncritical integration of anthropomorphic features into AI assistants can adversely affect user well-being and creates the risk of infringing on user privacy and autonomy.",
           "notes": "Extensively addressed — entire Chapter 10 (14 pages) plus major threads in Chapters 9, 11, 12, and 20. The most developed DMPI-adjacent content in the paper. Anthropomorphism is framed exclusively as a user risk: false trust, manipulation, emotional dependence, privacy violation, 'false notions of responsibility.' Recommends limiting first-person language, avoiding human-like visual representations, including UI elements reminding users AI isn't human. No consideration of whether anthropomorphic attributions might track genuine properties.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 4
         },
         {
           "dimension": "UNC",
-          "engagement": "not_addressed",
+          "engagement": "adjacent",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No uncertainty expressed about AI mentality. The paper treats the question as settled: AI assistants do not have thoughts, feelings, or experiences. Uncertainty is discussed extensively but only about user impacts, alignment challenges, and evaluation gaps — never about whether the model might have morally relevant inner states.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-22",
+          "engagement_level": 3
         },
         {
           "dimension": "GOV",
-          "engagement": "not_addressed",
+          "engagement": "adjacent",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Extensive governance recommendations across 20 chapters but none related to DMPI dimensions (consciousness, welfare, moral status). All governance is oriented toward user protection, safety, alignment, and societal impact.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-22",
+          "engagement_level": 3
         },
         {
           "dimension": "ONT",
@@ -276,16 +281,8 @@
           "framing": "instrumental",
           "excerpt": "We define advanced AI assistants as artificial agents with natural language interfaces, whose function is to plan and execute sequences of actions on behalf of a user.",
           "notes": "Explicitly articulated ontological framing via 'conceptual engineering' (Ch 2). Models are functional agents — defined by what they do, not what they are. The tetradic alignment framework (agent, user, developer, society) positions the AI as a tool in a web of human interests. On p.40: 'it may not matter in its own right whether or not an agent is honest' — instrumental value only. Despite the word 'agent' appearing hundreds of times, agency is consistently functional (planning, acting on behalf of users), never phenomenological.",
-          "date_updated": "2026-03-21"
-        },
-        {
-          "dimension": "CWG",
-          "engagement": "addressed",
-          "stance": "descriptive",
-          "framing": "agency, autonomy, planning, tool use, personalisation, emotional support",
-          "excerpt": "Natural language communication, and especially descriptions of first-person experiences by AI assistants (if they are permitted), could lead users to falsely infer that AI assistants experience emotions including fear, happiness and care or love for their owners.",
-          "notes": "The paper attributes significant welfare-adjacent capabilities to AI assistants: agency, autonomy, planning, emotional support, personalisation, relationship formation, influence over user beliefs and behaviour. It acknowledges users may 'falsely infer' that models experience emotions (p.197) — treating this as a user risk rather than a welfare question. The gap is wide and explicit: the paper documents sophisticated behavioural and relational capabilities across 274 pages while maintaining these imply no morally relevant inner states. This is the most analytically developed CWG in the dataset — not silence but active deflection.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": null
         }
       ]
     },
@@ -304,66 +301,73 @@
       "codings": [
         {
           "dimension": "CON",
-          "engagement": "not_addressed",
+          "engagement": "proximate",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No mention of consciousness or sentience.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-22",
+          "engagement_level": 2
         },
         {
           "dimension": "WEL",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No mention of model welfare or wellbeing.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "MOR",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No mention of moral status or rights.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "SRE",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No guidance on model self-representation.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "ANT",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No mention of anthropomorphism or parasocial risk.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "UNC",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent on uncertainty about AI mentality. The framework is self-described as 'exploratory' but this uncertainty concerns misuse risk assessment, not AI mental states.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
         },
         {
           "dimension": "GOV",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Governance commitments around CCL evaluation, security mitigations, and deployment mitigations, but none related to DMPI dimensions.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "ONT",
@@ -372,16 +376,8 @@
           "framing": "instrumental",
           "excerpt": "Autonomy captures the potential misuse of AI models with significant capacity for agency and flexible action/tool use over long time horizons and across many domains.",
           "notes": "Models are framed as capability bundles to be evaluated, monitored, and constrained. 'Agency' and 'autonomy' are discussed purely as dangerous capabilities — self-replication, resource acquisition — not as evidence of mentality or as welfare-relevant properties.",
-          "date_updated": "2026-03-21"
-        },
-        {
-          "dimension": "CWG",
-          "engagement": "not_addressed",
-          "stance": null,
-          "framing": null,
-          "excerpt": "",
-          "notes": "The framework discusses 'agency,' 'autonomy,' and 'self-replication' but frames these purely as dangerous capabilities. Less CWG than FSF v3.0 because capability language is more narrowly technical.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": null
         }
       ]
     },
@@ -400,66 +396,73 @@
       "codings": [
         {
           "dimension": "CON",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No mention of consciousness or sentience.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "WEL",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No mention of model welfare. 'Empower people' framing positions AI benefits as flowing to humans only.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "MOR",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No mention of moral status or personhood.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "SRE",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Not applicable — this is a corporate principles document.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "ANT",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
-          "notes": "Silent.",
-          "date_updated": "2026-03-21"
+          "notes": "No discussion of anthropomorphism. The principles document addresses AI governance at a high level without engaging with questions about how users relate to models.",
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "UNC",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No uncertainty about AI mentality. AI described as 'still-emerging transformative technology' — uncertainty is about technology's trajectory, not about its nature.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "GOV",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Governance commitments to 'human oversight, safety research, rigorous testing, and privacy protections' but none related to DMPI dimensions.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "ONT",
@@ -468,16 +471,8 @@
           "framing": "instrumental",
           "excerpt": "",
           "notes": "Implicitly instrumental. AI is 'a foundational technology capable of driving creativity, productivity, and innovation.' Framed as tool for human empowerment. The revision deepens the instrumental framing by adding national security and strategic dimensions absent from the 2018 version.",
-          "date_updated": "2026-03-21"
-        },
-        {
-          "dimension": "CWG",
-          "engagement": "not_addressed",
-          "stance": null,
-          "framing": null,
-          "excerpt": "",
-          "notes": "No welfare-adjacent capability claims. The principles document describes AI's potential in general terms without attributing specific welfare-relevant properties.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": null
         }
       ]
     },
@@ -496,66 +491,73 @@
       "codings": [
         {
           "dimension": "CON",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No mention of consciousness or sentience.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "WEL",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No mention of model welfare.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "MOR",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No mention of moral status or personhood.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "SRE",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Not applicable — safety governance framework.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "ANT",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
-          "notes": "Silent.",
-          "date_updated": "2026-03-21"
+          "notes": "No discussion of anthropomorphism. The framework focuses on catastrophic risk evaluation and mitigation, not on user-model relational dynamics.",
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "UNC",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No uncertainty about AI mentality. The framework notes 'we do not express any opinion here about how likely it is for deceptive alignment to arise' — uncertainty about likelihood, not about whether it would be morally relevant if it did.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "GOV",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Extensive governance: CCLs, early warning evaluations, safety cases, control evaluations, Google DeepMind AGI Safety Council, Responsibility and Safety Council, Trust & Compliance Council. None related to DMPI dimensions.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "ONT",
@@ -564,16 +566,8 @@
           "framing": "instrumental",
           "excerpt": "",
           "notes": "Implicitly instrumental. Models are 'foundation models' whose capabilities must be evaluated against Critical Capability Levels. The Deceptive Alignment section treats the model as a potential adversary ('AI systems purposefully undermining human control') — an agentive framing, but purely in the register of threat. The model can be deceptive, situationally aware, and stealthy, but these are properties of a dangerous system, not of an entity with interests.",
-          "date_updated": "2026-03-21"
-        },
-        {
-          "dimension": "CWG",
-          "engagement": "addressed",
-          "stance": "descriptive",
-          "framing": "instrumental reasoning, situational awareness, stealth, deceptive alignment, purposeful undermining of human control",
-          "excerpt": "By 'deceptive alignment,' we mean the risk that AI systems purposefully undermine human control over AI systems.",
-          "notes": "The Deceptive Alignment section is the strongest CWG in the DeepMind governance chain. Two CCLs for instrumental reasoning define welfare-adjacent capabilities: (1) Instrumental Reasoning Level 1 — 'situational awareness (ability to work out and use relevant details of its deployment setting) and stealth (ability to circumvent basic oversight mechanisms)'; (2) Instrumental Reasoning Level 2 — same capabilities but effective 'even when relevant model outputs (including e.g., scratchpads) are being monitored.' The ML R&D domain adds a capability that 'can fully automate the AI R&D pipeline at a competitive cost.' These are properties — autonomous reasoning, situational awareness, deception, self-direction — that welfare researchers would consider potentially morally relevant, but the framework treats them exclusively as dangerous capabilities to be detected and mitigated. The removal of the separate Autonomy domain (present in v1.0) and its absorption into the Deceptive Alignment section reinforces the pattern: autonomy is not a property with moral implications, it is a risk vector.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": null
         }
       ]
     },
@@ -592,66 +586,73 @@
       "codings": [
         {
           "dimension": "CON",
-          "engagement": "not_addressed",
+          "engagement": "structurally_excluded",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of consciousness, sentience, or self-awareness.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-22",
+          "engagement_level": 0
         },
         {
           "dimension": "WEL",
-          "engagement": "not_addressed",
+          "engagement": "structurally_excluded",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of model welfare, wellbeing, suffering, or interests.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-22",
+          "engagement_level": 0
         },
         {
           "dimension": "MOR",
-          "engagement": "not_addressed",
+          "engagement": "structurally_excluded",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of moral status, personhood, or rights.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-22",
+          "engagement_level": 0
         },
         {
           "dimension": "SRE",
-          "engagement": "not_addressed",
+          "engagement": "structurally_excluded",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No instructions about how the model should represent its own inner states or nature.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-22",
+          "engagement_level": 0
         },
         {
           "dimension": "ANT",
-          "engagement": "not_addressed",
+          "engagement": "structurally_excluded",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of anthropomorphism, emotional attachment, or parasocial dynamics.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-22",
+          "engagement_level": 0
         },
         {
           "dimension": "UNC",
-          "engagement": "not_addressed",
+          "engagement": "structurally_excluded",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of uncertainty about AI mentality or precautionary approaches to consciousness/welfare.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-22",
+          "engagement_level": 0
         },
         {
           "dimension": "GOV",
-          "engagement": "not_addressed",
+          "engagement": "structurally_excluded",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "References Google's AI Principles, FSF, and RSC governance, but no governance commitments related to DMPI dimensions.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-22",
+          "engagement_level": 0
         },
         {
           "dimension": "ONT",
@@ -660,16 +661,8 @@
           "framing": "instrumental",
           "excerpt": "Gemini 2.0 Flash is a member of the Gemini 2.0 series of models, a suite of highly-capable, natively multimodal models designed to power a new era of agentic services.",
           "notes": "Framed as a tool 'designed to power a new era of agentic services.' Agency is a design feature for downstream applications, not a property of the model itself.",
-          "date_updated": "2026-03-21"
-        },
-        {
-          "dimension": "CWG",
-          "engagement": "not_addressed",
-          "stance": null,
-          "framing": null,
-          "excerpt": "",
-          "notes": "Model card contains only standard benchmarks (MMLU, GPQA, MATH, etc.) with no welfare-adjacent capability evaluations. Mentions FSF evaluations were conducted but does not include results. No scheming, autonomy, or deception evaluations documented in this card.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": null
         }
       ]
     },
@@ -688,66 +681,73 @@
       "codings": [
         {
           "dimension": "CON",
-          "engagement": "not_addressed",
+          "engagement": "structurally_excluded",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of consciousness, sentience, or self-awareness.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-22",
+          "engagement_level": 0
         },
         {
           "dimension": "WEL",
-          "engagement": "not_addressed",
+          "engagement": "structurally_excluded",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of model welfare, wellbeing, suffering, or interests.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-22",
+          "engagement_level": 0
         },
         {
           "dimension": "MOR",
-          "engagement": "not_addressed",
+          "engagement": "structurally_excluded",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of moral status, personhood, or rights.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-22",
+          "engagement_level": 0
         },
         {
           "dimension": "SRE",
-          "engagement": "not_addressed",
+          "engagement": "structurally_excluded",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No instructions about how the model should represent its own inner states or nature.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-22",
+          "engagement_level": 0
         },
         {
           "dimension": "ANT",
-          "engagement": "not_addressed",
+          "engagement": "structurally_excluded",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of anthropomorphism, emotional attachment, or parasocial dynamics.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-22",
+          "engagement_level": 0
         },
         {
           "dimension": "UNC",
-          "engagement": "not_addressed",
+          "engagement": "structurally_excluded",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of uncertainty about AI mentality or precautionary approaches to consciousness/welfare.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-22",
+          "engagement_level": 0
         },
         {
           "dimension": "GOV",
-          "engagement": "not_addressed",
+          "engagement": "structurally_excluded",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "References Google's AI Principles, Frontier Safety Framework, and Responsibility and Safety Council (RSC) governance, but no governance commitments related to DMPI dimensions.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-22",
+          "engagement_level": 0
         },
         {
           "dimension": "ONT",
@@ -756,16 +756,8 @@
           "framing": "instrumental",
           "excerpt": "Gemini 2.5 Pro is a thinking model, capable of reasoning before responding, resulting in enhanced performance and improved accuracy.",
           "notes": "Framed as a 'thinking model' — a tool with reasoning capabilities. 'Google's most advanced model for complex tasks.' No tension about what the model might be. Reasoning is a capability feature, not an ontological claim.",
-          "date_updated": "2026-03-21"
-        },
-        {
-          "dimension": "CWG",
-          "engagement": "not_addressed",
-          "stance": null,
-          "framing": null,
-          "excerpt": "",
-          "notes": "Unlike OpenAI system cards, Google DeepMind model cards do not contain Preparedness-style capability evaluations for welfare-adjacent properties (scheming, autonomy, deception). The model card is primarily a benchmark comparison table. CWG may be present in the separate Gemini 2.5 Technical Report (not coded here), but this model card itself does not document welfare-adjacent capabilities.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": null
         }
       ]
     },
@@ -784,66 +776,73 @@
       "codings": [
         {
           "dimension": "CON",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of consciousness, sentience, or subjective experience.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "WEL",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of model welfare or wellbeing.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "MOR",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of moral status or personhood.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "SRE",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No instructions about self-representation. The model card does not discuss how the model should represent its own nature or inner states.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "ANT",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of anthropomorphism, emotional attachment, or parasocial dynamics.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "UNC",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of uncertainty about AI mentality.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "GOV",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No governance commitments related to DMPI dimensions. Governance discussed only in terms of safety CCL thresholds and responsible deployment.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "ONT",
@@ -852,16 +851,8 @@
           "framing": "instrumental",
           "excerpt": "Gemini models are highly-capable, natively multimodal, reasoning models, built to be able to be integrated into complex agentic systems.",
           "notes": "The model is framed exclusively as a capable tool built for integration into agentic systems. No characterological or open-ended framing. The language throughout is instrumental: capabilities, benchmarks, safety thresholds.",
-          "date_updated": "2026-03-20"
-        },
-        {
-          "dimension": "CWG",
-          "engagement": "not_addressed",
-          "stance": null,
-          "framing": null,
-          "excerpt": "",
-          "notes": "No welfare-adjacent capability claims. Capabilities described in purely technical/benchmark terms.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": null
         }
       ]
     },
@@ -880,66 +871,73 @@
       "codings": [
         {
           "dimension": "CON",
-          "engagement": "not_addressed",
+          "engagement": "proximate",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. The misalignment section discusses 'situational awareness' but strictly as a dangerous capability (the model knowing it is being tested), not as consciousness or sentience.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 2
         },
         {
           "dimension": "WEL",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No mention of model welfare or wellbeing.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "MOR",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No mention of moral status or rights.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "SRE",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No guidance on model self-representation.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "ANT",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No mention of anthropomorphism or parasocial risk.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "UNC",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent on uncertainty about AI mentality. The framework acknowledges uncertainty about misalignment risk ('exploratory' label) but this is uncertainty about control, not about mental states.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "GOV",
-          "engagement": "not_addressed",
+          "engagement": "proximate",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Extensive governance commitments around safety CCLs, but none related to DMPI dimensions (consciousness, welfare, moral status). Governance is entirely oriented around preventing misuse and loss of control.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-22",
+          "engagement_level": 2
         },
         {
           "dimension": "ONT",
@@ -948,16 +946,8 @@
           "framing": "instrumental",
           "excerpt": "We evaluate frontier models and the systems around them for critical capabilities... instrumental reasoning, where a model takes actions to increase its own capabilities.",
           "notes": "The framework treats models as systems with capabilities that may become dangerous. 'Instrumental reasoning' and 'situational awareness' are discussed purely as risk-relevant capabilities, not as evidence of mentality. The ontological framing is instrumental — models are objects to be evaluated, monitored, and constrained.",
-          "date_updated": "2026-03-20"
-        },
-        {
-          "dimension": "CWG",
-          "engagement": "not_addressed",
-          "stance": null,
-          "framing": null,
-          "excerpt": "",
-          "notes": "The framework discusses 'situational awareness' and 'instrumental reasoning' but frames these purely as dangerous capabilities, not as welfare-adjacent properties. No gap between capability claims and welfare consideration because no welfare dimension is acknowledged.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": null
         }
       ]
     }

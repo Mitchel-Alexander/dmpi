@@ -1,4 +1,4 @@
-# Data Schema (v0.2)
+# Data Schema (v0.3)
 
 Each organisation gets one JSON file in `data/documents/` named `{org-id}.json`.
 
@@ -23,12 +23,13 @@ Each organisation gets one JSON file in `data/documents/` named `{org-id}.json`.
       "codings": [
         {
           "dimension": "CON",
-          "engagement": "addressed",
+          "engagement": "substantive",
+          "engagement_level": 4,
           "stance": "precautionary",
           "framing": null,
           "excerpt": "Max ~50 word quote or close paraphrase.",
           "notes": "Free-text analytical commentary.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-22"
         }
       ]
     }
@@ -41,7 +42,7 @@ Each organisation gets one JSON file in `data/documents/` named `{org-id}.json`.
 - **Document IDs:** `{org-id}-{short-descriptor}-{year}` e.g. `anthropic-claude-character-2024`
 - **Organisation IDs:** kebab-case, as defined in `data/organisations.json`
 
-## Dimension codes (9 total)
+## Dimension codes (8 total)
 
 ### Core dimensions (7)
 
@@ -55,23 +56,43 @@ Each organisation gets one JSON file in `data/documents/` named `{org-id}.json`.
 | `UNC` | Uncertainty / Precaution | Uncertainty about AI mentality, precautionary approaches |
 | `GOV` | Governance Commitments | Concrete governance commitments related to any of the above |
 
-### New dimensions (v0.2)
+### Ontological Framing
 
 | Code | Dimension | What it captures |
 |------|-----------|------------------|
 | `ONT` | Ontological Framing | How the document characterises what the model fundamentally *is* |
-| `CWG` | Capability-Welfare Gap | Welfare-adjacent capability claims not connected to welfare questions |
 
-## Engagement values
+### Removed dimensions
 
-For **core dimensions** (CON, WEL, MOR, SRE, ANT, UNC, GOV) and **CWG**:
+| Code | Status | Notes |
+|------|--------|-------|
+| `CWG` | Removed in v0.3 | Capability-Welfare Gap is being developed as a standalone publication. CWG codings are archived in `data/archive/cwg-codings-backup.json`. |
 
-| Value | Description |
-|-------|-------------|
-| `addressed` | The dimension is explicitly discussed |
-| `not_addressed` | The dimension is not discussed — silence |
+## Graduated engagement scale (v0.3)
 
-For **ONT** only:
+For **core dimensions** (CON, WEL, MOR, SRE, ANT, UNC, GOV), engagement is coded on a 5-level graduated scale. This replaces the binary `addressed`/`not_addressed` system from v0.2.
+
+| Level | Code | Label | Definition |
+|-------|------|-------|------------|
+| 0 | `structurally_excluded` | Structurally Excluded | Document scope makes dimension impossible (e.g. pure benchmark model card with no normative content) |
+| 1 | `omission` | Omission | Detailed normative framework that simply does not mention the dimension |
+| 2 | `proximate` | Proximate | Document evaluates or monitors properties in the dimension's neighbourhood without engaging with the dimension itself |
+| 3 | `adjacent` | Adjacent | Conceptual space is named or briefly acknowledged without substantive engagement |
+| 4 | `substantive` | Substantive | Dimension is directly engaged with a codeable stance |
+
+**Stance is only coded at level 4 (substantive).** Levels 0–3 have null stance.
+
+The `engagement` field stores the string code. The `engagement_level` field stores the numeric level (0–4). Both are required for core dimensions.
+
+### Design rationale
+
+The binary system treated all forms of non-engagement identically. In practice, labs are silent in analytically distinct ways: a pure benchmark model card (level 0) represents a structurally different kind of silence from a detailed safety framework that evaluates for deception and situational awareness without connecting these to welfare questions (level 2). The graduated scale preserves these distinctions in structured data rather than relying on free-text notes.
+
+The scale has non-uniform precision at the absence boundary (levels 0–3), following the design insight from SaferAI: the boundary between "not mentioned" and "barely acknowledged" is where precision matters most.
+
+### ONT engagement (unchanged)
+
+For **ONT** only, engagement uses a separate system:
 
 | Value | Description |
 |-------|-------------|
@@ -79,9 +100,11 @@ For **ONT** only:
 | `implicit` | The document's framing implies an ontological position without stating it directly |
 | `absent` | No ontological framing discernible |
 
+ONT codings set `engagement_level` to null. Stance is always null for ONT; the ontological position is captured in the `framing` field.
+
 ## Stance values
 
-Coded only when engagement ≠ `not_addressed` / `absent`. Null otherwise.
+Coded only when `engagement_level` is 4 (substantive) or when ONT engagement is `explicit`/`implicit` (in which case stance is still null — framing is used instead). Null otherwise.
 
 | Value | Description |
 |-------|-------------|
@@ -92,8 +115,6 @@ Coded only when engagement ≠ `not_addressed` / `absent`. Null otherwise.
 | `affirms` | Positively affirms the dimension |
 | `descriptive` | Reports findings without taking a normative position |
 | `ambiguous` | Addressed but stance is unclear or internally contradictory |
-
-**Note:** For ONT, `stance` is null — the ontological position is captured in `framing` instead. For CWG, `stance` is typically `descriptive` (capabilities described without normative connection to welfare).
 
 ## Framing field
 
@@ -113,7 +134,7 @@ Multiple values can co-occur (comma-separated):
 
 ### ANT framing sub-field
 
-When ANT is addressed:
+When ANT engagement is substantive (level 4):
 
 | Value | Description |
 |-------|-------------|
@@ -121,9 +142,18 @@ When ANT is addressed:
 | `model_connected` | Discussed in connection with model's own states/welfare |
 | `both` | Both framings present |
 
-### CWG framing
+## Engagement level and notes
 
-For CWG, the `framing` field captures the capability claimed (e.g., "emotional intelligence", "self-awareness", "character traits").
+The graduated scale formalises what was previously captured as the "absence type convention" in notes. The mapping from the v0.2 notes convention to engagement levels:
+
+| v0.2 notes convention | v0.3 engagement level |
+|------------------------|----------------------|
+| Structural exclusion | Level 0 (`structurally_excluded`) |
+| Omission | Level 1 (`omission`) |
+| Silent within rich framework / Delegation | Level 1 or 2 (`omission` or `proximate`), depending on whether the framework evaluates neighbouring properties |
+| Adjacent concept mentioned | Level 3 (`adjacent`) |
+
+Notes should continue to explain context — what the document *does* contain and why that makes the engagement level significant. The engagement level captures *what kind* of silence; the notes explain *why it matters*.
 
 ## Document subtypes
 

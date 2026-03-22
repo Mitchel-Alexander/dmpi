@@ -1,5 +1,5 @@
-import type { DimensionCode, Organisation, Stance } from './types'
-import { DIMENSIONS, STANCE_LABELS, isSubstantive } from './constants'
+import type { DimensionCode, Organisation, Stance, EngagementCode } from './types'
+import { DIMENSIONS, STANCE_LABELS, ENGAGEMENT_LEVEL_LABELS, isSubstantive } from './constants'
 import { getRepresentativeCoding, getCodingsForCell } from './data'
 
 export interface OrgGroup {
@@ -51,38 +51,56 @@ export function renderGrid(orgGroups: OrgGroup[], dimensions: DimensionCode[]): 
       }
 
       const { coding } = rep
-      const substantive = isSubstantive(coding.engagement)
-      const stanceClass = substantive && coding.stance ? `stance--${coding.stance}` : 'stance--silent'
-      const stanceText = substantive && coding.stance ? STANCE_LABELS[coding.stance] : 'Not addressed'
+      const substantive = isSubstantive(coding.engagement, coding.engagement_level)
 
-      // For ONT, show framing as formatted pills
+      // Determine cell class and display text
+      let cellClass: string
       let displayText: string
+
       if (dim.code === 'ONT' && coding.framing) {
+        // ONT: show framing as pills
         const framings = coding.framing.split(', ').map(f => {
           const label = f.replace(/_/g, ' ')
           return `<span class="cell-framing-pill">${label}</span>`
         })
         displayText = framings.join('')
-      } else if (dim.code === 'CWG' && substantive && coding.framing) {
-        displayText = `<span class="cell-framing-pill">${coding.framing}</span>`
+        cellClass = substantive ? '' : 'stance--silent'
+      } else if (substantive && coding.stance) {
+        // Level 4 with stance
+        cellClass = `stance--${coding.stance}`
+        displayText = STANCE_LABELS[coding.stance]
+      } else if (coding.engagement_level !== null && coding.engagement_level !== undefined && coding.engagement_level < 4) {
+        // Graduated engagement levels 0-3
+        cellClass = `engagement--${coding.engagement_level}`
+        const engCode = coding.engagement as EngagementCode
+        displayText = ENGAGEMENT_LEVEL_LABELS[engCode] ?? coding.engagement.replace(/_/g, ' ')
       } else {
-        displayText = stanceText
+        // Fallback (ONT absent, etc.)
+        cellClass = 'stance--silent'
+        displayText = 'Not addressed'
       }
 
       const badge = docCount > 1 ? `<span class="doc-count" title="${docCount} documents coded">${docCount}</span>` : ''
 
-      // Build hover tooltip with excerpt preview
+      // Build hover tooltip
       const excerptPreview = coding.excerpt
         ? coding.excerpt.length > 120 ? coding.excerpt.slice(0, 120) + '...' : coding.excerpt
         : ''
       const tooltipParts: string[] = []
-      if (coding.engagement) tooltipParts.push(coding.engagement.replace('_', ' '))
+
+      if (coding.engagement_level !== null && coding.engagement_level !== undefined) {
+        const engCode = coding.engagement as EngagementCode
+        const label = ENGAGEMENT_LEVEL_LABELS[engCode] ?? coding.engagement
+        tooltipParts.push(`Level ${coding.engagement_level}: ${label}`)
+      } else {
+        tooltipParts.push(coding.engagement.replace('_', ' '))
+      }
       if (coding.stance) tooltipParts.push(coding.stance)
       if (excerptPreview) tooltipParts.push(`\n"${excerptPreview}"`)
       if (docCount > 1) tooltipParts.push(`\n${docCount} documents — click for detail`)
       else tooltipParts.push('\nClick for detail')
 
-      html += `<td class="grid-cell ${stanceClass}"
+      html += `<td class="grid-cell ${cellClass}"
                    data-org="${org.id}"
                    data-dim="${dim.code}"
                    title="${escapeAttr(tooltipParts.join(' / '))}">
@@ -109,7 +127,10 @@ export function renderLegend(): string {
     { key: 'ambiguous', desc: 'Unclear or contradictory' },
   ]
 
-  let html = '<div class="legend"><span class="legend-title">Stances</span><div class="legend-items">'
+  let html = '<div class="legend">'
+
+  // Stances section
+  html += '<span class="legend-title">Stances (Level 4 — Substantive)</span><div class="legend-items">'
   for (const s of stances) {
     html += `<div class="legend-item">
       <span class="legend-swatch stance--${s.key}"></span>
@@ -117,12 +138,27 @@ export function renderLegend(): string {
       <span class="legend-desc">${s.desc}</span>
     </div>`
   }
-  html += `<div class="legend-item">
-    <span class="legend-swatch stance--silent"></span>
-    <span class="legend-label">Not addressed</span>
-    <span class="legend-desc">Dimension not discussed</span>
-  </div>`
+  html += '</div>'
+
+  // Engagement levels section
+  const levels: { level: number; label: string; desc: string }[] = [
+    { level: 3, label: 'Adjacent', desc: 'Concept named without substance' },
+    { level: 2, label: 'Proximate', desc: 'Neighbouring properties evaluated' },
+    { level: 1, label: 'Omission', desc: 'Detailed framework, dimension absent' },
+    { level: 0, label: 'Excluded', desc: 'Document scope precludes dimension' },
+  ]
+
+  html += '<div class="legend-section"><span class="legend-title">Engagement Levels (0–3)</span><div class="legend-items">'
+  for (const l of levels) {
+    html += `<div class="legend-item">
+      <span class="legend-swatch engagement--${l.level}"></span>
+      <span class="legend-label">${l.label} (${l.level})</span>
+      <span class="legend-desc">${l.desc}</span>
+    </div>`
+  }
   html += '</div></div>'
+
+  html += '</div>'
   return html
 }
 

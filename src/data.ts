@@ -83,27 +83,24 @@ export function getCodingsForCell(orgId: string, dimension: DimensionCode): { do
   return results
 }
 
-/** Pick the most significant coding for the grid cell display */
+/** Pick the most significant coding for the grid cell display.
+ *  Priority: highest engagement_level, then lowest tier, then most recent. */
 export function getRepresentativeCoding(orgId: string, dimension: DimensionCode): { doc: Document; coding: Coding } | null {
   const all = getCodingsForCell(orgId, dimension)
   if (all.length === 0) return null
 
-  // Prefer addressed/explicit/implicit over not_addressed/absent
-  const substantive = all.filter(c =>
-    c.coding.engagement === 'addressed' ||
-    c.coding.engagement === 'explicit' ||
-    c.coding.engagement === 'implicit'
-  )
+  all.sort((a, b) => {
+    // Higher engagement_level first (substantive > adjacent > proximate > omission > excluded)
+    const levelA = a.coding.engagement_level ?? (a.coding.engagement === 'absent' ? -1 : a.coding.engagement === 'implicit' ? 1 : 2)
+    const levelB = b.coding.engagement_level ?? (b.coding.engagement === 'absent' ? -1 : b.coding.engagement === 'implicit' ? 1 : 2)
+    if (levelA !== levelB) return levelB - levelA
 
-  if (substantive.length > 0) {
-    // Prefer lowest tier number (highest priority), then most recent
-    substantive.sort((a, b) => {
-      if (a.doc.tier !== b.doc.tier) return a.doc.tier - b.doc.tier
-      return b.doc.publication_date.localeCompare(a.doc.publication_date)
-    })
-    return substantive[0]
-  }
+    // Lower tier number (higher priority)
+    if (a.doc.tier !== b.doc.tier) return a.doc.tier - b.doc.tier
 
-  // All not_addressed — return the first
+    // Most recent
+    return b.doc.publication_date.localeCompare(a.doc.publication_date)
+  })
+
   return all[0]
 }

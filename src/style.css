@@ -14,6 +14,16 @@
   --silent: hsl(0, 0%, 88%);
   --silent-text: hsl(0, 0%, 55%);
 
+  /* Graduated engagement levels (0-3) */
+  --engagement-0: hsl(0, 0%, 95%);
+  --engagement-0-text: hsl(0, 0%, 65%);
+  --engagement-1: hsl(0, 0%, 90%);
+  --engagement-1-text: hsl(0, 0%, 55%);
+  --engagement-2: hsl(210, 10%, 87%);
+  --engagement-2-text: hsl(210, 15%, 45%);
+  --engagement-3: hsl(210, 15%, 83%);
+  --engagement-3-text: hsl(210, 20%, 40%);
+
   --bg: hsl(40, 15%, 97%);
   --surface: hsl(0, 0%, 100%);
   --text: hsl(220, 15%, 18%);
@@ -97,6 +107,12 @@ header h1 {
 .prose {
   max-width: 680px;
   padding-bottom: 3rem;
+}
+
+.methodology-version {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
 }
 
 .prose h2 {
@@ -373,6 +389,27 @@ header h1 {
   color: var(--silent-text);
 }
 
+/* Graduated engagement levels */
+.engagement--0 {
+  background: var(--engagement-0);
+  color: var(--engagement-0-text);
+}
+
+.engagement--1 {
+  background: var(--engagement-1);
+  color: var(--engagement-1-text);
+}
+
+.engagement--2 {
+  background: var(--engagement-2);
+  color: var(--engagement-2-text);
+}
+
+.engagement--3 {
+  background: var(--engagement-3);
+  color: var(--engagement-3-text);
+}
+
 .stance--denies .cell-text { color: var(--stance-denies); }
 .stance--cautious .cell-text { color: var(--stance-cautious); }
 .stance--precautionary .cell-text { color: var(--stance-precautionary); }
@@ -537,6 +574,12 @@ header h1 {
   color: var(--text-secondary);
 }
 
+.tag--engagement-0 { background: var(--engagement-0); color: var(--engagement-0-text); }
+.tag--engagement-1 { background: var(--engagement-1); color: var(--engagement-1-text); }
+.tag--engagement-2 { background: var(--engagement-2); color: var(--engagement-2-text); }
+.tag--engagement-3 { background: var(--engagement-3); color: var(--engagement-3-text); }
+.tag--engagement-4 { background: hsl(210, 45%, 93%); color: var(--accent); }
+
 .tag--framing {
   background: hsl(260, 30%, 93%);
   color: hsl(260, 30%, 45%);
@@ -664,6 +707,17 @@ header h1 {
   font-size: 0.72rem;
   color: var(--text-secondary);
 }
+
+.legend-section {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border);
+}
+
+.legend-swatch.engagement--0 { background: var(--engagement-0); }
+.legend-swatch.engagement--1 { background: var(--engagement-1); }
+.legend-swatch.engagement--2 { background: var(--engagement-2); }
+.legend-swatch.engagement--3 { background: var(--engagement-3); }
 
 /* Footer */
 

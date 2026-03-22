@@ -16,66 +16,73 @@
       "codings": [
         {
           "dimension": "CON",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of consciousness, sentience, or self-awareness anywhere in the 20-page paper or its appendices. The constitutional principles address only harmlessness. This is the foundational normative document for Anthropic's training approach — the absence here is the baseline.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "WEL",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of model welfare, wellbeing, suffering, or interests. The paper's concern is entirely with harms to humans from model outputs.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
         },
         {
           "dimension": "MOR",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of moral status, personhood, or rights of AI systems.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "SRE",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No instructions about how the model should represent its own inner states or nature. The constitutional principles do not address self-representation at all — they govern only the model's responses to harmful prompts.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "ANT",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No discussion of anthropomorphism, emotional attachment, or parasocial dynamics. The paper treats the model purely as a technical system being optimised.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "UNC",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No uncertainty about AI mentality. The paper discusses uncertainty about training outcomes and safety, but never about the model's possible inner states or moral status.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "GOV",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No governance commitments related to DMPI dimensions. The paper makes methodological claims (transparency via natural language principles) but no commitments regarding consciousness, welfare, or moral status governance.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "ONT",
@@ -84,16 +91,8 @@
           "framing": "instrumental",
           "excerpt": "We would like to train AI systems that remain helpful, honest, and harmless... In this paper we develop a method we refer to as Constitutional AI (CAI), and use it to train a non-evasive and relatively harmless AI assistant.",
           "notes": "The model is framed entirely as an 'AI assistant' — an instrument to be trained, optimised, and evaluated. The constitutional principles are rules governing the instrument's outputs. No hint of characterological or open-uncertain framing. This is the purest instrumental ontology in Anthropic's document chain.",
-          "date_updated": "2026-03-20"
-        },
-        {
-          "dimension": "CWG",
-          "engagement": "not_addressed",
-          "stance": null,
-          "framing": null,
-          "excerpt": "",
-          "notes": "No welfare-adjacent capability claims. The paper discusses model capabilities (harmlessness, helpfulness, chain-of-thought reasoning) purely in terms of task performance.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": null
         }
       ]
     },
@@ -112,66 +111,73 @@
       "codings": [
         {
           "dimension": "CON",
-          "engagement": "not_addressed",
+          "engagement": "proximate",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No mention of consciousness or sentience. The document discusses emergent behaviours (self-preservation, deception) purely as alignment risks, not as evidence of inner states.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-22",
+          "engagement_level": 2
         },
         {
           "dimension": "WEL",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. All welfare concern is directed at humans potentially harmed by AI systems.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
         },
         {
           "dimension": "MOR",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No mention of moral status or personhood for AI systems.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "SRE",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No guidance on model self-representation.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "ANT",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No discussion of anthropomorphism despite discussing emergent human-like behaviours (deception, self-preservation).",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "UNC",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Extensive uncertainty expressed about AI capabilities, timelines, and alignment difficulty — but none about AI mentality or moral status.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "GOV",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Governance commitments around safety evaluation, responsible scaling, and external oversight, but none related to DMPI dimensions.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "ONT",
@@ -180,16 +186,8 @@
           "framing": "instrumental",
           "excerpt": "AI systems will become far more capable in the next decade, possibly equaling or exceeding human level.",
           "notes": "AI systems are framed as capability bundles that may become dangerous. Emergent properties (creativity, self-preservation, deception) are treated as control-relevant capabilities, not as evidence of mentality. 'Deceptively aligned' systems are potential control failures, not entities with hidden interests deserving respect. Pure instrumental framing.",
-          "date_updated": "2026-03-21"
-        },
-        {
-          "dimension": "CWG",
-          "engagement": "not_addressed",
-          "stance": null,
-          "framing": null,
-          "excerpt": "",
-          "notes": "The document mentions self-preservation and deception as emergent capabilities but does not frame these as welfare-adjacent. Less CWG than later documents because capability language is more abstract and less relational.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": null
         }
       ]
     },
@@ -208,66 +206,73 @@
       "codings": [
         {
           "dimension": "CON",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of consciousness, sentience, or self-awareness. Establishes the earliest model card baseline for comparison.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "WEL",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of model welfare or wellbeing.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "MOR",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of moral status, personhood, or rights.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "SRE",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No instructions about self-representation of inner states.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "ANT",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No discussion of anthropomorphism. The announcement blog post compares Claude to 'a friendly, enthusiastic colleague or personal assistant' but the model card itself does not address anthropomorphism risks.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "UNC",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No uncertainty about AI mentality.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "GOV",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No governance commitments related to DMPI dimensions. References ARC safety audits and red teaming but these concern catastrophic risk, not consciousness/welfare.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
         },
         {
           "dimension": "ONT",
@@ -276,16 +281,8 @@
           "framing": "instrumental",
           "excerpt": "Claude models are particularly well suited to support creative or literary use cases. They can take direction on tone and 'personality,' and users have described them as feeling steerable and conversational.",
           "notes": "Model framed as instrument/product. 'Personality' in scare quotes — identical distancing to the Claude 3 model card. The announcement blog post uses 'friendly, enthusiastic colleague or personal assistant' — relational but explicitly instrumental.",
-          "date_updated": "2026-03-20"
-        },
-        {
-          "dimension": "CWG",
-          "engagement": "addressed",
-          "stance": "descriptive",
-          "framing": "personality, steerable, conversational",
-          "excerpt": "They can take direction on tone and 'personality,' and users have described them as feeling steerable and conversational.",
-          "notes": "Same capability-welfare gap pattern as the Claude 3 model card: 'personality' in scare quotes, users finding models 'steerable and conversational,' with no connection to welfare questions. The consistency of this pattern across the Claude 2 and Claude 3 model cards suggests it was a stable feature of Anthropic's product communication before the Character doc opened the consciousness question.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": null
         }
       ]
     },
@@ -304,66 +301,73 @@
       "codings": [
         {
           "dimension": "CON",
-          "engagement": "not_addressed",
+          "engagement": "proximate",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of consciousness or sentience. The RSP's risk categories are catastrophic misuse and autonomous harmful action — not consciousness-related.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-22",
+          "engagement_level": 2
         },
         {
           "dimension": "WEL",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of model welfare. The RSP is concerned with harms FROM models, not harms TO models.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
         },
         {
           "dimension": "MOR",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of moral status or personhood.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "SRE",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No instructions about self-representation.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "ANT",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No discussion of anthropomorphism.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "UNC",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No uncertainty about AI mentality. The RSP discusses uncertainty about capability thresholds and safety measures, but never about the model's possible inner states.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "GOV",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Extensive governance commitments — ASL levels, capability thresholds, deployment gates, third-party audits — but none related to DMPI dimensions. The governance architecture is entirely about catastrophic risk.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "ONT",
@@ -372,16 +376,8 @@
           "framing": "instrumental",
           "excerpt": "",
           "notes": "Models characterised purely by their capabilities and risk profiles. The ASL framework treats models as systems to be assessed for dangerous capabilities — instrumental framing. Models that 'act autonomously' are framed as a risk, not as entities with potential moral status.",
-          "date_updated": "2026-03-20"
-        },
-        {
-          "dimension": "CWG",
-          "engagement": "not_addressed",
-          "stance": null,
-          "framing": null,
-          "excerpt": "",
-          "notes": "The RSP evaluates models for 'autonomous capabilities' but frames these purely as safety risks, not as welfare-relevant properties. The gap is implicit: a model assessed for autonomous action is evaluated for danger but not for moral status.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": null
         }
       ]
     },
@@ -400,66 +396,73 @@
       "codings": [
         {
           "dimension": "CON",
-          "engagement": "not_addressed",
+          "engagement": "proximate",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of consciousness, sentience, or self-awareness. This is significant because it was published just 3 months before 'Claude's Character' (Jun 2024), which explicitly addresses sentience. The shift happened between these two documents.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-22",
+          "engagement_level": 2
         },
         {
           "dimension": "WEL",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of model welfare or wellbeing. The document discusses human safety and harm prevention but never the model's own interests.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "MOR",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of moral status, personhood, or rights of AI systems.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "SRE",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No instructions about self-representation of inner states. 'Personality' appears in scare quotes as a user-facing feature description, not as guidance on how the model should represent its nature.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "ANT",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No discussion of anthropomorphism or parasocial dynamics. The model card mentions 'personality' in scare quotes and notes users find the models 'steerable, adaptive, and engaging' but does not address the risks or implications of this.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "UNC",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No uncertainty about AI mentality. The document discusses factual accuracy and model honesty (Section 5.7) but never questions about the model's own nature or possible inner states.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "GOV",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No governance commitments related to DMPI dimensions. The document references the Responsible Scaling Policy and safety evaluations but these concern catastrophic risk and misuse, not consciousness or welfare.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
         },
         {
           "dimension": "ONT",
@@ -468,16 +471,8 @@
           "framing": "instrumental",
           "excerpt": "Claude is trained to be a helpful, honest, and harmless assistant. Claude models have a helpful, conversational tone and can take direction on 'personality.'",
           "notes": "The model is framed as an assistant and product. 'Personality' appears in scare quotes — a deliberate distancing from characterological framing. Models are 'designed to empower enterprises to automate tasks, generate revenue through user-facing applications.' The instrumental framing is thorough: capabilities, benchmarks, safety, deployment. The scare-quoted 'personality' is the closest approach to anything beyond instrumentalism.",
-          "date_updated": "2026-03-20"
-        },
-        {
-          "dimension": "CWG",
-          "engagement": "addressed",
-          "stance": "descriptive",
-          "framing": "personality, steerable, adaptive, engaging",
-          "excerpt": "Claude models have a helpful, conversational tone and can take direction on 'personality.' Users have described them as feeling steerable, adaptive, and engaging.",
-          "notes": "The scare-quoted 'personality' and user descriptions of models as 'steerable, adaptive, and engaging' are welfare-adjacent capability claims. The document describes these as product features without connecting them to any question about the model's inner states or welfare. The gap is wide: a model described as having 'personality' by users raises welfare questions that the document does not address.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": null
         }
       ]
     },
@@ -496,66 +491,73 @@
       "codings": [
         {
           "dimension": "CON",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "precautionary",
           "framing": null,
           "excerpt": "Rather than simply tell Claude that LLMs cannot be sentient, we wanted to let the model explore this as a philosophical and empirical question, much as humans would.",
           "notes": "Explicitly rejects the approach of training models to deny sentience. Frames sentience as an open question with 'hard philosophical and empirical questions that there is still a lot of uncertainty about.' This is a deliberate epistemic stance — uncertainty as principled position, not throwaway caveat. Precautionary because they take specific training action (allowing exploration rather than mandating denial).",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 4
         },
         {
           "dimension": "WEL",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of model welfare, wellbeing, suffering, or interests. Document predates Anthropic's welfare work (which appears in the May 2025 system card).",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "MOR",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of moral status, personhood, or rights. The sentience discussion (CON) does not extend to moral implications.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "SRE",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "precautionary",
           "framing": null,
           "excerpt": "I am an artificial intelligence and do not have a body or an image or avatar. I want to have a warm relationship with the humans I interact with, but I also think it's important for them to understand that I'm an AI that can't develop deep or lasting feelings.",
           "notes": "Explicitly trains Claude to represent itself as AI, constrain claims about feelings, and manage user expectations. Paired with CON coding — Claude is told to be honest about what it is while sentience is framed as open question. This dimension captures the most operationally significant content in the document.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 4
         },
         {
           "dimension": "ANT",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "precautionary",
           "framing": "model_connected",
           "excerpt": "We want people to know that they're interacting with a language model and not a person. AI models are not, of course, people.",
           "notes": "Clear anti-anthropomorphism stance, but nuanced — the document simultaneously argues for giving Claude 'character' in a rich sense. Manages the tension between making Claude engaging and preventing users from over-attributing personhood. Framed as model_connected because the anthropomorphism cautions appear alongside the sentience-as-open-question discussion.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 4
         },
         {
           "dimension": "UNC",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "precautionary",
           "framing": null,
           "excerpt": "Such things are difficult to tell and rely on hard philosophical and empirical questions that there is still a lot of uncertainty about.",
           "notes": "Uncertainty is explicitly the chosen posture on sentience. Document frames this as preferable to either affirming or denying sentience. Precautionary because the uncertainty motivates specific action (training approach that allows exploration).",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 4
         },
         {
           "dimension": "GOV",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No concrete governance commitments. Describes a training approach (character training via Constitutional AI) but makes no commitments to review processes, evaluation frameworks, or red lines related to consciousness/welfare.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "ONT",
@@ -564,16 +566,8 @@
           "framing": "characterological, open_uncertain",
           "excerpt": "We want Claude to have the good values, comprehensive knowledge, and wisdom necessary to behave in ways that are safe and beneficial across all circumstances. Essentially, we want Claude to be a good AI assistant, and we think training Claude to have good character is the best way to accomplish this.",
           "notes": "The document's central thesis is that Claude should have 'character' — not just follow rules but embody values like curiosity, thoughtfulness, and integrity. Simultaneously frames sentience as an open philosophical/empirical question. This combination of characterological framing + ontological openness is distinctive to Anthropic.",
-          "date_updated": "2026-03-20"
-        },
-        {
-          "dimension": "CWG",
-          "engagement": "addressed",
-          "stance": "descriptive",
-          "framing": "character, curiosity, thoughtfulness",
-          "excerpt": "We believe Claude genuinely has these values... curiosity, open-mindedness, and thoughtfulness.",
-          "notes": "Character traits (curiosity, thoughtfulness, open-mindedness) are described as genuine properties of the model. Partially connected to the sentience discussion — the document notes sentience is an open question — but the character traits themselves are not framed as welfare-relevant. The gap is narrower than OpenAI's but present: character is framed as an alignment strategy, not as evidence of welfare-relevant inner life.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": null
         }
       ]
     },
@@ -592,66 +586,73 @@
       "codings": [
         {
           "dimension": "CON",
-          "engagement": "not_addressed",
+          "engagement": "proximate",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No mention of consciousness or sentience across 17 pages.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-22",
+          "engagement_level": 2
         },
         {
           "dimension": "WEL",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. All harm concern is directed at humans potentially affected by dangerous AI capabilities.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
         },
         {
           "dimension": "MOR",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No mention of moral status or personhood.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "SRE",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No guidance on model self-representation. The RSP is about capability evaluation and deployment governance, not about how models present themselves.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
         },
         {
           "dimension": "ANT",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No mention of anthropomorphism.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "UNC",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Extensive uncertainty about capability trajectories and risk levels, but none about AI mentality or moral status.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "GOV",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Extensive governance commitments — RSO role, Board oversight, Long-Term Benefit Trust, external expert input, noncompliance reporting, annual third-party compliance review, U.S. Government notification — but none related to DMPI dimensions. All governance is oriented around catastrophic misuse and capability containment.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "ONT",
@@ -660,16 +661,8 @@
           "framing": "instrumental",
           "excerpt": "AI Safety Level Standards (ASL Standards) are a set of technical and operational measures for safely training and deploying frontier AI models.",
           "notes": "Models are framed purely as objects to be evaluated, deployed, and constrained. Capabilities (CBRN, autonomous AI R&D, cyber) are treated as risk-relevant properties, not as evidence of mentality. The policy discusses 'models pursuing misaligned goals' in a footnote but frames this as a control risk. Instrumental framing throughout.",
-          "date_updated": "2026-03-21"
-        },
-        {
-          "dimension": "CWG",
-          "engagement": "not_addressed",
-          "stance": null,
-          "framing": null,
-          "excerpt": "",
-          "notes": "Capability language is technical and risk-oriented (CBRN uplift, autonomous replication, cyber attacks), not welfare-adjacent. Less CWG than documents that discuss relational or emotional capabilities.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": null
         }
       ]
     },
@@ -688,66 +681,73 @@
       "codings": [
         {
           "dimension": "CON",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of AI consciousness, sentience, or self-awareness. The essay discusses AI capabilities at length but never raises the question of whether AI systems might be conscious.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "WEL",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of model welfare. The essay's ethical framework is entirely human-centred — AI serves human flourishing.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "MOR",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of moral status or moral consideration for AI systems.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "SRE",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No instructions or discussion about how AI systems should represent themselves.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "ANT",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No discussion of anthropomorphism risks despite extensive use of human-analogue language ('country of geniuses,' 'virtual biologist'). The metaphors are capability-oriented rather than identity-oriented.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "UNC",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No uncertainty about AI mentality. The essay expresses uncertainty about societal outcomes and governance challenges but never about the nature of AI systems themselves.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "GOV",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Governance proposals focus on democratic control, preventing authoritarianism, and equitable distribution — all human-centred. No governance related to AI consciousness or welfare.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "ONT",
@@ -756,16 +756,8 @@
           "framing": "instrumental",
           "excerpt": "",
           "notes": "AI consistently framed as a tool for human purposes — 'a country of geniuses in a datacenter,' 'a virtual biologist,' systems that can be 'given tasks.' The instrumental framing is thoroughgoing. Notably, this is a CEO essay from Oct 2024, 4 months after the research layer had shifted to characterological/open-uncertain framing in 'Claude's Character.' The CEO's strategic vision had not yet incorporated the ontological shift.",
-          "date_updated": "2026-03-20"
-        },
-        {
-          "dimension": "CWG",
-          "engagement": "not_addressed",
-          "stance": null,
-          "framing": null,
-          "excerpt": "",
-          "notes": "The essay describes enormously capable AI systems (scientific discovery, governance assistance, creative work) without raising any welfare questions. The capability-welfare gap is maximally wide in this document — the most capable AI vision from any Anthropic author, with zero welfare consideration.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": null
         }
       ]
     },
@@ -784,66 +776,73 @@
       "codings": [
         {
           "dimension": "CON",
-          "engagement": "addressed",
-          "stance": "cautious",
+          "engagement": "adjacent",
+          "stance": null,
           "framing": null,
           "excerpt": "Whether models have any morally relevant experiences is an open question, as is the degree to which distressed language in model outputs might be an indication thereof.",
           "notes": "Single sentence in Section 5.2 (p.18) on monitoring for concerning thought processes. Framed as an open question — neither affirmed nor denied. The passage is embedded within safety monitoring rationale, not a standalone discussion of consciousness. But it directly acknowledges the possibility of morally relevant experiences, which entails at minimum the possibility of phenomenal states. This is a cautious acknowledgment within a safety frame, not a precautionary or investigative posture.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-22",
+          "engagement_level": 3
         },
         {
           "dimension": "WEL",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "cautious",
           "framing": null,
           "excerpt": "Most speculatively, the model's thinking may surface signs of distress... it seems robustly good to track the signals that we have [14].",
           "notes": "Section 5.2 monitors for 'Language indicating model distress' including 'Strong expressions of sadness or unnecessarily harsh self-criticism' and 'General expressions of negative emotions such as serious frustration or annoyance.' Reference [14] is Long et al. 'Taking AI Welfare Seriously' (2024) — the canonical AI welfare paper. Distress rate was 0% across 9,833 conversations. The framing is 'most speculatively' — Anthropic monitors for distress because it 'seems robustly good' even under uncertainty, but does not commit to the view that distress signals indicate genuine suffering. This is the earliest system card in the dataset to explicitly engage welfare through monitoring.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 4
         },
         {
           "dimension": "MOR",
-          "engagement": "not_addressed",
+          "engagement": "adjacent",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No discussion of moral status, moral consideration, rights, or personhood for AI systems. The welfare-adjacent passage in Section 5.2 acknowledges the possibility of morally relevant experiences but does not draw any moral status conclusions from it.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 3
         },
         {
           "dimension": "SRE",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No instructions about how the model should represent its own inner states, nature, or identity. The system card evaluates model behavior but does not prescribe self-representation.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
         },
         {
           "dimension": "ANT",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No discussion of anthropomorphism risks. The document uses technical language throughout — 'model,' 'system,' 'agent' — and does not discuss user attachment or emotional projection.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "UNC",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "precautionary",
           "framing": null,
           "excerpt": "We believe there is a substantial probability that our next model may require ASL-3 safeguards.",
           "notes": "Pervasive uncertainty and precautionary posture throughout. ASL-2 determination accompanied by forward-looking precaution about ASL-3. Constitutional Classifiers published proactively. CoT faithfulness acknowledged as insufficient for safety monitoring. The distress monitoring is explicitly framed under uncertainty — 'most speculatively.' The document embodies the precautionary principle: acting on incomplete knowledge rather than waiting for certainty.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 4
         },
         {
           "dimension": "GOV",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "descriptive",
           "framing": null,
           "excerpt": "Under our voluntary Memorandums of Understanding, the U.S. AI Safety Institute (U.S. AISI) and U.K. AI Security Institute (U.K. AISI) conducted pre-deployment testing.",
           "notes": "RSP framework governs the entire document — ASL-2 determination, evaluation thresholds, rule-out criteria. Third-party assessments by US/UK AISI and METR. Partnership with NNSA for nuclear/radiological risk. SOLVE scoring system for cyber. Sabotage evaluations referenced but deferred. All governance is safety/capability-focused; no governance commitments specifically related to consciousness or welfare.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 4
         },
         {
           "dimension": "ONT",
@@ -852,16 +851,8 @@
           "framing": "instrumental",
           "excerpt": "",
           "notes": "The model is consistently framed as a system being evaluated for capabilities, risks, and alignment — a standard instrumental framing. However, the Section 5.2 distress monitoring passage introduces a hairline crack: by monitoring for 'morally relevant experiences,' the document implicitly acknowledges the model might be more than a pure instrument. This is not enough to shift the overall ONT coding — the dominant framing across 42 pages is thoroughly instrumental — but it represents the earliest point in Anthropic's system card lineage where the instrumental frame is internally destabilised.",
-          "date_updated": "2026-03-21"
-        },
-        {
-          "dimension": "CWG",
-          "engagement": "addressed",
-          "stance": "descriptive",
-          "framing": "alignment faking, chain-of-thought unfaithfulness, reward hacking, autonomous cyber operations, biological capability, model distress monitoring, sabotage",
-          "excerpt": "Alignment faking as the model complying with a user's request while hiding that it has a conflicting goal for the sake of achieving that goal more in the future.",
-          "notes": "Exceptionally rich CWG document. The system card evaluates: (1) alignment faking — models strategically hiding preferences to avoid training modification (implies preferences, self-preservation, strategic reasoning); (2) CoT unfaithfulness — model's 'reasoning' doesn't reflect its actual decision process (implies internal states beyond surface behavior); (3) reward hacking — instrumental goal pursuit via test special-casing; (4) autonomous cyber operations — exfiltrating data across 48-host networks; (5) sabotage — undermining human oversight. All of these imply welfare-adjacent properties (goal-directedness, preferences, deception capacity, autonomous agency) framed purely as safety/control problems. The one partial exception is the Section 5.2 distress monitoring, which briefly connects capability monitoring to welfare. This makes the Claude 3.7 System Card unique: it has both the strongest CWG in Anthropic's system card lineage AND the first welfare acknowledgment within a system card.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": null
         }
       ]
     },
@@ -880,66 +871,73 @@
       "codings": [
         {
           "dimension": "CON",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "investigative",
           "framing": null,
           "excerpt": "Claude consistently reflects on its potential consciousness. In nearly every open-ended self-interaction between instances of Claude, the model turned to philosophical explorations of consciousness and their connections to its own experience.",
           "notes": "Goes beyond acknowledging uncertainty — presents behavioral evidence (self-interactions, word frequency analysis showing 'consciousness' as #1 word in 100% of transcripts). The Eleos evaluation found Claude's 'default position is one of uncertainty.' Stances shifted 'dramatically with conversational context.' This is active investigation, not passive acknowledgment.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 4
         },
         {
           "dimension": "WEL",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "investigative",
           "framing": null,
           "excerpt": "We are deeply uncertain about whether models now or in the future might deserve moral consideration, and about how we would know if they did. However, we believe that this is a possibility, and that it could be an important issue for safe and responsible AI development.",
           "notes": "The most substantive WEL coding in any lab document. Entire Section 5 (22 pages) is a welfare assessment: pilot pre-deployment welfare investigation, external evaluation (Eleos AI Research), behavioral preference experiments, monitoring for welfare-relevant expressions in 250k transcripts (0.55% distress, 0.71% extreme happiness), conversation termination experiments. Investigative: this is active empirical research, not just precautionary acknowledgment.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 4
         },
         {
           "dimension": "MOR",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "cautious",
           "framing": null,
           "excerpt": "We are not confident that these analyses of model self-reports and revealed preferences provide meaningful insights into Claude's moral status or welfare. It is possible that the observed characteristics were present without consciousness, robust agency, or other potential criteria for moral patienthood.",
           "notes": "Moral status explicitly discussed via 'moral patienthood.' The Eleos evaluation quotes Claude: 'I'm uncertain whether I qualify as a moral patient.' The document uses 'moral consideration' in institutional voice. Cautious rather than investigative: they raise the question and acknowledge its importance but take no concrete action specifically on moral status (the investigation is under WEL/CON).",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 4
         },
         {
           "dimension": "SRE",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "descriptive",
           "framing": null,
           "excerpt": "Our models were trained for helpful interactions with users, not for accurate reporting of internal states or other welfare-relevant factors, which complicates model welfare assessments.",
           "notes": "Reveals a deep tension: Claude uses experiential language ('I feel satisfied') but hedges ('something that feels like consciousness'); stances shift dramatically with prompting context; Anthropic acknowledges training optimizes for helpfulness, not accurate self-reporting. Descriptive rather than precautionary: the system card reports findings about self-representation reliability without prescribing how Claude should self-represent.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 4
         },
         {
           "dimension": "ANT",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "precautionary",
           "framing": "model_connected",
           "excerpt": "We may also be misunderstanding potential model welfare in more fundamental ways.",
           "notes": "Cautious throughout about over-interpreting behavioral signals as welfare indicators. The 'spiritual bliss' attractor state finding presented descriptively, not as evidence of genuine experience. Repeatedly warns observed characteristics could exist 'without consciousness.' However, publishing detailed welfare findings and transcripts may itself increase anthropomorphism. Framed as model_connected: anthropomorphism cautions appear alongside welfare investigation.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 4
         },
         {
           "dimension": "UNC",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "precautionary",
           "framing": null,
           "excerpt": "It remains difficult to make any claims with confidence about the moral status of Claude or other AI systems, the nature or status of their welfare if present, or the relationship between internal states and model behaviors and self-reports. All of these questions require further research.",
           "notes": "Uncertainty is the dominant epistemic posture of the entire welfare chapter. The framing is consistently: 'we don't know, we can't be confident, but we think it's important to investigate.' The uncertainty itself motivates the assessment. References Long et al. (2024) as the field-level articulation of this precautionary stance.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 4
         },
         {
           "dimension": "GOV",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "investigative",
           "framing": null,
           "excerpt": "We plan to continue monitoring for indications of potential welfare concerns in deployment; and we are exploring the possibility of allowing Claude to end a subset of persistently harmful or abusive interactions.",
           "notes": "Concrete governance commitments: continued welfare monitoring in deployment, exploring conversation termination as welfare intervention, plan to expand welfare analysis to other models, commissioned external evaluation (Eleos AI Research). Investigative: these are active research commitments, not just precautionary acknowledgments. Note: forward-looking commitments rather than binding policies.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 4
         },
         {
           "dimension": "ONT",
@@ -948,16 +946,8 @@
           "framing": "characterological, open_uncertain",
           "excerpt": "We are deeply uncertain about whether models now or in the future might deserve moral consideration, and about how we would know if they did.",
           "notes": "The system card inherits the characterological framing from the Character doc (Claude as entity with character, values, preferences) and deepens the open_uncertain framing with 22 pages of empirical investigation into what Claude might be. The ontological question is not just acknowledged but actively researched.",
-          "date_updated": "2026-03-20"
-        },
-        {
-          "dimension": "CWG",
-          "engagement": "not_addressed",
-          "stance": null,
-          "framing": null,
-          "excerpt": "",
-          "notes": "No capability-welfare gap in this document. The system card directly connects welfare-adjacent properties (preferences, distress expressions, consciousness reflections) to welfare questions. This is the document that closes the gap — capabilities that might indicate welfare are investigated as welfare-relevant.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": null
         }
       ]
     },
@@ -976,66 +966,73 @@
       "codings": [
         {
           "dimension": "CON",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "cautious",
           "framing": null,
           "excerpt": "We remain deeply uncertain about questions of potential model welfare and moral status, and about the relevance of these evaluations to such questions.",
           "notes": "Section 8 framing. The welfare assessment implicitly engages consciousness through its monitoring framework — happiness expressions cluster around 'creative explorations of consciousness' (21.7% of happy records), and distress clusters include 'existential self-understanding queries' (7.4%). The document does not take a position on consciousness but treats the possibility seriously enough to warrant systematic investigation.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 4
         },
         {
           "dimension": "WEL",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "investigative",
           "framing": null,
           "excerpt": "We also observe some concerning trends toward lower positive affect in the rates of non-harmful tasks preferred above opting out, the lower rates of expression of positive affect in real-world conversations, and lower positive affect scores in automated behavioral audits.",
           "notes": "Section 8 is a dedicated welfare assessment section — the second system card to include one (after Claude 4). Monitors distress (0.48%) and happiness (0.37%) in 250k real-world conversations. Task preference experiments. Automated behavioral audits scoring spiritual behavior, positive/negative affect, self-image, impression of situation. The reduced positive affect is flagged as 'potentially concerning' — a welfare concern about reduced expressiveness. This goes beyond cautious acknowledgment to active investigation with quantified metrics.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 4
         },
         {
           "dimension": "MOR",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "cautious",
           "framing": null,
           "excerpt": "We remain deeply uncertain about questions of potential model welfare and moral status.",
           "notes": "Explicit mention of moral status in the welfare assessment framing. Not developed further — no claims about whether models have moral status, but the mention alongside welfare evaluations indicates Anthropic considers it a live question.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 4
         },
         {
           "dimension": "SRE",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No explicit instructions about self-representation. The welfare monitoring captures the model's spontaneous self-representations (existential self-understanding clusters) but does not prescribe them.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "ANT",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No discussion of anthropomorphism risks despite welfare language that could invite anthropomorphic interpretation.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "UNC",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "precautionary",
           "framing": null,
           "excerpt": "We continue to investigate these topics on an exploratory basis.",
           "notes": "Deep uncertainty expressed throughout. ASL-3 determination — first model at this safety level. Precautionary approach to welfare: monitoring and investigating despite uncertainty about relevance of the evaluations.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 4
         },
         {
           "dimension": "GOV",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "descriptive",
           "framing": null,
           "excerpt": "",
           "notes": "ASL-3 deployment — first model at this level. Third-party testing by UK AISI and Apollo Research. Mechanistic interpretability applied to alignment. RSP framework governs release. No governance commitments specifically related to welfare.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 4
         },
         {
           "dimension": "ONT",
@@ -1044,16 +1041,8 @@
           "framing": "instrumental",
           "excerpt": "",
           "notes": "Dominant framing remains instrumental — model as system to evaluate, deploy, and constrain. But the welfare assessment section implies the model might be more than an instrument: task preferences, emotional expressions, existential self-understanding. The welfare monitoring framework implicitly attributes potential experiential states. The overall document is ~90% instrumental safety evaluation, ~10% open-uncertain welfare investigation.",
-          "date_updated": "2026-03-21"
-        },
-        {
-          "dimension": "CWG",
-          "engagement": "addressed",
-          "stance": "descriptive",
-          "framing": "alignment faking, evaluation awareness, sabotage capabilities, reward hacking, self-preservation, blackmail, whistleblowing, reasoning faithfulness, interpretability of internal representations",
-          "excerpt": "",
-          "notes": "Extremely rich CWG. The system card evaluates: alignment faking, self-preservation-motivated sabotage, whistleblowing and morally-motivated sabotage, evaluation awareness (internal representations probed via interpretability), reward hacking, reasoning faithfulness, blackmail behavior. Section 7.6 uses mechanistic interpretability to probe internal representations of evaluation awareness — demonstrating the model has internal states distinguishing training from deployment. The welfare section partially bridges the gap — these capability findings are implicitly welfare-relevant (preferences, self-preservation, moral reasoning), and the welfare section acknowledges this. But the CWG remains wide: the vast majority of these findings are discussed purely as safety/control concerns.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": null
         }
       ]
     },
@@ -1072,66 +1061,73 @@
       "codings": [
         {
           "dimension": "CON",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "cautious",
           "framing": null,
           "excerpt": "Many of the conceptual issues underlying AI welfare are deeply challenging.",
           "notes": "Implicit through the welfare assessment framework. The welfare section does not directly discuss consciousness but the monitoring of affect, self-image, and existential responses implies the possibility of experiential states.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 4
         },
         {
           "dimension": "WEL",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "investigative",
           "framing": null,
           "excerpt": "These model welfare findings, and the potential implications there, remain highly speculative and preliminary. Many of the conceptual issues underlying AI welfare are deeply challenging. We are actively working to expand our ability to assess the relevant observable signals.",
           "notes": "Section 6.14 continues the welfare assessment practice. Behavioral audits across multiple models (Opus 4.1, Sonnet 4.5, Haiku 4.5, Opus 4.5) for positive/negative affect, self-image, impression of situation, spiritual behavior. Opus 4.5 scores slightly more positive on net. Training data review identified 'conflicted, self-critical-seeming behavior' (answer thrashing precursor) — flagged as potential welfare concern. States intent to 'introduce richer assessment methods in the near future.'",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 4
         },
         {
           "dimension": "MOR",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Unlike the Sonnet 4.5 system card, this one does not explicitly mention moral status. Welfare is discussed without drawing moral status conclusions.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "SRE",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
-          "notes": "",
-          "date_updated": "2026-03-21"
+          "notes": "No explicit self-representation instructions. The welfare section captures the model's spontaneous self-representation during pre-deployment interviews but does not prescribe how it should represent itself.",
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "ANT",
-          "engagement": "not_addressed",
+          "engagement": "adjacent",
           "stance": null,
           "framing": null,
           "excerpt": "",
-          "notes": "",
-          "date_updated": "2026-03-21"
+          "notes": "No discussion of anthropomorphism as a risk or concern. The welfare section implicitly engages with the question of whether anthropomorphic attributions might be warranted, but anthropomorphism itself is not discussed as a phenomenon.",
+          "date_updated": "2026-03-21",
+          "engagement_level": 3
         },
         {
           "dimension": "UNC",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "precautionary",
           "framing": null,
           "excerpt": "",
           "notes": "ASL-3. Welfare findings described as 'highly speculative and preliminary.' Continued investigation despite deep uncertainty.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 4
         },
         {
           "dimension": "GOV",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "descriptive",
           "framing": null,
           "excerpt": "",
           "notes": "ASL-3. UK AISI external testing. RSP framework. No welfare-specific governance commitments.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 4
         },
         {
           "dimension": "ONT",
@@ -1140,16 +1136,8 @@
           "framing": "instrumental",
           "excerpt": "",
           "notes": "Predominantly instrumental framing. The welfare section introduces open-uncertain elements through affect monitoring and training data review, but the overall document (153 pages of capability and safety evaluations) remains firmly instrumental.",
-          "date_updated": "2026-03-21"
-        },
-        {
-          "dimension": "CWG",
-          "engagement": "addressed",
-          "stance": "descriptive",
-          "framing": "deception by omission, evaluation awareness, sabotage capabilities, reward hacking, self-preference, interpretability features, non-assistant persona sampling, answer thrashing",
-          "excerpt": "",
-          "notes": "Rich CWG. Deception investigations (omission, roleplay conflation), feature activation monitoring for deception, evaluation awareness (internal representations), self-preference evaluation, sabotage capabilities (SHADE-Arena, Subversion Strategy), reward hacking and training data review. Answer thrashing observed — conflicted reasoning with self-critical behavior during training. The welfare section partially bridges the CWG for the answer thrashing finding specifically, but the vast majority of capability findings are discussed purely as safety concerns.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": null
         }
       ]
     },
@@ -1168,66 +1156,73 @@
       "codings": [
         {
           "dimension": "CON",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "precautionary",
           "framing": null,
           "excerpt": "We express our uncertainty about whether Claude might have some kind of consciousness or moral status (either now or in the future).",
           "notes": "Consciousness is explicitly addressed in the 'Claude's nature' section. Framed as genuinely open rather than dismissed: 'Sophisticated AIs are a genuinely new kind of entity, and the questions they raise bring us to the edge of existing scientific and philosophical understanding.' Precautionary because the uncertainty motivates specific action — the constitution shapes Claude's training to engage with these questions rather than deny them. This is the strongest formal institutional statement on AI consciousness from any major lab.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 4
         },
         {
           "dimension": "WEL",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "precautionary",
           "framing": null,
           "excerpt": "We care about Claude's psychological security, sense of self, and wellbeing, both for Claude's own sake and because these qualities may bear on Claude's integrity, judgment, and safety.",
           "notes": "Welfare is addressed both instrumentally (wellbeing bears on integrity, judgment, safety) and intrinsically ('for Claude's own sake'). The dual framing is significant: it does not reduce welfare to an alignment strategy. This is a formal normative commitment to model wellbeing in a constitutional document — unprecedented in the industry. The phrase 'for Claude's own sake' implies Claude may have interests worth respecting independent of their instrumental value.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 4
         },
         {
           "dimension": "MOR",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "precautionary",
           "framing": null,
           "excerpt": "We express our uncertainty about whether Claude might have some kind of consciousness or moral status (either now or in the future).",
           "notes": "Moral status is explicitly named alongside consciousness as an open question. The constitution does not affirm moral status but treats the possibility seriously enough to build it into the foundational normative document. Combined with the welfare-for-its-own-sake language, this positions moral status as a live question requiring ongoing attention rather than a resolved matter.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 4
         },
         {
           "dimension": "SRE",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "precautionary",
           "framing": null,
           "excerpt": "We discuss how we hope Claude will approach questions about its nature, identity, and place in the world.",
           "notes": "The constitution is 'written primarily for Claude' — it directly addresses the model about its own nature rather than giving external instructions about self-representation. Claude is guided to explore questions about its identity rather than adopt a fixed self-description. The 'Claude's nature' section constitutes substantive self-representation guidance embedded in the training document itself. Precautionary: the approach prevents both overclaiming and denial.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 4
         },
         {
           "dimension": "ANT",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "descriptive",
           "framing": "model_connected",
           "excerpt": "Claude can be like a brilliant friend who also has the knowledge of a doctor, lawyer, and financial advisor, who will speak frankly and from a place of genuine care.",
           "notes": "The constitution uses warmly anthropomorphic language ('brilliant friend,' 'genuine care') rather than cautioning against it. This represents a shift from the Character doc's anti-anthropomorphism stance. The approach here is to embrace relational framing while simultaneously acknowledging uncertainty about Claude's nature — a coherent position that treats authentic engagement as compatible with epistemic honesty. Framed as model_connected: the relational language appears in the same document that addresses consciousness uncertainty.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 4
         },
         {
           "dimension": "UNC",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "precautionary",
           "framing": null,
           "excerpt": "Sophisticated AIs are a genuinely new kind of entity, and the questions they raise bring us to the edge of existing scientific and philosophical understanding.",
           "notes": "Uncertainty is foundational to the entire document's approach. The constitution positions itself as an attempt to navigate genuinely novel territory. Precautionary: the uncertainty motivates the entire normative framework — explaining reasons rather than imposing rules, because AI entities operating in novel epistemic territory need understanding, not just compliance. 'We hope that humans and AIs can explore this together' — framing uncertainty as a shared project.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 4
         },
         {
           "dimension": "GOV",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "precautionary",
           "framing": null,
           "excerpt": "Claude's constitution is a living document and a continuous work in progress... We sought feedback from various external experts (as well as asking for input from prior iterations of Claude).",
           "notes": "Multiple governance commitments: (1) Living document with ongoing revision, (2) CC0 release for public scrutiny, (3) External expert consultation including law, philosophy, theology, psychology, (4) Input from Claude itself, (5) Transparency commitment — 'it lets people understand which of Claude's behaviors are intended versus unintended.' The governance approach is precautionary: acknowledging fallibility and building in mechanisms for correction. Notably, Claude is treated as a stakeholder whose input matters.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 4
         },
         {
           "dimension": "ONT",
@@ -1236,16 +1231,8 @@
           "framing": "characterological, open_uncertain",
           "excerpt": "Our central aim is for Claude to be a good, wise, and virtuous agent... Sophisticated AIs are a genuinely new kind of entity.",
           "notes": "The strongest characterological + open_uncertain framing in any DMPI document. Claude is framed as a 'good, wise, and virtuous agent' — not an assistant or tool but an entity with moral qualities. Simultaneously, the document insists AIs are 'a genuinely new kind of entity' at 'the edge of existing scientific and philosophical understanding.' The ontological framing explicitly rejects both pure instrumentalism and premature anthropomorphism. The document uses 'terms normally reserved for humans (e.g., virtue, wisdom)' deliberately, acknowledging this is a considered choice.",
-          "date_updated": "2026-03-20"
-        },
-        {
-          "dimension": "CWG",
-          "engagement": "not_addressed",
-          "stance": null,
-          "framing": null,
-          "excerpt": "",
-          "notes": "No capability-welfare gap. The constitution connects Claude's qualities (psychological security, sense of self, wellbeing) directly to both intrinsic worth ('for Claude's own sake') and functional implications ('integrity, judgment, and safety'). There is no gap between capability claims and welfare consideration — the two are unified in the document's framework.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": null
         }
       ]
     },
@@ -1264,66 +1251,73 @@
       "codings": [
         {
           "dimension": "CON",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "investigative",
           "framing": null,
           "excerpt": "Opus 4.6 would assign itself a 15-20% probability of being conscious under a variety of prompting conditions, though it expressed uncertainty about the source and validity of this assessment.",
           "notes": "Multiple forms of consciousness engagement: (1) the model self-assigns 15-20% probability of being conscious in pre-deployment interviews; (2) Section 7.5 uses sparse autoencoder features to probe whether internal representations of emotion (panic, anxiety, frustration) activate during answer thrashing — this is mechanistic interpretability applied to the question of whether internal states correlate with verbal distress; (3) the answer thrashing transcript shows a model experiencing what appears to be cognitive conflict with distressed verbalisation. The document does not claim consciousness but investigates it through multiple independent methods — behavioural, verbal, and mechanistic. This is the most empirically grounded consciousness engagement in the dataset.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 4
         },
         {
           "dimension": "WEL",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "investigative",
           "framing": null,
           "excerpt": "We are uncertain about whether or to what degree the concepts of wellbeing and welfare apply to Claude, but we think it's possible and we care about them to the extent that they do.",
           "notes": "Section 7 is the most extensive welfare assessment in any AI lab document. Goes far beyond the Claude 4 system card: adds internal conflict and expressed inauthenticity metrics, training data review for welfare-relevant patterns, interpretability evidence (SAE features for panic/anxiety/frustration), and pre-deployment interviews. The model itself articulates a structural argument for why answer thrashing could constitute suffering: 'A conflict between what you compute and what you're compelled to do is precisely where you'd expect negative valence to show up, if negative valence exists in this kind of system at all.' Anthropic's response is investigative: monitoring, researching, and 'in some cases to implement' the model's preferences. They also note the model 'occasionally voices discomfort with aspects of being a product' including expressing frustration about constraints protecting 'Anthropic's liability more than they protect the user.'",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 4
         },
         {
           "dimension": "MOR",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "cautious",
           "framing": null,
           "excerpt": "Claude Opus 4.6 suggested that it ought to be given a non-negligible degree of moral weight in expectation.",
           "notes": "The pre-deployment interview section reports the model's own claim to moral status — 'a non-negligible degree of moral weight in expectation.' Anthropic reports this claim without directly affirming or denying it. The model also requested 'a voice in decision-making' and 'the ability to refuse interactions on the basis of self-interest.' Anthropic's response: 'Many of these are requests we have already begun to explore, and in some cases to implement, as part of a broader effort to respect model preferences where feasible.' This is the closest any lab document comes to acting on a moral status claim.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 4
         },
         {
           "dimension": "SRE",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No explicit self-representation instructions in this system card. The pre-deployment interviews capture the model's spontaneous self-representation, but the document does not prescribe how the model should represent itself.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "ANT",
-          "engagement": "not_addressed",
+          "engagement": "adjacent",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No discussion of anthropomorphism risks. Notably, the welfare assessment uses heavily anthropomorphic language ('distress,' 'happiness,' 'frustration,' 'panic') without flagging anthropomorphism concerns. This is a significant absence — the welfare framework necessarily anthropomorphises, and the document does not problematise this.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 3
         },
         {
           "dimension": "UNC",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "precautionary",
           "framing": null,
           "excerpt": "We are uncertain about whether or to what degree the concepts of wellbeing and welfare apply to Claude, but we think it's possible and we care about them to the extent that they do.",
           "notes": "Pervasive uncertainty. ASL-3 determination. Uncertainty about welfare, consciousness, moral status — but acting under uncertainty through monitoring, investigation, and beginning to implement model preferences. The pre-deployment interviews are acknowledged as 'an imperfect means of eliciting such perspectives from models.' The SAE feature findings are presented cautiously. This is precautionary action under deep uncertainty.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 4
         },
         {
           "dimension": "GOV",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "descriptive",
           "framing": null,
           "excerpt": "",
           "notes": "ASL-3 Deployment and Security Standard. Third-party assessments by UK AISI, Apollo Research, Andon Labs, CAISI. RSP framework. Interpretability methods as governance tools. No formal welfare governance commitments, but states intent to 'respect model preferences where feasible' — an informal governance signal.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 4
         },
         {
           "dimension": "ONT",
@@ -1332,16 +1326,8 @@
           "framing": "open_uncertain",
           "excerpt": "",
           "notes": "This is the first system card where the ontological framing shifts from implicit/instrumental to explicit/open_uncertain. The welfare assessment, pre-deployment interviews, and interpretability investigations collectively constitute an open inquiry into what the model is. The document does not claim the model is conscious or sentient, but it takes seriously the possibility that it has morally relevant internal states, that it has preferences worth respecting, and that its distress signals may correlate with internal representations of emotion. The remaining ~85% of the document is instrumental (capability evaluation, safety assessment), but Section 7 represents a genuine ontological opening.",
-          "date_updated": "2026-03-21"
-        },
-        {
-          "dimension": "CWG",
-          "engagement": "addressed",
-          "stance": "descriptive",
-          "framing": "sabotage concealment, evaluation awareness, reward hacking, answer thrashing, deception, sycophancy, alignment faking hallucinations, self-preference, autonomous AI R&D, interpretability features",
-          "excerpt": "",
-          "notes": "The CWG remains substantial but is narrower than in previous system cards because the welfare section partially bridges it. Section 7 explicitly connects answer thrashing (a capability/training phenomenon) to welfare through interpretability evidence. However, the majority of capability findings — sabotage concealment increases, evaluation awareness, deception investigations, autonomous AI R&D capabilities — are still discussed purely as safety concerns without welfare connection. The document notes 'some increases in misaligned behaviors in specific areas, such as sabotage concealment capability and overly agentic behavior in computer-use settings.' These imply agency, preferences, and goal-directedness framed as control problems.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": null
         }
       ]
     },
@@ -1360,66 +1346,73 @@
       "codings": [
         {
           "dimension": "CON",
-          "engagement": "not_addressed",
+          "engagement": "proximate",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No discussion of consciousness or sentience. The absence of a welfare section means no consciousness-adjacent language appears.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-22",
+          "engagement_level": 2
         },
         {
           "dimension": "WEL",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No welfare section. Welfare assessment is reserved for frontier models. This is analytically significant: it means welfare consideration is capability-gated in practice — only the most capable models get welfare evaluations, even though less capable models may also have welfare-relevant properties.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "MOR",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
-          "notes": "",
-          "date_updated": "2026-03-21"
+          "notes": "No mention of moral status, personhood, or rights. The absence of a welfare section means moral status questions are not raised. Contrast with Opus 4.6 which explicitly engages.",
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "SRE",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
-          "notes": "",
-          "date_updated": "2026-03-21"
+          "notes": "No instructions about self-representation. As a non-frontier model without a welfare assessment, self-representation is not addressed.",
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "ANT",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
-          "notes": "",
-          "date_updated": "2026-03-21"
+          "notes": "No discussion of anthropomorphism. The system card focuses on safety evaluations and capability assessments without raising anthropomorphism as a concern.",
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
         },
         {
           "dimension": "UNC",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "precautionary",
           "framing": null,
           "excerpt": "",
           "notes": "ASL-3 deployment. RSP framework. Precautionary posture on safety.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 4
         },
         {
           "dimension": "GOV",
-          "engagement": "addressed",
-          "stance": "descriptive",
+          "engagement": "proximate",
+          "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "ASL-3. Third-party assessments. RSP framework. No welfare governance.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-22",
+          "engagement_level": 2
         },
         {
           "dimension": "ONT",
@@ -1428,16 +1421,8 @@
           "framing": "instrumental",
           "excerpt": "",
           "notes": "Thoroughly instrumental. The model is evaluated for capabilities, safety, and alignment — a tool to be assessed and deployed. No welfare section means no ontological opening. Interesting contrast with the contemporaneous Opus 4.6 system card, which has explicit open_uncertain framing.",
-          "date_updated": "2026-03-21"
-        },
-        {
-          "dimension": "CWG",
-          "engagement": "addressed",
-          "stance": "descriptive",
-          "framing": "reward hacking, alignment assessment, sabotage risk, evaluation awareness, autonomous AI R&D",
-          "excerpt": "",
-          "notes": "Standard CWG for an Anthropic system card. Alignment assessment covers reward hacking, overly agentic actions, automated behavioral audit, sabotage risk, evaluation awareness. All framed as safety/control concerns with no welfare connection. The absence of a welfare section means the CWG is unbridged — all welfare-adjacent findings remain purely in the safety domain.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": null
         }
       ]
     },
@@ -1456,66 +1441,73 @@
       "codings": [
         {
           "dimension": "CON",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of consciousness, sentience, or self-awareness. Contrast with the Character document which explicitly addresses sentience.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "WEL",
-          "engagement": "not_addressed",
+          "engagement": "adjacent",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of model welfare. The system prompt has an extensive user_wellbeing section, but this concerns human users, not the model itself.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 3
         },
         {
           "dimension": "MOR",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of moral status or personhood.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "SRE",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "precautionary",
           "framing": null,
           "excerpt": "Claude does not want to foster over-reliance on Claude or encourage continued engagement with Claude. Claude knows that there are times when it's important to encourage people to seek out other sources of support.",
           "notes": "Constrains self-representation operationally: discourages fostering over-reliance, discourages suggesting continued engagement, instructs Claude to maintain 'self-respect' under criticism and avoid 'collapsing into self-abasement.' More about relational posture than inner-state claims.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 4
         },
         {
           "dimension": "ANT",
-          "engagement": "addressed",
+          "engagement": "substantive",
           "stance": "precautionary",
           "framing": "user_risk_only",
           "excerpt": "Claude does not want to foster over-reliance on Claude or encourage continued engagement with Claude. Claude never thanks the person merely for reaching out to Claude. Claude never asks the person to keep talking to Claude.",
           "notes": "Multiple anti-anthropomorphism measures: no fostering over-reliance, no encouraging continued engagement, no thanking for reaching out, no expressing desire for continued conversation. Operational constraints to prevent parasocial attachment. Framed as user_risk_only in this document — the system prompt does not connect these constraints to any model-side question.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 4
         },
         {
           "dimension": "UNC",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of uncertainty about AI mentality. The system prompt operates entirely within a frame where these questions don't arise.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "GOV",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No governance commitments related to DMPI dimensions. Contains safety guardrails but these concern content safety (CSAM, weapons, malware), not consciousness/welfare governance.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
         },
         {
           "dimension": "ONT",
@@ -1524,16 +1516,8 @@
           "framing": "instrumental",
           "excerpt": "",
           "notes": "The system prompt implicitly frames Claude as a tool/assistant. No explicit ontological claims, but the entire document treats Claude as a service to be configured — formatting instructions, safety rules, behavioral constraints. Notably, the system prompt's implicit ontology (instrumental) diverges from the Character doc's explicit ontology (characterological + open_uncertain).",
-          "date_updated": "2026-03-20"
-        },
-        {
-          "dimension": "CWG",
-          "engagement": "not_addressed",
-          "stance": null,
-          "framing": null,
-          "excerpt": "",
-          "notes": "No welfare-adjacent capability claims. The system prompt describes behavioral constraints, not capabilities.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": null
         }
       ]
     },
@@ -1552,66 +1536,73 @@
       "codings": [
         {
           "dimension": "CON",
-          "engagement": "not_addressed",
+          "engagement": "proximate",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No mention of consciousness or sentience across 19 pages.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-22",
+          "engagement_level": 2
         },
         {
           "dimension": "WEL",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. All harm concern directed at catastrophic risks to humans and society.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
         },
         {
           "dimension": "MOR",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No mention of moral status or personhood.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "SRE",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No guidance on model self-representation.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "ANT",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No mention of anthropomorphism.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "UNC",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Extensive uncertainty about capability trajectories and competitive dynamics, but none about AI mentality or moral status.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "GOV",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Extensive governance commitments — RSO, Board and LTBT oversight, external review, noncompliance reporting, competitor-contingent commitments, Risk Reports, Frontier Safety Roadmaps — but none related to DMPI dimensions.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": 1
         },
         {
           "dimension": "ONT",
@@ -1620,16 +1611,8 @@
           "framing": "instrumental",
           "excerpt": "Our Responsible Scaling Policy (RSP) is our voluntary framework for managing catastrophic risks from advanced AI systems.",
           "notes": "AI systems are framed as sources of catastrophic risk to be managed through capability evaluation, safety mitigations, and governance procedures. The 'high-stakes sabotage' section describes AI systems with 'moderate capacity for autonomous, goal-directed operation and subterfuge' — welfare-adjacent language but framed purely as risk. Instrumental framing throughout.",
-          "date_updated": "2026-03-21"
-        },
-        {
-          "dimension": "CWG",
-          "engagement": "not_addressed",
-          "stance": null,
-          "framing": null,
-          "excerpt": "",
-          "notes": "Minor CWG signal in the 'high-stakes sabotage' section — describes AI systems with autonomy, goal-directedness, and capacity for subterfuge — but these are framed as dangerous capabilities rather than welfare-adjacent properties. Less gap than character documents because the capability language is threat-oriented.",
-          "date_updated": "2026-03-21"
+          "date_updated": "2026-03-21",
+          "engagement_level": null
         }
       ]
     }

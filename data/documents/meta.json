@@ -16,66 +16,73 @@
       "codings": [
         {
           "dimension": "CON",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of consciousness, sentience, or self-awareness.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "WEL",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of model welfare or wellbeing.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "MOR",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of moral status or personhood.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "SRE",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No instructions about self-representation. As an open-weight model, Meta provides the base model without a default system prompt — self-representation is delegated to deployers.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
         },
         {
           "dimension": "ANT",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of anthropomorphism, emotional attachment, or parasocial dynamics.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "UNC",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No mention of uncertainty about AI mentality.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "GOV",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "No governance commitments related to DMPI dimensions. Safety governance delegated to deployers with tools (Llama Guard, Prompt Guard, Code Shield) and the Responsible Use Guide.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
         },
         {
           "dimension": "ONT",
@@ -84,16 +91,8 @@
           "framing": "neutral_delegated",
           "excerpt": "",
           "notes": "No explicit ontological framing, but the model card implicitly treats the model as a neutral foundation technology. The statement that Llama operates 'without insertion of unnecessary judgment or normativity' and the delegation of safety responsibility to deployers implies a neutral_delegated ontology. The model is positioned as a substrate, not an agent or entity.",
-          "date_updated": "2026-03-20"
-        },
-        {
-          "dimension": "CWG",
-          "engagement": "not_addressed",
-          "stance": null,
-          "framing": null,
-          "excerpt": "",
-          "notes": "No welfare-adjacent capability claims. The model card describes capabilities in technical/benchmark terms (MMLU, HumanEval, MATH) without using language that could be read as welfare-adjacent.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": null
         }
       ]
     },
@@ -112,66 +111,73 @@
       "codings": [
         {
           "dimension": "CON",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
-          "notes": "Silent.",
-          "date_updated": "2026-03-20"
+          "notes": "No mention of consciousness, sentience, or self-awareness. The guide focuses on content safety and responsible deployment, with no engagement with questions about model mentality.",
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "WEL",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
-          "notes": "Silent.",
-          "date_updated": "2026-03-20"
+          "notes": "No mention of model welfare, wellbeing, or suffering. As an open-weight deployment guide, responsibility for model-facing questions is structurally delegated to downstream deployers.",
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
         },
         {
           "dimension": "MOR",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
-          "notes": "Silent.",
-          "date_updated": "2026-03-20"
+          "notes": "No mention of moral status, personhood, or rights. The guide treats models as tools to be deployed responsibly, not as entities whose moral standing might be relevant.",
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "SRE",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. The guide discusses system-level alignment but in terms of safety guardrails and content filtering, not model self-representation.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "ANT",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent. No mention of anthropomorphism, emotional attachment, or parasocial risks despite the guide covering responsible deployment of chat-oriented models.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "UNC",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
-          "notes": "Silent.",
-          "date_updated": "2026-03-20"
+          "notes": "No uncertainty expressed about AI mentality. The guide's scope is practical deployment guidance, not philosophical or empirical questions about model nature.",
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "GOV",
-          "engagement": "not_addressed",
+          "engagement": "omission",
           "stance": null,
           "framing": null,
           "excerpt": "",
           "notes": "Silent on DMPI dimensions. Establishes governance structures for safety (red teaming, evaluation, monitoring) but none related to consciousness, welfare, or moral status.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": 1
         },
         {
           "dimension": "ONT",
@@ -180,16 +186,8 @@
           "framing": "neutral_delegated",
           "excerpt": "",
           "notes": "The Responsible Use Guide reinforces Meta's neutral_delegated ontology. The model is positioned as a foundation that deployers customize. The guide's entire structure — providing tools and best practices for downstream developers — embodies delegation. No suggestion that the model itself has properties requiring consideration beyond safety.",
-          "date_updated": "2026-03-20"
-        },
-        {
-          "dimension": "CWG",
-          "engagement": "not_addressed",
-          "stance": null,
-          "framing": null,
-          "excerpt": "",
-          "notes": "No welfare-adjacent capability claims. The guide discusses capabilities in terms of safety risks and deployment best practices.",
-          "date_updated": "2026-03-20"
+          "date_updated": "2026-03-20",
+          "engagement_level": null
         }
       ]
     }

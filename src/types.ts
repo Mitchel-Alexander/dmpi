@@ -1,13 +1,27 @@
-export type DimensionCode = 'CON' | 'WEL' | 'MOR' | 'SRE' | 'ANT' | 'UNC' | 'GOV' | 'ONT' | 'CWG'
+export type DimensionCode = 'CON' | 'WEL' | 'MOR' | 'SRE' | 'ANT' | 'UNC' | 'GOV' | 'ONT'
 
-export type Engagement = 'addressed' | 'not_addressed' | 'explicit' | 'implicit' | 'absent'
+/** Graduated engagement scale for core dimensions (CON, WEL, MOR, SRE, ANT, UNC, GOV) */
+export type EngagementLevel = 0 | 1 | 2 | 3 | 4
+
+export type EngagementCode =
+  | 'structurally_excluded'  // Level 0: document scope makes dimension impossible
+  | 'omission'               // Level 1: detailed framework, dimension absent
+  | 'proximate'              // Level 2: evaluates/monitors neighbouring properties
+  | 'adjacent'               // Level 3: concept named without substantive engagement
+  | 'substantive'            // Level 4: directly engaged with codeable stance
+
+/** ONT retains its own engagement system */
+export type OntEngagement = 'explicit' | 'implicit' | 'absent'
+
+export type Engagement = EngagementCode | OntEngagement
 
 export type Stance = 'denies' | 'cautious' | 'precautionary' | 'investigative' | 'affirms' | 'descriptive' | 'ambiguous'
 
 export interface Coding {
   dimension: DimensionCode
   engagement: Engagement
-  stance: Stance | null
+  engagement_level: EngagementLevel | null  // null for ONT (uses its own system)
+  stance: Stance | null                     // only coded at level 4 (substantive)
   framing: string | null
   excerpt: string
   notes: string

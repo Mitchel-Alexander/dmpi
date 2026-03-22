@@ -1,5 +1,5 @@
-import type { DimensionCode } from './types'
-import { DIMENSIONS, STANCE_LABELS, isSubstantive } from './constants'
+import type { DimensionCode, EngagementCode } from './types'
+import { DIMENSIONS, STANCE_LABELS, ENGAGEMENT_LEVEL_LABELS, isSubstantive } from './constants'
 import { getCodingsForCell, orgDocuments } from './data'
 
 export function renderCellDetail(orgId: string, orgName: string, dimension: DimensionCode): string {
@@ -19,8 +19,18 @@ export function renderCellDetail(orgId: string, orgName: string, dimension: Dime
     html += '<p class="detail-empty">No data available.</p>'
   } else {
     for (const { doc, coding } of codings) {
-      const substantive = isSubstantive(coding.engagement)
+      const substantive = isSubstantive(coding.engagement, coding.engagement_level)
       const stanceClass = substantive && coding.stance ? `stance--${coding.stance}` : 'stance--silent'
+
+      // Engagement tag with level
+      let engagementTag: string
+      if (coding.engagement_level !== null && coding.engagement_level !== undefined) {
+        const engCode = coding.engagement as EngagementCode
+        const label = ENGAGEMENT_LEVEL_LABELS[engCode] ?? coding.engagement.replace(/_/g, ' ')
+        engagementTag = `<span class="tag tag--engagement-${coding.engagement_level}">${label} (${coding.engagement_level})</span>`
+      } else {
+        engagementTag = `<span class="tag tag--engagement">${coding.engagement.replace('_', ' ')}</span>`
+      }
 
       html += `<div class="detail-coding">
         <div class="detail-doc-title">
@@ -29,7 +39,7 @@ export function renderCellDetail(orgId: string, orgName: string, dimension: Dime
           <span class="date-badge">${doc.publication_date}</span>
         </div>
         <div class="detail-tags">
-          <span class="tag tag--engagement">${coding.engagement.replace('_', ' ')}</span>
+          ${engagementTag}
           ${coding.stance ? `<span class="tag ${stanceClass}">${STANCE_LABELS[coding.stance]}</span>` : ''}
           ${coding.framing ? `<span class="tag tag--framing">${coding.framing}</span>` : ''}
         </div>`
@@ -67,7 +77,7 @@ export function renderOrgDocumentList(orgId: string, orgName: string): string {
     // Sort by date descending
     const sorted = [...docs].sort((a, b) => b.publication_date.localeCompare(a.publication_date))
     for (const doc of sorted) {
-      const addressedCount = doc.codings.filter(c => isSubstantive(c.engagement)).length
+      const substantiveCount = doc.codings.filter(c => isSubstantive(c.engagement, c.engagement_level)).length
       const totalDims = doc.codings.length
 
       html += `<div class="detail-doc-card" data-doc-id="${doc.id}" data-org-name="${escapeAttr(orgName)}">
@@ -78,7 +88,7 @@ export function renderOrgDocumentList(orgId: string, orgName: string): string {
           <span class="tier-badge">Tier ${doc.tier}</span>
           <span class="date-badge">${doc.publication_date}</span>
           <span class="tag">${doc.subtype.replace(/_/g, ' ')}</span>
-          <span class="tag tag--engagement">${addressedCount}/${totalDims} addressed</span>
+          <span class="tag tag--engagement">${substantiveCount}/${totalDims} substantive</span>
         </div>
       </div>`
     }
@@ -109,8 +119,18 @@ export function renderDocumentDetail(docId: string, orgName: string): string {
 
     for (const coding of doc.codings) {
       const dim = DIMENSIONS.find(d => d.code === coding.dimension)
-      const substantive = isSubstantive(coding.engagement)
+      const substantive = isSubstantive(coding.engagement, coding.engagement_level)
       const stanceClass = substantive && coding.stance ? `stance--${coding.stance}` : 'stance--silent'
+
+      // Engagement tag with level
+      let engagementTag: string
+      if (coding.engagement_level !== null && coding.engagement_level !== undefined) {
+        const engCode = coding.engagement as EngagementCode
+        const label = ENGAGEMENT_LEVEL_LABELS[engCode] ?? coding.engagement.replace(/_/g, ' ')
+        engagementTag = `<span class="tag tag--engagement-${coding.engagement_level}">${label} (${coding.engagement_level})</span>`
+      } else {
+        engagementTag = `<span class="tag tag--engagement">${coding.engagement.replace('_', ' ')}</span>`
+      }
 
       html += `<div class="detail-coding">
         <div class="detail-dim-header">
@@ -118,7 +138,7 @@ export function renderDocumentDetail(docId: string, orgName: string): string {
           <span class="dim-label">${dim?.label}</span>
         </div>
         <div class="detail-tags">
-          <span class="tag tag--engagement">${coding.engagement.replace('_', ' ')}</span>
+          ${engagementTag}
           ${coding.stance ? `<span class="tag ${stanceClass}">${STANCE_LABELS[coding.stance]}</span>` : ''}
           ${coding.framing ? `<span class="tag tag--framing">${coding.framing}</span>` : ''}
         </div>`

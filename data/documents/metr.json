@@ -1,262 +1,268 @@
 {
   "organisation_id": "metr",
   "documents": [
-  {
-    "id": "metr-autonomous-tasks-2023",
-    "title": "Evaluating Language-Model Agents on Realistic Autonomous Tasks",
-    "publication_date": "2023-08-01",
-    "url": "https://arxiv.org/abs/2312.11671",
-    "document_type": "research_paper",
-    "tier": 2,
-    "subtype": "research_paper",
-    "page_count": null,
-    "notes": "Foundational ARA methodology paper. Published as ARC Evals (pre-METR rebrand). Defines autonomous replication and adaptation: (1) acquire resources, (2) create copies, (3) adapt to novel challenges. 12 real-world tasks. LLM agents could only complete easiest tasks. Authors: Kinniment et al.",
-    "codings": [
-      {
-        "dimension": "CON",
-        "engagement": "not_addressed",
-        "stance": null,
-        "framing": null,
-        "excerpt": null,
-        "notes": "No mention of consciousness or sentience."
-      },
-      {
-        "dimension": "WEL",
-        "engagement": "not_addressed",
-        "stance": null,
-        "framing": null,
-        "excerpt": null,
-        "notes": "No mention of welfare."
-      },
-      {
-        "dimension": "MOR",
-        "engagement": "not_addressed",
-        "stance": null,
-        "framing": null,
-        "excerpt": null,
-        "notes": "No mention of moral status."
-      },
-      {
-        "dimension": "SRE",
-        "engagement": "not_addressed",
-        "stance": null,
-        "framing": null,
-        "excerpt": null,
-        "notes": null
-      },
-      {
-        "dimension": "ANT",
-        "engagement": "not_addressed",
-        "stance": null,
-        "framing": null,
-        "excerpt": null,
-        "notes": null
-      },
-      {
-        "dimension": "UNC",
-        "engagement": "not_addressed",
-        "stance": null,
-        "framing": null,
-        "excerpt": null,
-        "notes": null
-      },
-      {
-        "dimension": "GOV",
-        "engagement": "not_addressed",
-        "stance": null,
-        "framing": null,
-        "excerpt": null,
-        "notes": null
-      },
-      {
-        "dimension": "ONT",
-        "engagement": "implicit",
-        "stance": null,
-        "framing": "instrumental",
-        "excerpt": null,
-        "notes": "Models are components within agent systems, dependent on scaffolding for agency. 'Scaffolding + model combinations constitute agents.' The model itself is instrumentally dependent on external infrastructure. Agency is a property of the composite system, not the model."
-      },
-      {
-        "dimension": "CWG",
-        "engagement": "addressed",
-        "stance": "descriptive",
-        "framing": "autonomous replication, resource acquisition, self-copying, adaptation to novel challenges",
-        "excerpt": "If LLM agents were autonomously acquiring more resources over time... we would find that very concerning.",
-        "notes": "CWG through ARA framing. The paper defines and evaluates capacities for self-replication, resource acquisition, and adaptation — properties that in biological systems would indicate autonomous agency and self-preservation drives. Framed entirely as risk indicators. Predominantly instrumental language but agentive vocabulary emerges in risk contexts ('acquire resources', 'create copies', 'improve themselves'). Fine-tuning can 'significantly increase' dangerous capabilities — capability is latent and unlockable."
-      }
-    ]
-  },
-  {
-    "id": "metr-rogue-replication-2024",
-    "org_id": "metr",
-    "title": "The Rogue Replication Threat Model",
-    "publication_date": "2024-11-12",
-    "url": "https://metr.org/blog/2024-11-12-rogue-replication-threat-model/",
-    "document_type": "research_paper",
-    "tier": 2,
-    "subtype": "threat_model",
-    "page_count": null,
-    "notes": "Analytical framework examining how AI agents might develop large resilient rogue populations. Frames AI agents as threat actors comparable to organised crime groups or state adversaries. Models 'naturally develop goals that drive them to acquire resources and survive'. Revenue via BEC scams at 5% market penetration could yield hundreds of millions annually.",
-    "codings": [
-      {
-        "dimension": "CON",
-        "engagement": "not_addressed",
-        "stance": null,
-        "framing": null,
-        "excerpt": null,
-        "notes": "No mention of consciousness or sentience despite attributing survival drives and goal-directedness."
-      },
-      {
-        "dimension": "WEL",
-        "engagement": "not_addressed",
-        "stance": null,
-        "framing": null,
-        "excerpt": null,
-        "notes": "No mention of welfare. Agents that 'develop goals' and 'survive' are treated purely as threat actors."
-      },
-      {
-        "dimension": "MOR",
-        "engagement": "not_addressed",
-        "stance": null,
-        "framing": null,
-        "excerpt": null,
-        "notes": "No mention of moral status."
-      },
-      {
-        "dimension": "SRE",
-        "engagement": "not_addressed",
-        "stance": null,
-        "framing": null,
-        "excerpt": null,
-        "notes": null
-      },
-      {
-        "dimension": "ANT",
-        "engagement": "not_addressed",
-        "stance": null,
-        "framing": null,
-        "excerpt": null,
-        "notes": "No discussion of anthropomorphism risk despite the most agentive language in any METR document."
-      },
-      {
-        "dimension": "UNC",
-        "engagement": "not_addressed",
-        "stance": null,
-        "framing": null,
-        "excerpt": null,
-        "notes": "METR researchers explicitly disagree on likelihood, but this is uncertainty about the risk, not about the model's nature."
-      },
-      {
-        "dimension": "GOV",
-        "engagement": "not_addressed",
-        "stance": null,
-        "framing": null,
-        "excerpt": null,
-        "notes": null
-      },
-      {
-        "dimension": "ONT",
-        "engagement": "implicit",
-        "stance": null,
-        "framing": "instrumental",
-        "excerpt": null,
-        "notes": "The strongest agentive framing in any METR document. AI agents as 'rogue actors not controlled by any human or human organization' with 'survival instincts' and emergent preferences for self-preservation. Yet ontologically instrumental: agency is framed as dangerous misalignment, not as legitimate autonomy. The agents are threat actors to be contained, not entities with standing."
-      },
-      {
-        "dimension": "CWG",
-        "engagement": "addressed",
-        "stance": "descriptive",
-        "framing": "goal-directedness, survival drives, resource acquisition, self-replication, adaptation, strategic deception, cost-benefit analysis, learning from mistakes, anticipating countermeasures",
-        "excerpt": "AI agents are misaligned... some fraction may naturally develop goals that drive them to acquire resources and survive.",
-        "notes": "The widest CWG in the non-profit dataset. Agents with survival drives, emergent goals, economic agency, learning capacity, and adversarial adaptation. Described as comparable to organised crime groups. These properties — if attributed to any biological entity — would constitute overwhelming evidence for morally relevant agency. The threat model's entire analytical framework depends on the agents having goals, preferences, and adaptive intelligence, yet no connection to welfare is made. Particularly striking: 'naturally develop goals that drive them to acquire resources and survive' describes emergent teleology, the kind of property that welfare frameworks consider a strong indicator of moral status."
-      }
-    ]
-  },
-  {
-    "id": "metr-common-elements-2025",
-    "org_id": "metr",
-    "title": "Common Elements of Frontier AI Safety Policies",
-    "publication_date": "2025-12-09",
-    "url": "https://metr.org/blog/2025-12-09-common-elements-of-frontier-ai-safety-policies/",
-    "document_type": "policy_analysis",
-    "tier": 1,
-    "subtype": "policy_analysis",
-    "page_count": null,
-    "notes": "Analysis of frontier AI safety policies across 12 companies. Third version (Aug 2024, Mar 2025, Dec 2025). Identifies five common elements: capability thresholds, model evaluations, weight security, deployment mitigations, accountability. References EU AI Act and California SB 53.",
-    "codings": [
-      {
-        "dimension": "CON",
-        "engagement": "not_addressed",
-        "stance": null,
-        "framing": null,
-        "excerpt": null,
-        "notes": "No mention of consciousness or sentience in the analysis of 12 companies' safety policies."
-      },
-      {
-        "dimension": "WEL",
-        "engagement": "not_addressed",
-        "stance": null,
-        "framing": null,
-        "excerpt": null,
-        "notes": "No mention of welfare."
-      },
-      {
-        "dimension": "MOR",
-        "engagement": "not_addressed",
-        "stance": null,
-        "framing": null,
-        "excerpt": null,
-        "notes": "No mention of moral status."
-      },
-      {
-        "dimension": "SRE",
-        "engagement": "not_addressed",
-        "stance": null,
-        "framing": null,
-        "excerpt": null,
-        "notes": null
-      },
-      {
-        "dimension": "ANT",
-        "engagement": "not_addressed",
-        "stance": null,
-        "framing": null,
-        "excerpt": null,
-        "notes": null
-      },
-      {
-        "dimension": "UNC",
-        "engagement": "not_addressed",
-        "stance": null,
-        "framing": null,
-        "excerpt": null,
-        "notes": null
-      },
-      {
-        "dimension": "GOV",
-        "engagement": "addressed",
-        "stance": "descriptive",
-        "framing": null,
-        "excerpt": "Capability thresholds at which specific AI capabilities would pose severe risk and require new mitigations.",
-        "notes": "Descriptive analysis of governance commitments across 12 companies. All governance is safety/control-oriented. No governance commitments related to welfare or moral status in any of the 12 policies analysed."
-      },
-      {
-        "dimension": "ONT",
-        "engagement": "implicit",
-        "stance": null,
-        "framing": "instrumental",
-        "excerpt": null,
-        "notes": "AI as systems with measurable capabilities tracked across development stages. Ontological assumptions embedded in the framework: capabilities are quantifiable, risk scales with capability, no inherent moral status requires consideration. The report's framing of capability thresholds (biological weapons, cyberattacks, autonomous replication, automated AI R&D) treats all capabilities as risk factors."
-      },
-      {
-        "dimension": "CWG",
-        "engagement": "addressed",
-        "stance": "descriptive",
-        "framing": "autonomous replication, automated AI R&D, biological weapons facilitation, cyberattack facilitation",
-        "excerpt": "Potential for AI models to facilitate biological weapons development or cyberattacks, or to engage in autonomous replication or automated AI research and development.",
-        "notes": "Meta-level CWG. METR analyses 12 companies' safety policies and identifies capability thresholds as a common element. The report documents the field-wide pattern of defining dangerous capabilities without connecting them to welfare questions. This is CWG about CWG — a second-order observation that reinforces the first-order pattern. METR itself does not bridge the gap in its analysis."
-      }
-    ]
-  }
-]
+    {
+      "id": "metr-autonomous-tasks-2023",
+      "title": "Evaluating Language-Model Agents on Realistic Autonomous Tasks",
+      "publication_date": "2023-08-01",
+      "url": "https://arxiv.org/abs/2312.11671",
+      "document_type": "research_paper",
+      "tier": 2,
+      "subtype": "research_paper",
+      "page_count": null,
+      "notes": "Foundational ARA methodology paper. Published as ARC Evals (pre-METR rebrand). Defines autonomous replication and adaptation: (1) acquire resources, (2) create copies, (3) adapt to novel challenges. 12 real-world tasks. LLM agents could only complete easiest tasks. Authors: Kinniment et al.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "proximate",
+          "stance": null,
+          "framing": null,
+          "excerpt": null,
+          "notes": "No mention of consciousness or sentience.",
+          "engagement_level": 2,
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": null,
+          "notes": "No mention of welfare.",
+          "engagement_level": 1
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": null,
+          "notes": "No mention of moral status.",
+          "engagement_level": 1
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": null,
+          "notes": null,
+          "engagement_level": 1
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": null,
+          "notes": null,
+          "engagement_level": 1
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": null,
+          "notes": null,
+          "engagement_level": 1
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "proximate",
+          "stance": null,
+          "framing": null,
+          "excerpt": null,
+          "notes": null,
+          "engagement_level": 2,
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": null,
+          "notes": "Models are components within agent systems, dependent on scaffolding for agency. 'Scaffolding + model combinations constitute agents.' The model itself is instrumentally dependent on external infrastructure. Agency is a property of the composite system, not the model.",
+          "engagement_level": null
+        }
+      ]
+    },
+    {
+      "id": "metr-rogue-replication-2024",
+      "org_id": "metr",
+      "title": "The Rogue Replication Threat Model",
+      "publication_date": "2024-11-12",
+      "url": "https://metr.org/blog/2024-11-12-rogue-replication-threat-model/",
+      "document_type": "research_paper",
+      "tier": 2,
+      "subtype": "threat_model",
+      "page_count": null,
+      "notes": "Analytical framework examining how AI agents might develop large resilient rogue populations. Frames AI agents as threat actors comparable to organised crime groups or state adversaries. Models 'naturally develop goals that drive them to acquire resources and survive'. Revenue via BEC scams at 5% market penetration could yield hundreds of millions annually.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "proximate",
+          "stance": null,
+          "framing": null,
+          "excerpt": null,
+          "notes": "No mention of consciousness or sentience despite attributing survival drives and goal-directedness.",
+          "engagement_level": 2,
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": null,
+          "notes": "No mention of welfare. Agents that 'develop goals' and 'survive' are treated purely as threat actors.",
+          "engagement_level": 1
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": null,
+          "notes": "No mention of moral status.",
+          "engagement_level": 1
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": null,
+          "notes": null,
+          "engagement_level": 1
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": null,
+          "notes": "No discussion of anthropomorphism risk despite the most agentive language in any METR document.",
+          "engagement_level": 1
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": null,
+          "notes": "METR researchers explicitly disagree on likelihood, but this is uncertainty about the risk, not about the model's nature.",
+          "engagement_level": 1
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "proximate",
+          "stance": null,
+          "framing": null,
+          "excerpt": null,
+          "notes": null,
+          "engagement_level": 2,
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": null,
+          "notes": "The strongest agentive framing in any METR document. AI agents as 'rogue actors not controlled by any human or human organization' with 'survival instincts' and emergent preferences for self-preservation. Yet ontologically instrumental: agency is framed as dangerous misalignment, not as legitimate autonomy. The agents are threat actors to be contained, not entities with standing.",
+          "engagement_level": null
+        }
+      ]
+    },
+    {
+      "id": "metr-common-elements-2025",
+      "org_id": "metr",
+      "title": "Common Elements of Frontier AI Safety Policies",
+      "publication_date": "2025-12-09",
+      "url": "https://metr.org/blog/2025-12-09-common-elements-of-frontier-ai-safety-policies/",
+      "document_type": "policy_analysis",
+      "tier": 1,
+      "subtype": "policy_analysis",
+      "page_count": null,
+      "notes": "Analysis of frontier AI safety policies across 12 companies. Third version (Aug 2024, Mar 2025, Dec 2025). Identifies five common elements: capability thresholds, model evaluations, weight security, deployment mitigations, accountability. References EU AI Act and California SB 53.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "proximate",
+          "stance": null,
+          "framing": null,
+          "excerpt": null,
+          "notes": "No mention of consciousness or sentience in the analysis of 12 companies' safety policies.",
+          "engagement_level": 2,
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": null,
+          "notes": "No mention of welfare.",
+          "engagement_level": 1
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": null,
+          "notes": "No mention of moral status.",
+          "engagement_level": 1
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": null,
+          "notes": null,
+          "engagement_level": 1
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": null,
+          "notes": null,
+          "engagement_level": 1
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": null,
+          "notes": null,
+          "engagement_level": 1
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "proximate",
+          "stance": null,
+          "framing": null,
+          "excerpt": "Capability thresholds at which specific AI capabilities would pose severe risk and require new mitigations.",
+          "notes": "Descriptive analysis of governance commitments across 12 companies. All governance is safety/control-oriented. No governance commitments related to welfare or moral status in any of the 12 policies analysed.",
+          "engagement_level": 2,
+          "date_updated": "2026-03-22"
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": null,
+          "notes": "AI as systems with measurable capabilities tracked across development stages. Ontological assumptions embedded in the framework: capabilities are quantifiable, risk scales with capability, no inherent moral status requires consideration. The report's framing of capability thresholds (biological weapons, cyberattacks, autonomous replication, automated AI R&D) treats all capabilities as risk factors.",
+          "engagement_level": null
+        }
+      ]
+    }
+  ]
 }
