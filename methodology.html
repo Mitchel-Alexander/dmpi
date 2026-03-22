@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Methodology — Digital Minds Policy Index</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Digital Minds Policy Index</h1>
+      <p class="subtitle">Tracking how AI labs position themselves on consciousness, welfare, and moral status</p>
+      <nav class="site-nav">
+        <a href="/dmpi/">Index</a>
+        <a href="/dmpi/methodology.html" aria-current="page">Methodology</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container prose">
+
+    <h2>What is the DMPI?</h2>
+
+    <p>The Digital Minds Policy Index is a structured database tracking how leading AI laboratories formally position themselves on AI consciousness, sentience, welfare, and moral status. Each organisation's public policy documents are coded against a nine-dimension analytical taxonomy, producing a comparative record of what has been said, what has been left unsaid, and how positions have changed over time. The index is designed to serve researchers investigating AI ethics and governance, journalists covering AI policy, and policymakers seeking to understand the current state of corporate positions on these questions.</p>
+
+    <p>The dominant finding, as of early 2026, is absence. Most major AI labs have published nothing that substantively addresses whether their models might be conscious, whether model welfare merits consideration, or whether AI systems could hold moral status. One lab (Anthropic) has engaged extensively. The rest are largely or entirely silent. That pattern of silence is itself the dataset's primary contribution.</p>
+
+    <h2>Document scope</h2>
+
+    <p>The DMPI draws on formal institutional documents: policy statements, model cards, system cards, constitutions, safety frameworks, and responsible scaling policies. These are the texts through which labs define their normative commitments and communicate them to external audiences.</p>
+
+    <p>Documents are classified into three tiers:</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Tier</th>
+          <th>Description</th>
+          <th>Examples</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>1 (core)</strong></td>
+          <td>Official policy documents that define institutional positions</td>
+          <td>Model cards, system cards, constitutions, charters, responsible scaling policies, safety frameworks</td>
+        </tr>
+        <tr>
+          <td><strong>2 (secondary)</strong></td>
+          <td>Official publications that reflect but do not define institutional positions</td>
+          <td>Blog posts by safety or policy teams, research papers, system prompts, regulatory submissions</td>
+        </tr>
+        <tr>
+          <td><strong>3 (contextual)</strong></td>
+          <td>Statements by individuals associated with the organisation</td>
+          <td>Leadership interviews, conference talks, public statements</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>The current index includes Tier 1 and Tier 2 documents from five commercial AI labs: Anthropic, OpenAI, Google DeepMind, Meta, and xAI. The architecture supports expansion to additional organisations and tiers.</p>
+
+    <p>Documents excluded from the index: individual academic papers by lab employees (unless representing an institutional position), social media posts, informal communications, and product marketing copy (unless containing substantive policy commitments).</p>
+
+    <p>A point of interpretation: the absence of a coding for a given organisation and dimension means that no formal document addressing that topic was identified. It does not mean the organisation has no internal position, only that no public-facing document engages with the question.</p>
+
+    <h2>Analytical taxonomy</h2>
+
+    <p>Each document is coded against nine dimensions. Seven are core dimensions that cover the conceptual space directly. Two (ONT and CWG) were added after pilot coding revealed distinctions the original seven could not capture.</p>
+
+    <h3>Core dimensions</h3>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Code</th>
+          <th>Dimension</th>
+          <th>What it captures</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>CON</td>
+          <td>Consciousness / Sentience</td>
+          <td>Claims about whether current or future models are or could be conscious or sentient</td>
+        </tr>
+        <tr>
+          <td>WEL</td>
+          <td>Model Welfare</td>
+          <td>References to AI wellbeing, welfare, suffering, or interests</td>
+        </tr>
+        <tr>
+          <td>MOR</td>
+          <td>Moral Status / Personhood</td>
+          <td>Whether AI systems have or could have moral status, rights, or personhood</td>
+        </tr>
+        <tr>
+          <td>SRE</td>
+          <td>Self-Representation</td>
+          <td>How the model should represent its own inner states, experiences, or nature</td>
+        </tr>
+        <tr>
+          <td>ANT</td>
+          <td>Anthropomorphism</td>
+          <td>Anthropomorphic framing, emotional attachment, parasocial dynamics</td>
+        </tr>
+        <tr>
+          <td>UNC</td>
+          <td>Uncertainty / Precaution</td>
+          <td>Uncertainty about AI mentality or precautionary approaches to it</td>
+        </tr>
+        <tr>
+          <td>GOV</td>
+          <td>Governance Commitments</td>
+          <td>Concrete governance commitments related to any of the above</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Structural dimensions</h3>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Code</th>
+          <th>Dimension</th>
+          <th>What it captures</th>
+          <th>Why it was added</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>ONT</td>
+          <td>Ontological Framing</td>
+          <td>How the document characterises what the model fundamentally <em>is</em></td>
+          <td>Labs make implicit ontological claims (tool, agent, character, open question) that determine whether other dimensions even arise as coherent questions. A lab that frames its model as a tool has structurally foreclosed welfare questions before they can be asked. This dimension is analytically prior to the other eight.</td>
+        </tr>
+        <tr>
+          <td>CWG</td>
+          <td>Capability-Welfare Gap</td>
+          <td>Welfare-adjacent capability claims with no connection to welfare questions</td>
+          <td>Labs routinely attribute properties to models (emotional intelligence, situational awareness, goal-directedness, strategic reasoning) that, if attributed to a biological entity, would raise immediate welfare questions. The gap between what capability vocabulary implies and what welfare vocabulary engages is itself a finding about the structure of the field's discourse.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Coding structure</h2>
+
+    <p>Each dimension coding has three fields: engagement, stance, and framing.</p>
+
+    <p><strong>Engagement</strong> records whether a document addresses a given dimension at all. For the seven core dimensions and CWG, the values are <em>addressed</em> or <em>not addressed</em>. For ONT, the values are <em>explicit</em>, <em>implicit</em>, or <em>absent</em>, because ontological framing is nearly always present at least implicitly (every document that discusses a model implies something about what kind of thing it is).</p>
+
+    <p><strong>Stance</strong> records how a document engages with a dimension, when it does engage. The values are:</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Stance</th>
+          <th>Meaning</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Investigative</td>
+          <td>Actively investigating; treats the question as empirical and open</td>
+        </tr>
+        <tr>
+          <td>Precautionary</td>
+          <td>Takes precautionary measures based on uncertainty</td>
+        </tr>
+        <tr>
+          <td>Cautious</td>
+          <td>Acknowledges the question but takes no concrete action</td>
+        </tr>
+        <tr>
+          <td>Descriptive</td>
+          <td>Reports findings or observations without a normative position</td>
+        </tr>
+        <tr>
+          <td>Affirms</td>
+          <td>Positively affirms the dimension (e.g. affirms that models may have moral status)</td>
+        </tr>
+        <tr>
+          <td>Denies</td>
+          <td>Explicitly denies or rejects the dimension</td>
+        </tr>
+        <tr>
+          <td>Ambiguous</td>
+          <td>Addressed but stance is unclear or contradictory</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>When a dimension is not addressed, stance is null. This separation prevents false equivalence between different kinds of silence and actual normative positions.</p>
+
+    <p><strong>Framing</strong> is a contextual text field that captures what structured codes cannot. For ONT, it records the ontological framing value (instrumental, characterological, open/uncertain, neutral/delegated, agential). For ANT, it records whether anthropomorphism is framed as a user-side risk only, connected to model-side questions, or both. For CWG, it records the specific capability claimed.</p>
+
+    <p>Each coding also includes an excerpt from the source document (typically 30 to 50 words) and an analytical note. The notes field carries substantial analytical weight. It captures tensions within documents, cross-document patterns, and judgement calls that the structured fields cannot represent.</p>
+
+    <h2>Silence as data</h2>
+
+    <p>Every dimension is checked against every document. When a document does not address a dimension, that absence is actively coded. The grey cells in the index grid are findings, not gaps in coverage.</p>
+
+    <p>This matters because the DMPI's primary contribution is documenting what has not been said. The field of AI safety has generated thousands of pages of policy documentation on model capabilities, risk mitigation, and deployment safeguards. The question of whether the entities described in these documents might warrant moral consideration is, with one partial exception, absent from the formal record.</p>
+
+    <p>Different forms of silence are analytically distinct. Some organisations are silent by omission: they publish detailed normative frameworks that simply do not mention consciousness or welfare. Some are silent by delegation: open-weight providers like Meta explicitly transfer responsibility to downstream deployers, making silence a structural feature of their governance model. Some are silent within a rich normative framework: OpenAI's Model Spec defines extensive behavioural norms for an entity it describes in increasingly agentive terms, without connecting that characterisation to welfare questions. These distinctions matter for interpretation, and are captured in the notes field even when the structured coding ("not addressed") is identical.</p>
+
+    <h2>Limitations</h2>
+
+    <p>The DMPI captures what documents say. It does not capture what they do performatively. A lab that publishes a 22-page welfare assessment may, through that very act of publication, shift how users perceive their model, in ways the assessment itself does not discuss. The taxonomy records stated positions, not their downstream effects.</p>
+
+    <p>Excerpt selection requires coder judgement. Documents often contain multiple passages relevant to a given dimension, and reasonable coders might select different ones. The notes field provides context for each selection, but the choice of excerpt inevitably emphasises some aspects of a document's position over others.</p>
+
+    <p>The current dataset was coded by a single researcher. No inter-rater reliability testing has been conducted. For dimensions with clear engagement or clear silence, this is unlikely to affect results. For borderline cases (implicit ontological framing, ambiguous stance), a second coder might reasonably disagree.</p>
+
+    <p>Formal documents may lag behind internal practice. A lab may be conducting welfare-relevant research that has not yet surfaced in its public policy documentation. The DMPI records the public record as it stands.</p>
+
+    <p>The taxonomy was developed iteratively through pilot coding of documents from three organisations (Anthropic, OpenAI, Meta). It reflects the distinctions that emerged from that dataset. As new organisations and document types are added, the taxonomy may need revision. Changes will be versioned and documented.</p>
+
+    <h2>Citation and data access</h2>
+
+    <p>The full dataset is available as JSON in the project's <a href="https://github.com/Mitchel-Alexander/dmpi" target="_blank" rel="noopener">GitHub repository</a>.</p>
+
+    <p>Suggested citation:</p>
+
+    <blockquote class="citation">
+      Pass, M. (2026). Digital Minds Policy Index (DMPI). Available at: https://mitchel-alexander.github.io/dmpi/
+    </blockquote>
+
+    <p>To suggest corrections or additions, open an issue on the GitHub repository or contact the author directly.</p>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>DMPI is a <a href="https://prism.cam.ac.uk" target="_blank" rel="noopener">PRISM</a> epistemic infrastructure project.</p>
+      <p class="footer-note">43 Tier 1&ndash;2 policy documents coded across 5 commercial AI labs.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/methodology.ts"></script>
+</body>
+</html>
