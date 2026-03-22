@@ -11,6 +11,10 @@ import redwoodData from '../data/documents/redwood-research.json'
 
 export const organisations: Organisation[] = orgsJson as Organisation[]
 
+/** Scope filters — adjust these to widen the displayed dataset */
+const INCLUDED_ORG_TYPES = new Set(['commercial_lab'])
+const MAX_TIER = 2
+
 const orgFiles: OrgFile[] = [
   anthropicData as unknown as OrgFile,
   openaiData as unknown as OrgFile,
@@ -24,7 +28,12 @@ const orgFiles: OrgFile[] = [
 
 export const orgDocuments = new Map<string, Document[]>()
 for (const file of orgFiles) {
-  orgDocuments.set(file.organisation_id, file.documents as Document[])
+  const org = organisations.find(o => o.id === file.organisation_id)
+  if (!org || !INCLUDED_ORG_TYPES.has(org.type)) continue
+  const docs = (file.documents as Document[]).filter(d => d.tier <= MAX_TIER)
+  if (docs.length > 0) {
+    orgDocuments.set(file.organisation_id, docs)
+  }
 }
 
 /** Orgs that have coded data */
