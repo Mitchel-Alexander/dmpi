@@ -2,15 +2,31 @@ import type { DimensionCode, Organisation, Stance } from './types'
 import { DIMENSIONS, STANCE_LABELS, isSubstantive } from './constants'
 import { getRepresentativeCoding, getCodingsForCell } from './data'
 
-export function renderGrid(orgs: Organisation[], dimensions: DimensionCode[]): string {
+export interface OrgGroup {
+  type: string
+  label: string
+  orgs: Organisation[]
+}
+
+export function renderGrid(orgGroups: OrgGroup[], dimensions: DimensionCode[]): string {
   const dims = DIMENSIONS.filter(d => dimensions.includes(d.code))
+  const allOrgs = orgGroups.flatMap(g => g.orgs)
+  const hasMultipleGroups = orgGroups.length > 1
 
   let html = '<table class="grid">'
 
   // Header row
-  html += '<thead><tr><th class="grid-corner"></th>'
-  for (const org of orgs) {
-    html += `<th class="grid-org-header">${org.name}</th>`
+  html += '<thead>'
+  if (hasMultipleGroups) {
+    html += '<tr><th class="grid-corner"></th>'
+    for (const group of orgGroups) {
+      html += `<th colspan="${group.orgs.length}" class="grid-type-header">${group.label}</th>`
+    }
+    html += '</tr>'
+  }
+  html += '<tr><th class="grid-corner"></th>'
+  for (const org of allOrgs) {
+    html += `<th class="grid-org-header" data-org="${org.id}" title="View all documents for ${org.name}">${org.name}</th>`
   }
   html += '</tr></thead>'
 
@@ -24,7 +40,7 @@ export function renderGrid(orgs: Organisation[], dimensions: DimensionCode[]): s
       <span class="dim-desc">${dim.shortDesc}</span>
     </th>`
 
-    for (const org of orgs) {
+    for (const org of allOrgs) {
       const rep = getRepresentativeCoding(org.id, dim.code)
       const allCodings = getCodingsForCell(org.id, dim.code)
       const docCount = allCodings.length

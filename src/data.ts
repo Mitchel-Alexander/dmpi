@@ -5,6 +5,9 @@ import openaiData from '../data/documents/openai.json'
 import metaData from '../data/documents/meta.json'
 import deepmindData from '../data/documents/google-deepmind.json'
 import xaiData from '../data/documents/xai.json'
+import apolloData from '../data/documents/apollo-research.json'
+import metrData from '../data/documents/metr.json'
+import redwoodData from '../data/documents/redwood-research.json'
 
 export const organisations: Organisation[] = orgsJson as Organisation[]
 
@@ -14,6 +17,9 @@ const orgFiles: OrgFile[] = [
   metaData as unknown as OrgFile,
   deepmindData as unknown as OrgFile,
   xaiData as unknown as OrgFile,
+  apolloData as unknown as OrgFile,
+  metrData as unknown as OrgFile,
+  redwoodData as unknown as OrgFile,
 ]
 
 export const orgDocuments = new Map<string, Document[]>()
@@ -24,6 +30,35 @@ for (const file of orgFiles) {
 /** Orgs that have coded data */
 export function getCodedOrgs(): Organisation[] {
   return organisations.filter(o => orgDocuments.has(o.id))
+}
+
+/** Human-readable labels for org types */
+export const ORG_TYPE_LABELS: Record<string, string> = {
+  commercial_lab: 'Commercial Labs',
+  technical_safety_nonprofit: 'Technical Safety Non-profits',
+}
+
+/** Get coded orgs grouped by type, in display order */
+export function getCodedOrgsByType(): { type: string; label: string; orgs: Organisation[] }[] {
+  const coded = getCodedOrgs()
+  const typeOrder = ['commercial_lab', 'technical_safety_nonprofit']
+  const groups: { type: string; label: string; orgs: Organisation[] }[] = []
+
+  for (const t of typeOrder) {
+    const orgs = coded.filter(o => o.type === t)
+    if (orgs.length > 0) {
+      groups.push({ type: t, label: ORG_TYPE_LABELS[t] ?? t, orgs })
+    }
+  }
+
+  // Catch any orgs with types not in typeOrder
+  const covered = new Set(typeOrder)
+  const other = coded.filter(o => !covered.has(o.type))
+  if (other.length > 0) {
+    groups.push({ type: 'other', label: 'Other', orgs: other })
+  }
+
+  return groups
 }
 
 /** Get all codings for an org+dimension across all documents */

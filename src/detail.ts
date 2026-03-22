@@ -50,6 +50,44 @@ export function renderCellDetail(orgId: string, orgName: string, dimension: Dime
   return html
 }
 
+export function renderOrgDocumentList(orgId: string, orgName: string): string {
+  const docs = orgDocuments.get(orgId) ?? []
+
+  let html = `
+    <div class="detail-header">
+      <h2>${orgName}</h2>
+      <h3>${docs.length} document${docs.length !== 1 ? 's' : ''} coded</h3>
+    </div>
+    <div class="detail-body">
+  `
+
+  if (docs.length === 0) {
+    html += '<p class="detail-empty">No documents coded yet.</p>'
+  } else {
+    // Sort by date descending
+    const sorted = [...docs].sort((a, b) => b.publication_date.localeCompare(a.publication_date))
+    for (const doc of sorted) {
+      const addressedCount = doc.codings.filter(c => isSubstantive(c.engagement)).length
+      const totalDims = doc.codings.length
+
+      html += `<div class="detail-doc-card" data-doc-id="${doc.id}" data-org-name="${escapeAttr(orgName)}">
+        <div class="detail-doc-title">
+          <span class="doc-card-title">${doc.title}</span>
+        </div>
+        <div class="detail-meta">
+          <span class="tier-badge">Tier ${doc.tier}</span>
+          <span class="date-badge">${doc.publication_date}</span>
+          <span class="tag">${doc.subtype.replace(/_/g, ' ')}</span>
+          <span class="tag tag--engagement">${addressedCount}/${totalDims} addressed</span>
+        </div>
+      </div>`
+    }
+  }
+
+  html += '</div>'
+  return html
+}
+
 export function renderDocumentDetail(docId: string, orgName: string): string {
   for (const [, docs] of orgDocuments) {
     const doc = docs.find(d => d.id === docId)
@@ -101,4 +139,8 @@ export function renderDocumentDetail(docId: string, orgName: string): string {
   }
 
   return '<p>Document not found.</p>'
+}
+
+function escapeAttr(s: string): string {
+  return s.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;')
 }

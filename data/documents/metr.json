@@ -1,7 +1,8 @@
-[
+{
+  "organisation_id": "metr",
+  "documents": [
   {
     "id": "metr-autonomous-tasks-2023",
-    "org_id": "metr",
     "title": "Evaluating Language-Model Agents on Realistic Autonomous Tasks",
     "publication_date": "2023-08-01",
     "url": "https://arxiv.org/abs/2312.11671",
@@ -258,3 +259,4 @@
     ]
   }
 ]
+}
