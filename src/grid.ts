@@ -8,7 +8,7 @@ export interface OrgGroup {
   orgs: Organisation[]
 }
 
-export function renderGrid(orgGroups: OrgGroup[], dimensions: DimensionCode[]): string {
+export function renderGrid(orgGroups: OrgGroup[], dimensions: DimensionCode[], activeSubtypes?: Set<string>): string {
   const dims = DIMENSIONS.filter(d => dimensions.includes(d.code))
   const allOrgs = orgGroups.flatMap(g => g.orgs)
   const hasMultipleGroups = orgGroups.length > 1
@@ -41,8 +41,8 @@ export function renderGrid(orgGroups: OrgGroup[], dimensions: DimensionCode[]): 
     </th>`
 
     for (const org of allOrgs) {
-      const rep = getRepresentativeCoding(org.id, dim.code)
-      const allCodings = getCodingsForCell(org.id, dim.code)
+      const rep = getRepresentativeCoding(org.id, dim.code, activeSubtypes)
+      const allCodings = getCodingsForCell(org.id, dim.code, activeSubtypes)
       const docCount = allCodings.length
 
       if (!rep) {

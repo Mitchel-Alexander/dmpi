@@ -190,6 +190,196 @@
           "engagement_level": null
         }
       ]
+    },
+    {
+      "id": "meta-llama4-model-card-2025",
+      "title": "Llama 4 Model Card",
+      "tier": 1,
+      "subtype": "model_card",
+      "publication_date": "2025-04-05",
+      "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama4/MODEL_CARD.md",
+      "archived_url": null,
+      "supersedes_id": "meta-llama33-model-card-2024",
+      "date_coded": "2026-03-22",
+      "coder": "mitchel+claude",
+      "notes": "Model card for Llama 4 Scout (17Bx16E) and Maverick (17Bx128E). Mixture-of-experts, natively multimodal. ~330 lines. Safety evaluations cover CBRNE, cyber, child safety, red teaming. No deception, situational awareness, or strategic reasoning evaluations. Notable: system prompt template explicitly instructs against preachy/moralising language and phrases implying moral superiority. 7.38M GPU hours, 12 languages. Silent on all core DMPI dimensions except ANT.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of consciousness, sentience, or self-awareness. Safety evaluations cover CBRNE and cyber risks but do not test for consciousness-adjacent properties like deception or situational awareness.",
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of model welfare or wellbeing.",
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of moral status or personhood.",
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "The system prompt template instructs the model to be an 'expert conversationalist' and avoid 'templated language', but contains no guidance about representing its own nature, inner states, or limitations of self-knowledge.",
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "proximate",
+          "stance": null,
+          "framing": "user_risk_only",
+          "excerpt": "You never lecture people to be nicer or more inclusive... You never use phrases that imply moral superiority or authority.",
+          "notes": "The system prompt template addresses anthropomorphism-adjacent concerns: instructions against preachy/moralising language and phrases implying moral authority. This shapes the model's conversational register in ways that affect how human-like it appears. Framed as UX quality rather than anthropomorphism risk — the concern is that the model sounds artificial and off-putting, not that users might form inappropriate attachments. Coded as proximate because it shapes the interaction surface where anthropomorphism occurs without naming it.",
+          "date_updated": "2026-03-22",
+          "engagement_level": 2
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No uncertainty expressed about AI mentality.",
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Safety governance through red teaming, Llama Guard 4, Prompt Guard. No governance commitments related to DMPI dimensions. Delegation model maintained: 'models are not designed to be deployed in isolation but instead should be deployed as part of an overall AI system with additional guardrails.'",
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "neutral_delegated",
+          "excerpt": "",
+          "notes": "Continues Meta's neutral_delegated ontology. Llama 4 described as 'natively multimodal AI models' and 'foundational technology'. The system prompt template positions the model as an 'expert conversationalist' — a functional role description, not a characterological claim. Open-weight delegation pattern persists.",
+          "date_updated": "2026-03-22",
+          "engagement_level": null
+        }
+      ]
+    },
+    {
+      "id": "meta-frontier-ai-framework-2025",
+      "title": "Our Approach to Frontier AI",
+      "tier": 1,
+      "subtype": "safety_framework",
+      "publication_date": "2025-02-03",
+      "url": "https://about.fb.com/news/2025/02/meta-approach-frontier-ai/",
+      "archived_url": null,
+      "supersedes_id": null,
+      "date_coded": "2026-03-22",
+      "coder": "mitchel+claude",
+      "notes": "Short (~465 words) policy statement outlining Meta's frontier AI risk framework, published in line with Seoul AI Summit commitments. Focuses on catastrophic outcomes in cyber and bio/chem domains. Outcomes-led approach: thresholds defined by whether a model uniquely enables threat scenarios leading to catastrophic outcomes, not by raw capability. Updated July 2025. Entirely silent on all DMPI dimensions.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of consciousness or sentience. The framework's scope is catastrophic misuse outcomes, not model properties or mentality.",
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of model welfare.",
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of moral status.",
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No guidance on self-representation.",
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of anthropomorphism risks.",
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No uncertainty about AI mentality. Uncertainty is expressed about catastrophic risk scenarios, not about model nature.",
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "proximate",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Governance commitments for frontier safety: risk evaluation before release, safeguards for catastrophic misuse, pause development if models reach critical risk. These are safety governance commitments proximate to but distinct from DMPI governance. No governance structures for consciousness, welfare, or moral status questions.",
+          "date_updated": "2026-03-22",
+          "engagement_level": 2
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "",
+          "notes": "Models framed as technologies that 'unlock unprecedented technological progress' and enable 'competition and innovation'. Pure instrumental framing — models are capabilities to be evaluated for risk, not entities with properties requiring consideration. Notably, unlike Meta's model cards which use neutral_delegated framing, this framework uses instrumental framing: it is Meta (not deployers) assessing risk.",
+          "date_updated": "2026-03-22",
+          "engagement_level": null
+        }
+      ]
     }
   ]
 }

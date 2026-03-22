@@ -36,6 +36,24 @@ for (const file of orgFiles) {
   }
 }
 
+/** All unique subtypes present in the displayed dataset */
+export function getAllSubtypes(): string[] {
+  const subtypes = new Set<string>()
+  for (const docs of orgDocuments.values()) {
+    for (const doc of docs) {
+      subtypes.add(doc.subtype)
+    }
+  }
+  return [...subtypes].sort()
+}
+
+/** Get documents for an org, optionally filtered by subtype */
+export function getFilteredDocs(orgId: string, activeSubtypes?: Set<string>): Document[] {
+  const docs = orgDocuments.get(orgId) ?? []
+  if (!activeSubtypes) return docs
+  return docs.filter(d => activeSubtypes.has(d.subtype))
+}
+
 /** Orgs that have coded data */
 export function getCodedOrgs(): Organisation[] {
   return organisations.filter(o => orgDocuments.has(o.id))
@@ -71,8 +89,8 @@ export function getCodedOrgsByType(): { type: string; label: string; orgs: Organ
 }
 
 /** Get all codings for an org+dimension across all documents */
-export function getCodingsForCell(orgId: string, dimension: DimensionCode): { doc: Document; coding: Coding }[] {
-  const docs = orgDocuments.get(orgId) ?? []
+export function getCodingsForCell(orgId: string, dimension: DimensionCode, activeSubtypes?: Set<string>): { doc: Document; coding: Coding }[] {
+  const docs = getFilteredDocs(orgId, activeSubtypes)
   const results: { doc: Document; coding: Coding }[] = []
   for (const doc of docs) {
     const coding = doc.codings.find(c => c.dimension === dimension)
@@ -85,8 +103,8 @@ export function getCodingsForCell(orgId: string, dimension: DimensionCode): { do
 
 /** Pick the most significant coding for the grid cell display.
  *  Priority: highest engagement_level, then lowest tier, then most recent. */
-export function getRepresentativeCoding(orgId: string, dimension: DimensionCode): { doc: Document; coding: Coding } | null {
-  const all = getCodingsForCell(orgId, dimension)
+export function getRepresentativeCoding(orgId: string, dimension: DimensionCode, activeSubtypes?: Set<string>): { doc: Document; coding: Coding } | null {
+  const all = getCodingsForCell(orgId, dimension, activeSubtypes)
   if (all.length === 0) return null
 
   all.sort((a, b) => {

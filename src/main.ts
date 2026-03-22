@@ -4,6 +4,7 @@ import { getCodedOrgs, getCodedOrgsByType } from './data'
 import { renderGrid, renderLegend } from './grid'
 import { renderCellDetail, renderDocumentDetail, renderOrgDocumentList } from './detail'
 import { createFilterState, renderFilters } from './filters'
+import { renderTimeline } from './timeline'
 import './style.css'
 
 const orgs = getCodedOrgs()
@@ -12,6 +13,7 @@ const state = createFilterState(orgs)
 const filtersEl = document.getElementById('filters')!
 const gridEl = document.getElementById('grid')!
 const legendEl = document.getElementById('legend')!
+const timelineEl = document.getElementById('timeline')!
 const panelEl = document.getElementById('detail-panel')!
 const overlayEl = document.getElementById('detail-overlay')!
 
@@ -24,8 +26,9 @@ function update() {
   const activeDims = Array.from(state.activeDimensions) as DimensionCode[]
 
   filtersEl.innerHTML = renderFilters(orgs, state, update)
-  gridEl.innerHTML = renderGrid(activeGroups, activeDims)
+  gridEl.innerHTML = renderGrid(activeGroups, activeDims, state.activeSubtypes)
   legendEl.innerHTML = renderLegend()
+  timelineEl.innerHTML = renderTimeline()
 }
 
 function openPanel(html: string) {

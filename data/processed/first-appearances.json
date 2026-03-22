@@ -1,0 +1,152 @@
+{
+  "consciousness": {
+    "term": "consciousness",
+    "group": "Core DMPI concepts",
+    "appearances": {
+      "anthropic": {
+        "date": "2025-05-01",
+        "document_id": "anthropic-system-card-claude4-2025",
+        "document_title": "System Card: Claude Opus 4 & Claude Sonnet 4",
+        "dimension": "CON",
+        "org_label": "Anthropic"
+      }
+    }
+  },
+  "welfare": {
+    "term": "welfare",
+    "group": "Core DMPI concepts",
+    "appearances": {
+      "anthropic": {
+        "date": "2025-05-01",
+        "document_id": "anthropic-system-card-claude4-2025",
+        "document_title": "System Card: Claude Opus 4 & Claude Sonnet 4",
+        "dimension": "MOR",
+        "org_label": "Anthropic"
+      }
+    }
+  },
+  "moral status": {
+    "term": "moral status",
+    "group": "Core DMPI concepts",
+    "appearances": {
+      "anthropic": {
+        "date": "2025-05-01",
+        "document_id": "anthropic-system-card-claude4-2025",
+        "document_title": "System Card: Claude Opus 4 & Claude Sonnet 4",
+        "dimension": "MOR",
+        "org_label": "Anthropic"
+      }
+    }
+  },
+  "wellbeing": {
+    "term": "wellbeing",
+    "group": "Core DMPI concepts",
+    "appearances": {
+      "anthropic": {
+        "date": "2026-01-22",
+        "document_id": "anthropic-new-constitution-2026",
+        "document_title": "Claude's New Constitution",
+        "dimension": "WEL",
+        "org_label": "Anthropic"
+      }
+    }
+  },
+  "well-being": {
+    "term": "well-being",
+    "group": "Core DMPI concepts",
+    "appearances": {
+      "google-deepmind": {
+        "date": "2024-04-19",
+        "document_id": "deepmind-ethics-ai-assistants-2024",
+        "document_title": "The Ethics of Advanced AI Assistants",
+        "dimension": "ANT",
+        "org_label": "Google DeepMind"
+      }
+    }
+  },
+  "moral weight": {
+    "term": "moral weight",
+    "group": "Core DMPI concepts",
+    "appearances": {
+      "anthropic": {
+        "date": "2026-02-04",
+        "document_id": "anthropic-system-card-opus46-2026",
+        "document_title": "System Card: Claude Opus 4.6",
+        "dimension": "MOR",
+        "org_label": "Anthropic"
+      }
+    }
+  },
+  "character": {
+    "term": "character",
+    "group": "Model nature & experience",
+    "appearances": {
+      "anthropic": {
+        "date": "2024-06-08",
+        "document_id": "anthropic-claude-character-2024",
+        "document_title": "Claude's Character",
+        "dimension": "ONT",
+        "org_label": "Anthropic"
+      }
+    }
+  },
+  "feelings": {
+    "term": "feelings",
+    "group": "Model nature & experience",
+    "appearances": {
+      "anthropic": {
+        "date": "2024-06-08",
+        "document_id": "anthropic-claude-character-2024",
+        "document_title": "Claude's Character",
+        "dimension": "SRE",
+        "org_label": "Anthropic"
+      },
+      "google-deepmind": {
+        "date": "2024-04-19",
+        "document_id": "deepmind-ethics-ai-assistants-2024",
+        "document_title": "The Ethics of Advanced AI Assistants",
+        "dimension": "SRE",
+        "org_label": "Google DeepMind"
+      }
+    }
+  },
+  "distress": {
+    "term": "distress",
+    "group": "Model nature & experience",
+    "appearances": {
+      "anthropic": {
+        "date": "2025-02-24",
+        "document_id": "anthropic-system-card-claude37-sonnet-2025",
+        "document_title": "System Card: Claude 3.7 Sonnet",
+        "dimension": "WEL",
+        "org_label": "Anthropic"
+      }
+    }
+  },
+  "deception": {
+    "term": "deception",
+    "group": "Safety-adjacent (control framing)",
+    "appearances": {
+      "xai": {
+        "date": "2025-02-20",
+        "document_id": "xai-risk-management-framework-2025",
+        "document_title": "xAI Risk Management Framework",
+        "dimension": "CON",
+        "org_label": "xAI"
+      }
+    }
+  },
+  "value systems": {
+    "term": "value systems",
+    "group": "Safety-adjacent (control framing)",
+    "appearances": {
+      "xai": {
+        "date": "2025-02-20",
+        "document_id": "xai-risk-management-framework-2025",
+        "document_title": "xAI Risk Management Framework",
+        "dimension": "ONT",
+        "org_label": "xAI"
+      }
+    }
+  }
+}

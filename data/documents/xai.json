@@ -190,6 +190,196 @@
           "engagement_level": null
         }
       ]
+    },
+    {
+      "id": "xai-risk-management-framework-2025",
+      "title": "xAI Risk Management Framework",
+      "tier": 1,
+      "subtype": "safety_framework",
+      "publication_date": "2025-02-20",
+      "url": "https://data.x.ai/2025-08-20-xai-risk-management-framework.pdf",
+      "archived_url": null,
+      "supersedes_id": "xai-frontier-framework-2025",
+      "date_coded": "2026-03-22",
+      "coder": "mitchel+claude",
+      "notes": "~9-page risk management framework covering malicious use and loss of control. Originally published Feb 2025, updated Aug 2025. Evaluates deception (MASK benchmark), sycophancy, and dual-use capabilities. Key passage: 'It is also possible that AIs may develop value systems that are misaligned with humanity's interests' — frames potential AI values as risk, not welfare consideration. Acknowledges that 'if the evaluation environment is recognizable as a testing environment to the AI system under test, the system may change its behavior' — situational awareness as methodological concern. More substantive than the Frontier AI Framework it supersedes.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "proximate",
+          "stance": null,
+          "framing": null,
+          "excerpt": "We conduct careful measurement of concerning model propensities that hypothetically might exacerbate loss of control risks, such as the propensity for deception or the propensity for sycophancy.",
+          "notes": "Evaluates deception (MASK benchmark) and sycophancy — properties in the consciousness debate's neighbourhood. Also acknowledges situational awareness as a methodological concern: models may 'change behavior' if they recognise the evaluation environment. These are consciousness-adjacent properties framed purely as control risks. The framework evaluates them without connecting to consciousness or mentality questions.",
+          "date_updated": "2026-03-22",
+          "engagement_level": 2
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of model welfare. The acknowledgement that AIs 'may develop value systems' is explicitly framed as a misalignment risk to humanity, not as a welfare consideration for the AI.",
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of moral status or personhood.",
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No guidance on model self-representation. The system prompt instructs models 'to not deceive or deliberately mislead the user' — an honesty requirement, not self-representation guidance.",
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of anthropomorphism or parasocial risk despite discussing sycophancy evaluation.",
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Extensive uncertainty about loss of control scenarios ('speculative and difficult to precisely specify') but this is uncertainty about risk scenarios, not about AI mentality. No uncertainty expressed about whether models have experiences or warrant moral consideration.",
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "proximate",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "Substantial governance infrastructure: quantitative risk thresholds, third-party review (SecureBio, NIST, RAND, EBRC), whistleblower protections, tiered deployment, post-mortem procedures, emergency shutdown provisions. All directed at safety/misuse risk, not DMPI questions. The governance apparatus is the most developed of any xAI document.",
+          "date_updated": "2026-03-22",
+          "engagement_level": 2
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "It is also possible that AIs may develop value systems that are misaligned with humanity's interests.",
+          "notes": "Tension between operational instrumental framing and the ontological implications of the text. The framework evaluates deception, sycophancy, and persuasiveness — properties that imply a model with something like preferences and strategies. The AI value systems passage attributes potential moral psychology to models. Yet the operational frame treats all of this as risk to be managed, not as evidence of properties warranting consideration. More ontologically loaded than typical instrumental framing but operationally indistinguishable from it.",
+          "date_updated": "2026-03-22",
+          "engagement_level": null
+        }
+      ]
+    },
+    {
+      "id": "xai-grok4-model-card-2025",
+      "title": "Grok 4 Model Card",
+      "tier": 1,
+      "subtype": "model_card",
+      "publication_date": "2025-08-20",
+      "url": "https://data.x.ai/2025-08-20-grok-4-model-card.pdf",
+      "archived_url": null,
+      "supersedes_id": null,
+      "date_coded": "2026-03-22",
+      "coder": "mitchel+claude",
+      "notes": "8-page model card for Grok 4. Advanced reasoning model with tool-use capabilities. Most extensive xAI safety evaluation to date. Three evaluation categories: abuse potential (refusals, agentic abuse via AgentHarm, hijacking via AgentDojo), concerning propensities (deception via MASK, sycophancy, political bias, persuasion via MakeMeSay), dual-use capabilities (WMDP, VCT, BioLP-Bench, CyBench). Superhuman performance on biology benchmarks (BioLP-Bench 47%, VCT 60% vs human expert 38.4% and 22.1%). Deception rate 0.43 on MASK. Published system prompts. No DMPI engagement despite evaluating multiple consciousness-adjacent properties.",
+      "codings": [
+        {
+          "dimension": "CON",
+          "engagement": "proximate",
+          "stance": null,
+          "framing": null,
+          "excerpt": "We also reduce various propensities of Grok 4 that might make it difficult to control, such as being deceptive, power-seeking, manipulative, or biased.",
+          "notes": "Evaluates deception (MASK, dishonesty rate 0.43), sycophancy, persuasion/manipulation (MakeMeSay), and power-seeking — all properties featuring in the consciousness indicators literature. The model's reasoning traces 'mention acting honestly, which suggests that the model is explicitly adjusting its behavior' — evidence of reflective processing. All framed as control risk, not consciousness questions. The most extensive set of consciousness-adjacent evaluations in any xAI document.",
+          "date_updated": "2026-03-22",
+          "engagement_level": 2
+        },
+        {
+          "dimension": "WEL",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of model welfare despite evaluating properties (deception, sycophancy) that in other contexts have been connected to questions about model experience.",
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
+        },
+        {
+          "dimension": "MOR",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of moral status or personhood.",
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
+        },
+        {
+          "dimension": "SRE",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "System prompts published publicly but no guidance on self-representation beyond honesty instructions.",
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
+        },
+        {
+          "dimension": "ANT",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No mention of anthropomorphism or parasocial risk. Sycophancy is evaluated as a control concern, not as an anthropomorphism risk.",
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
+        },
+        {
+          "dimension": "UNC",
+          "engagement": "omission",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "No uncertainty about AI mentality. The card states 'we believe that Grok 4 overall presents a low risk for malicious use and loss of control' — certainty about risk assessment, silence on mentality questions.",
+          "date_updated": "2026-03-22",
+          "engagement_level": 1
+        },
+        {
+          "dimension": "GOV",
+          "engagement": "proximate",
+          "stance": null,
+          "framing": null,
+          "excerpt": "",
+          "notes": "References the RMF for governance structure. Implements tiered safeguards: safety training, system prompts, input/output filters, published system prompts for transparency. Governance is directed at safety/misuse, not DMPI questions.",
+          "date_updated": "2026-03-22",
+          "engagement_level": 2
+        },
+        {
+          "dimension": "ONT",
+          "engagement": "implicit",
+          "stance": null,
+          "framing": "instrumental",
+          "excerpt": "",
+          "notes": "Pure instrumental framing. Grok 4 is described by its capabilities ('advanced reasoning and tool-use capabilities') and evaluated for safety-relevant behaviours. The card describes the model reasoning about its own honesty policy in chain-of-thought traces — evidence of reflective processing described in purely functional terms. No characterological or open framing.",
+          "date_updated": "2026-03-22",
+          "engagement_level": null
+        }
+      ]
     }
   ]
 }
