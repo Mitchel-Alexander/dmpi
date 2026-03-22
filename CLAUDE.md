@@ -35,7 +35,7 @@ Three core entities (see `docs/data-schema.md` for full schema):
 
 Data is stored as JSON files. One file per organisation in `data/documents/`, containing that org's documents and their codings.
 
-## Analytical taxonomy — 9 dimensions (v0.2)
+## Analytical taxonomy — 8 dimensions (v0.3)
 
 ### Core dimensions (7)
 
@@ -49,26 +49,31 @@ Data is stored as JSON files. One file per organisation in `data/documents/`, co
 | UNC | Uncertainty / Precaution | Uncertainty about AI mentality, precautionary approaches |
 | GOV | Governance Commitments | Concrete governance commitments related to any of the above |
 
-### New dimensions (v0.2)
+### Ontological Framing
 
 | Code | Dimension | What it captures |
 |------|-----------|------------------|
-| ONT | Ontological Framing | How the document characterises what the model fundamentally *is* (instrumental, characterological, open_uncertain, neutral_delegated) |
-| CWG | Capability-Welfare Gap | Welfare-adjacent capability claims (e.g., "emotional intelligence") not connected to welfare questions |
+| ONT | Ontological Framing | How the document characterises what the model fundamentally *is* (instrumental, characterological, open_uncertain, neutral_delegated, agential) |
 
 ### Coding structure
 
-- **engagement:** `addressed` / `not_addressed` (core dims + CWG); `explicit` / `implicit` / `absent` (ONT)
-- **stance:** `denies` / `cautious` / `precautionary` / `investigative` / `affirms` / `descriptive` / `ambiguous` (null when not_addressed; null for ONT)
-- **framing:** ONT ontological values, ANT sub-field (`user_risk_only` / `model_connected` / `both`), CWG capability claimed
+- **engagement (core dims):** Graduated 5-level scale: `structurally_excluded` (0) / `omission` (1) / `proximate` (2) / `adjacent` (3) / `substantive` (4)
+- **engagement (ONT):** `explicit` / `implicit` / `absent`
+- **stance:** `denies` / `cautious` / `precautionary` / `investigative` / `affirms` / `descriptive` / `ambiguous` — only coded at engagement level 4 (substantive); null for levels 0-3 and for ONT
+- **framing:** ONT ontological values, ANT sub-field (`user_risk_only` / `model_connected` / `both`)
+
+**Removed in v0.3:** CWG (Capability-Welfare Gap) — now a standalone paper. Codings archived at `data/archive/cwg-codings-backup.json`.
 
 ## Development
 
-MVP is a static site (no backend). Data bundled as JSON.
+Static site built with Vite + vanilla TypeScript. Data bundled as JSON. Deployed to GitHub Pages.
 
 ```bash
-# Local development (once frontend is built)
-# TBD — stack decision pending
+# Local development
+npm run dev
+
+# Build
+npm run build
 ```
 
 ## Conventions

@@ -19,13 +19,19 @@
 
   <main class="container prose">
 
-    <p class="methodology-version">Methodology v1.1 &mdash; March 2026</p>
+    <p class="methodology-version">Methodology v1.2 &mdash; March 2026</p>
 
     <h2>What is the DMPI?</h2>
 
     <p>The Digital Minds Policy Index is a structured database tracking how leading AI laboratories formally position themselves on AI consciousness, sentience, welfare, and moral status. Each organisation's public policy documents are coded against an eight-dimension analytical taxonomy, producing a comparative record of what has been said, what has been left unsaid, and how positions have changed over time. The index is designed to serve researchers investigating AI ethics and governance, journalists covering AI policy, and policymakers seeking to understand the current state of corporate positions on these questions.</p>
 
     <p>The dominant finding, as of early 2026, is absence. Most major AI labs have published nothing that substantively addresses whether their models might be conscious, whether model welfare merits consideration, or whether AI systems could hold moral status. One lab (Anthropic) has engaged extensively. The rest are largely or entirely silent. That pattern of silence is itself the dataset's primary contribution.</p>
+
+    <h2>Positioning</h2>
+
+    <p>The DMPI is a descriptive index. It does not score labs or prescribe what they should say. It records what has been said and, with equal rigour, what has not. That said, the choice of what to measure is never neutral. By tracking corporate positions on consciousness, welfare, and moral status, the DMPI makes a particular kind of absence visible. No other index or assessment framework tracks these questions. The act of creating one is an intervention in the field, not merely an observation of it.</p>
+
+    <p>This is a standard feature of measurement instruments in the social sciences and in science and technology studies more broadly. Instruments do not passively record pre-existing facts; they help constitute the phenomena they track. An index that measures AI safety practices makes safety legible as a dimension of corporate performance. An index that measures positions on AI consciousness does the same for a set of questions the field has not yet agreed are its responsibility. The DMPI is transparent about this. The index does not take a position on whether AI systems are or could be conscious, whether they warrant moral consideration, or what labs ought to say about these questions. It takes the position that what labs say (and do not say) about them is worth tracking systematically, and that the current state of the formal record should be visible to researchers, journalists, and policymakers.</p>
 
     <h2>Related indexes</h2>
 
@@ -69,6 +75,8 @@
     </table>
 
     <p>The current index includes Tier 1 and Tier 2 documents from five commercial AI labs: Anthropic, OpenAI, Google DeepMind, Meta, and xAI. The architecture supports expansion to additional organisations and tiers.</p>
+
+    <p>Document coverage varies across organisations. Anthropic (17 documents) and OpenAI (14) have substantially deeper coverage than Google DeepMind (10), Meta (2), and xAI (2). This asymmetry reflects the pilot development process: the taxonomy was calibrated against the lab with the strongest engagement signals (Anthropic), and temporal depth was prioritised for the three labs with the longest publication records. Bringing Meta and xAI closer to parity through Tier 2 and Tier 3 documents is a stated priority for the next phase of data collection. Comparative claims across organisations should be read with this coverage differential in mind.</p>
 
     <p>Documents excluded from the index: individual academic papers by lab employees (unless representing an institutional position), social media posts, informal communications, and product marketing copy (unless containing substantive policy commitments).</p>
 
@@ -249,6 +257,12 @@
     <p><strong>Framing</strong> is a contextual text field that captures what structured codes cannot. For ONT, it records the ontological framing value (instrumental, characterological, open/uncertain, neutral/delegated, agential). For ANT, it records whether anthropomorphism is framed as a user-side risk only, connected to model-side questions, or both.</p>
 
     <p>Each coding also includes an excerpt from the source document (typically 30 to 50 words) and an analytical note. The notes field carries substantial analytical weight. It captures tensions within documents, cross-document patterns, and judgement calls that the structured fields cannot represent.</p>
+
+    <h3>Theoretical commitments</h3>
+
+    <p>The graduated engagement scale involves a judgement about which properties are <em>proximate</em> to each dimension. For consciousness (CON), this means treating safety evaluations of deception, situational awareness, and strategic reasoning as neighbouring the consciousness debate. That claim has a basis: these properties feature prominently in the scientific literature on indicators of consciousness in AI systems (Butlin et al. 2023, Schwitzgebel &amp; Garza 2015, Schneider &amp; Turner 2019) and are actively investigated by the same research community working on consciousness and moral status questions. The DMPI codes this proximity &mdash; the fact that these properties are evaluated within the same intellectual neighbourhood &mdash; without asserting that they are philosophically sufficient or necessary for consciousness. The relationship between functional properties like strategic reasoning and phenomenal consciousness is contested. Researchers working within enactivist, phenomenological, or embodied cognition traditions may reasonably regard these properties as orthogonal to the questions the DMPI tracks.</p>
+
+    <p>Similar judgements apply to other dimensions. Governance infrastructure for safety evaluation (GOV) is coded as proximate when it evaluates DMPI-adjacent properties without connecting them to consciousness or welfare questions. Anthropomorphism safeguards (ANT) are coded as proximate when they address user-side attachment without engaging the model-side question. In each case, the proximity claim is that the institutional infrastructure sits one conceptual step from DMPI engagement. These claims are made explicit so that they can be assessed and, where warranted, contested.</p>
 
     <h2>Silence as data</h2>
 
